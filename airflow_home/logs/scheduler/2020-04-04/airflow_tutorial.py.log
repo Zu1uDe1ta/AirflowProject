@@ -1,0 +1,1140 @@
+[2020-04-03 20:00:17,919] {scheduler_job.py:153} INFO - Started process (PID=74572) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:00:17,924] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:00:17,925] {logging_mixin.py:112} INFO - [2020-04-03 20:00:17,925] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:00:17,933] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:00:17,955] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-03 20:01:10,060] {scheduler_job.py:153} INFO - Started process (PID=74605) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:01:10,073] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:01:10,074] {logging_mixin.py:112} INFO - [2020-04-03 20:01:10,074] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:01:10,083] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:01:10,100] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-03 20:02:02,196] {scheduler_job.py:153} INFO - Started process (PID=74636) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:02:02,203] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:02:02,204] {logging_mixin.py:112} INFO - [2020-04-03 20:02:02,204] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:02:02,212] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:02:02,233] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-03 20:02:54,360] {scheduler_job.py:153} INFO - Started process (PID=74665) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:02:54,367] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:02:54,368] {logging_mixin.py:112} INFO - [2020-04-03 20:02:54,368] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:02:54,382] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:02:54,404] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.044 seconds
+[2020-04-03 20:03:46,493] {scheduler_job.py:153} INFO - Started process (PID=74696) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:03:46,506] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:03:46,507] {logging_mixin.py:112} INFO - [2020-04-03 20:03:46,507] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:03:46,515] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:03:46,534] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-03 20:04:38,623] {scheduler_job.py:153} INFO - Started process (PID=74727) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:04:38,628] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:04:38,629] {logging_mixin.py:112} INFO - [2020-04-03 20:04:38,628] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:04:38,636] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:04:38,656] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-03 20:05:30,750] {scheduler_job.py:153} INFO - Started process (PID=74758) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:05:30,757] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:05:30,758] {logging_mixin.py:112} INFO - [2020-04-03 20:05:30,758] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:05:30,768] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:05:30,789] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-03 20:06:22,875] {scheduler_job.py:153} INFO - Started process (PID=74787) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:06:22,885] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:06:22,886] {logging_mixin.py:112} INFO - [2020-04-03 20:06:22,885] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:06:22,898] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:06:22,919] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-03 20:07:15,022] {scheduler_job.py:153} INFO - Started process (PID=74817) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:07:15,031] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:07:15,032] {logging_mixin.py:112} INFO - [2020-04-03 20:07:15,032] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:07:15,042] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:07:15,064] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-03 20:08:07,168] {scheduler_job.py:153} INFO - Started process (PID=74849) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:08:07,178] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:08:07,179] {logging_mixin.py:112} INFO - [2020-04-03 20:08:07,179] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:08:07,192] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:08:07,215] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.047 seconds
+[2020-04-03 20:08:59,318] {scheduler_job.py:153} INFO - Started process (PID=74880) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:08:59,324] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:08:59,325] {logging_mixin.py:112} INFO - [2020-04-03 20:08:59,324] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:08:59,331] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:08:59,349] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-03 20:09:51,455] {scheduler_job.py:153} INFO - Started process (PID=74910) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:09:51,462] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:09:51,463] {logging_mixin.py:112} INFO - [2020-04-03 20:09:51,463] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:09:51,471] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:09:51,490] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-03 20:10:43,621] {scheduler_job.py:153} INFO - Started process (PID=74939) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:10:43,626] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:10:43,627] {logging_mixin.py:112} INFO - [2020-04-03 20:10:43,627] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:10:43,634] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:10:43,658] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-03 20:11:35,752] {scheduler_job.py:153} INFO - Started process (PID=74970) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:11:35,759] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:11:35,760] {logging_mixin.py:112} INFO - [2020-04-03 20:11:35,760] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:11:35,769] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:11:35,797] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-03 20:12:27,896] {scheduler_job.py:153} INFO - Started process (PID=74999) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:12:27,903] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:12:27,904] {logging_mixin.py:112} INFO - [2020-04-03 20:12:27,904] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:12:27,911] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:12:27,928] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-03 20:13:20,065] {scheduler_job.py:153} INFO - Started process (PID=75028) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:13:20,078] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:13:20,079] {logging_mixin.py:112} INFO - [2020-04-03 20:13:20,079] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:13:20,090] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:13:20,112] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.047 seconds
+[2020-04-03 20:14:12,221] {scheduler_job.py:153} INFO - Started process (PID=75058) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:14:12,234] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:14:12,235] {logging_mixin.py:112} INFO - [2020-04-03 20:14:12,235] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:14:12,244] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:14:12,263] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.042 seconds
+[2020-04-03 20:15:04,370] {scheduler_job.py:153} INFO - Started process (PID=75090) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:15:04,380] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:15:04,382] {logging_mixin.py:112} INFO - [2020-04-03 20:15:04,381] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:15:04,390] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:15:04,415] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-03 20:15:56,503] {scheduler_job.py:153} INFO - Started process (PID=75119) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:15:56,508] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:15:56,509] {logging_mixin.py:112} INFO - [2020-04-03 20:15:56,509] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:15:56,518] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:15:56,537] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-03 20:16:48,640] {scheduler_job.py:153} INFO - Started process (PID=75149) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:16:48,647] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:16:48,649] {logging_mixin.py:112} INFO - [2020-04-03 20:16:48,648] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:16:48,660] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:16:48,691] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.052 seconds
+[2020-04-03 20:17:40,797] {scheduler_job.py:153} INFO - Started process (PID=75182) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:17:40,804] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:17:40,806] {logging_mixin.py:112} INFO - [2020-04-03 20:17:40,805] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:17:40,813] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:17:40,833] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-03 20:18:32,936] {scheduler_job.py:153} INFO - Started process (PID=75211) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:18:32,949] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:18:32,950] {logging_mixin.py:112} INFO - [2020-04-03 20:18:32,949] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:18:32,965] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:18:32,996] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.061 seconds
+[2020-04-03 20:19:25,109] {scheduler_job.py:153} INFO - Started process (PID=75239) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:19:25,122] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:19:25,123] {logging_mixin.py:112} INFO - [2020-04-03 20:19:25,123] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:19:25,131] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:19:25,148] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-03 20:20:17,280] {scheduler_job.py:153} INFO - Started process (PID=75269) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:20:17,287] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:20:17,288] {logging_mixin.py:112} INFO - [2020-04-03 20:20:17,288] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:20:17,296] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:20:17,312] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-03 20:21:09,459] {scheduler_job.py:153} INFO - Started process (PID=75299) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:21:09,465] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:21:09,466] {logging_mixin.py:112} INFO - [2020-04-03 20:21:09,466] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:21:09,473] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:21:09,500] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-03 20:22:01,634] {scheduler_job.py:153} INFO - Started process (PID=75329) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:22:01,640] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:22:01,641] {logging_mixin.py:112} INFO - [2020-04-03 20:22:01,640] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:22:01,647] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:22:01,672] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-03 20:22:53,904] {scheduler_job.py:153} INFO - Started process (PID=75360) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:22:53,910] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:22:53,911] {logging_mixin.py:112} INFO - [2020-04-03 20:22:53,911] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:22:53,918] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:22:53,935] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-03 20:23:46,259] {scheduler_job.py:153} INFO - Started process (PID=75389) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:23:46,265] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:23:46,266] {logging_mixin.py:112} INFO - [2020-04-03 20:23:46,265] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:23:46,273] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:23:46,299] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-03 20:24:38,530] {scheduler_job.py:153} INFO - Started process (PID=75420) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:24:38,536] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:24:38,537] {logging_mixin.py:112} INFO - [2020-04-03 20:24:38,537] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:24:38,552] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:24:38,571] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-03 20:25:30,704] {scheduler_job.py:153} INFO - Started process (PID=75449) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:25:30,710] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:25:30,711] {logging_mixin.py:112} INFO - [2020-04-03 20:25:30,711] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:25:30,718] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:25:30,739] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-03 20:26:22,887] {scheduler_job.py:153} INFO - Started process (PID=75477) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:26:22,892] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:26:22,893] {logging_mixin.py:112} INFO - [2020-04-03 20:26:22,892] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:26:22,900] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:26:22,926] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-03 20:27:15,064] {scheduler_job.py:153} INFO - Started process (PID=75508) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:27:15,070] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:27:15,071] {logging_mixin.py:112} INFO - [2020-04-03 20:27:15,071] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:27:15,077] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:27:15,102] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-03 20:43:26,091] {scheduler_job.py:153} INFO - Started process (PID=75586) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:43:26,100] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:43:26,101] {logging_mixin.py:112} INFO - [2020-04-03 20:43:26,101] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:43:26,115] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:43:26,155] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.064 seconds
+[2020-04-03 20:44:18,215] {scheduler_job.py:153} INFO - Started process (PID=75625) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:44:18,226] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-03 20:44:18,227] {logging_mixin.py:112} INFO - [2020-04-03 20:44:18,227] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:44:18,239] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-03 20:44:18,258] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-04 10:15:26,768] {scheduler_job.py:153} INFO - Started process (PID=75692) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 10:15:31,781] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 10:15:31,782] {logging_mixin.py:112} INFO - [2020-04-04 10:15:31,782] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 10:15:31,792] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 10:15:31,810] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 5.042 seconds
+[2020-04-04 11:03:50,881] {scheduler_job.py:153} INFO - Started process (PID=75798) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:03:50,890] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:03:50,891] {logging_mixin.py:112} INFO - [2020-04-04 11:03:50,891] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:03:50,903] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:03:50,925] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-04 11:04:43,027] {scheduler_job.py:153} INFO - Started process (PID=75848) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:04:43,040] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:04:43,042] {logging_mixin.py:112} INFO - [2020-04-04 11:04:43,041] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:04:43,050] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:04:43,069] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-04 11:05:35,271] {scheduler_job.py:153} INFO - Started process (PID=75878) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:05:35,280] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:05:35,281] {logging_mixin.py:112} INFO - [2020-04-04 11:05:35,280] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:05:35,288] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:05:35,307] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 11:06:27,568] {scheduler_job.py:153} INFO - Started process (PID=75906) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:06:55,360] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:06:55,378] {logging_mixin.py:112} INFO - [2020-04-04 11:06:55,366] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:06:55,404] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:06:55,442] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 27.874 seconds
+[2020-04-04 11:07:43,052] {scheduler_job.py:153} INFO - Started process (PID=75954) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:07:43,079] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:07:43,080] {logging_mixin.py:112} INFO - [2020-04-04 11:07:43,080] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:07:43,095] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:07:43,117] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.065 seconds
+[2020-04-04 11:08:35,152] {scheduler_job.py:153} INFO - Started process (PID=76059) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:08:35,159] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:08:35,160] {logging_mixin.py:112} INFO - [2020-04-04 11:08:35,160] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:08:35,168] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:08:35,185] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 11:09:27,241] {scheduler_job.py:153} INFO - Started process (PID=76090) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:09:27,247] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:09:27,248] {logging_mixin.py:112} INFO - [2020-04-04 11:09:27,248] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:09:27,257] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:09:27,275] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 11:10:19,340] {scheduler_job.py:153} INFO - Started process (PID=76121) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:10:19,346] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:10:19,346] {logging_mixin.py:112} INFO - [2020-04-04 11:10:19,346] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:10:19,355] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:10:19,382] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-04 11:11:11,436] {scheduler_job.py:153} INFO - Started process (PID=76164) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:11:11,443] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:11:11,444] {logging_mixin.py:112} INFO - [2020-04-04 11:11:11,443] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:11:11,451] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:11:11,468] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 11:12:03,590] {scheduler_job.py:153} INFO - Started process (PID=76196) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:12:03,596] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:12:03,597] {logging_mixin.py:112} INFO - [2020-04-04 11:12:03,596] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:12:03,603] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:12:03,628] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 11:12:55,727] {scheduler_job.py:153} INFO - Started process (PID=76225) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:12:55,732] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:12:55,734] {logging_mixin.py:112} INFO - [2020-04-04 11:12:55,733] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:12:55,741] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:12:55,761] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 11:13:47,885] {scheduler_job.py:153} INFO - Started process (PID=76254) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:13:47,891] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:13:47,892] {logging_mixin.py:112} INFO - [2020-04-04 11:13:47,892] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:13:47,901] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:13:47,921] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 11:14:40,047] {scheduler_job.py:153} INFO - Started process (PID=76283) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:14:40,052] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:14:40,053] {logging_mixin.py:112} INFO - [2020-04-04 11:14:40,053] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:14:40,060] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:14:40,086] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:15:32,182] {scheduler_job.py:153} INFO - Started process (PID=76313) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:15:32,188] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:15:32,188] {logging_mixin.py:112} INFO - [2020-04-04 11:15:32,188] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:15:32,196] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:15:32,218] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 11:16:24,336] {scheduler_job.py:153} INFO - Started process (PID=76345) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:16:24,342] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:16:24,343] {logging_mixin.py:112} INFO - [2020-04-04 11:16:24,343] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:16:24,354] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:16:24,371] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 11:17:16,480] {scheduler_job.py:153} INFO - Started process (PID=76375) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:17:16,491] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:17:16,492] {logging_mixin.py:112} INFO - [2020-04-04 11:17:16,492] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:17:16,501] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:17:16,519] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:18:08,624] {scheduler_job.py:153} INFO - Started process (PID=76405) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:18:08,637] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:18:08,638] {logging_mixin.py:112} INFO - [2020-04-04 11:18:08,637] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:18:08,647] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:18:08,664] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 11:19:00,786] {scheduler_job.py:153} INFO - Started process (PID=76434) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:19:00,792] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:19:00,793] {logging_mixin.py:112} INFO - [2020-04-04 11:19:00,792] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:19:00,800] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:19:00,818] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 11:19:52,957] {scheduler_job.py:153} INFO - Started process (PID=76466) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:19:52,966] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:19:52,967] {logging_mixin.py:112} INFO - [2020-04-04 11:19:52,967] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:19:52,974] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:19:53,002] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.046 seconds
+[2020-04-04 11:20:45,088] {scheduler_job.py:153} INFO - Started process (PID=76496) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:20:45,094] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:20:45,095] {logging_mixin.py:112} INFO - [2020-04-04 11:20:45,095] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:20:45,109] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:20:45,130] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.042 seconds
+[2020-04-04 11:21:37,239] {scheduler_job.py:153} INFO - Started process (PID=76527) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:21:37,246] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:21:37,247] {logging_mixin.py:112} INFO - [2020-04-04 11:21:37,247] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:21:37,255] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:21:37,272] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 11:22:29,401] {scheduler_job.py:153} INFO - Started process (PID=76564) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:22:29,406] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:22:29,407] {logging_mixin.py:112} INFO - [2020-04-04 11:22:29,407] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:22:29,415] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:22:29,433] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 11:23:21,552] {scheduler_job.py:153} INFO - Started process (PID=76618) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:23:21,561] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:23:21,562] {logging_mixin.py:112} INFO - [2020-04-04 11:23:21,562] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:23:21,571] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:23:21,589] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 11:23:29,178] {scheduler_job.py:153} INFO - Started process (PID=76625) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:23:29,185] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:23:29,186] {logging_mixin.py:112} INFO - [2020-04-04 11:23:29,186] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:23:29,194] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:23:29,214] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 11:24:13,709] {scheduler_job.py:153} INFO - Started process (PID=76703) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:24:13,715] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:24:13,716] {logging_mixin.py:112} INFO - [2020-04-04 11:24:13,716] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:24:13,725] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:24:13,742] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 11:25:05,849] {scheduler_job.py:153} INFO - Started process (PID=76736) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:25:05,855] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:25:05,856] {logging_mixin.py:112} INFO - [2020-04-04 11:25:05,856] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:25:05,871] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:25:05,890] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 11:25:57,993] {scheduler_job.py:153} INFO - Started process (PID=76766) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:25:57,999] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:25:58,000] {logging_mixin.py:112} INFO - [2020-04-04 11:25:58,000] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:25:58,008] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:25:58,032] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:26:50,148] {scheduler_job.py:153} INFO - Started process (PID=76797) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:26:50,154] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:26:50,155] {logging_mixin.py:112} INFO - [2020-04-04 11:26:50,155] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:26:50,163] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:26:50,181] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 11:27:42,299] {scheduler_job.py:153} INFO - Started process (PID=76826) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:27:42,305] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:27:42,306] {logging_mixin.py:112} INFO - [2020-04-04 11:27:42,306] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:27:42,319] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:27:42,338] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:28:34,456] {scheduler_job.py:153} INFO - Started process (PID=76857) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:28:34,467] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:28:34,468] {logging_mixin.py:112} INFO - [2020-04-04 11:28:34,468] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:28:34,481] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:28:34,506] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.050 seconds
+[2020-04-04 11:29:26,578] {scheduler_job.py:153} INFO - Started process (PID=76888) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:29:26,588] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:29:26,589] {logging_mixin.py:112} INFO - [2020-04-04 11:29:26,589] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:29:26,596] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:29:26,618] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 11:30:18,737] {scheduler_job.py:153} INFO - Started process (PID=76926) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:30:18,742] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:30:18,743] {logging_mixin.py:112} INFO - [2020-04-04 11:30:18,743] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:30:18,750] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:30:18,776] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 11:31:10,896] {scheduler_job.py:153} INFO - Started process (PID=76958) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:31:10,903] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:31:10,904] {logging_mixin.py:112} INFO - [2020-04-04 11:31:10,903] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:31:10,913] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:31:10,930] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 11:32:03,030] {scheduler_job.py:153} INFO - Started process (PID=76991) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:32:03,037] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:32:03,038] {logging_mixin.py:112} INFO - [2020-04-04 11:32:03,037] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:32:03,046] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:32:03,067] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 11:32:55,194] {scheduler_job.py:153} INFO - Started process (PID=77031) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:32:55,199] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:32:55,200] {logging_mixin.py:112} INFO - [2020-04-04 11:32:55,200] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:32:55,208] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:32:55,233] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 11:33:47,345] {scheduler_job.py:153} INFO - Started process (PID=77062) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:33:47,351] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:33:47,352] {logging_mixin.py:112} INFO - [2020-04-04 11:33:47,352] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:33:47,359] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:33:47,385] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 11:34:39,505] {scheduler_job.py:153} INFO - Started process (PID=77094) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:34:39,511] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:34:39,512] {logging_mixin.py:112} INFO - [2020-04-04 11:34:39,511] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:34:39,520] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:34:39,536] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 11:35:31,661] {scheduler_job.py:153} INFO - Started process (PID=77147) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:35:31,674] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:35:31,675] {logging_mixin.py:112} INFO - [2020-04-04 11:35:31,675] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:35:31,684] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:35:31,700] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:36:23,819] {scheduler_job.py:153} INFO - Started process (PID=77179) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:36:23,825] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:36:23,826] {logging_mixin.py:112} INFO - [2020-04-04 11:36:23,826] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:36:23,838] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:36:23,854] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 11:37:15,969] {scheduler_job.py:153} INFO - Started process (PID=77225) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:37:15,975] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:37:15,977] {logging_mixin.py:112} INFO - [2020-04-04 11:37:15,976] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:37:15,985] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:37:16,008] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:38:08,090] {scheduler_job.py:153} INFO - Started process (PID=77259) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:38:08,096] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:38:08,097] {logging_mixin.py:112} INFO - [2020-04-04 11:38:08,096] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:38:08,109] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:38:08,130] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 11:39:00,228] {scheduler_job.py:153} INFO - Started process (PID=77288) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:39:00,234] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:39:00,235] {logging_mixin.py:112} INFO - [2020-04-04 11:39:00,235] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:39:00,242] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:39:00,262] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 11:39:52,362] {scheduler_job.py:153} INFO - Started process (PID=77318) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:39:52,368] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:39:52,369] {logging_mixin.py:112} INFO - [2020-04-04 11:39:52,369] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:39:52,376] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:39:52,394] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 11:40:44,505] {scheduler_job.py:153} INFO - Started process (PID=77347) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:40:44,512] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:40:44,514] {logging_mixin.py:112} INFO - [2020-04-04 11:40:44,513] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:40:44,524] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:40:44,546] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 11:41:36,672] {scheduler_job.py:153} INFO - Started process (PID=77377) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:41:36,678] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:41:36,679] {logging_mixin.py:112} INFO - [2020-04-04 11:41:36,679] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:41:36,686] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:41:36,713] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 11:42:28,817] {scheduler_job.py:153} INFO - Started process (PID=77407) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:42:28,823] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:42:28,824] {logging_mixin.py:112} INFO - [2020-04-04 11:42:28,824] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:42:28,831] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:42:28,848] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 11:43:20,967] {scheduler_job.py:153} INFO - Started process (PID=77437) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:43:20,974] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:43:20,975] {logging_mixin.py:112} INFO - [2020-04-04 11:43:20,975] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:43:20,982] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:43:21,005] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:44:13,142] {scheduler_job.py:153} INFO - Started process (PID=77467) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:44:13,148] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:44:13,149] {logging_mixin.py:112} INFO - [2020-04-04 11:44:13,148] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:44:13,156] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:44:13,179] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 11:45:05,331] {scheduler_job.py:153} INFO - Started process (PID=77497) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:45:05,338] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:45:05,339] {logging_mixin.py:112} INFO - [2020-04-04 11:45:05,338] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:45:05,348] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:45:05,367] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 11:45:57,474] {scheduler_job.py:153} INFO - Started process (PID=77525) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:45:57,479] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:45:57,480] {logging_mixin.py:112} INFO - [2020-04-04 11:45:57,480] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:45:57,488] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:45:57,514] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:46:49,641] {scheduler_job.py:153} INFO - Started process (PID=77554) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:46:49,647] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:46:49,648] {logging_mixin.py:112} INFO - [2020-04-04 11:46:49,648] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:46:49,655] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:46:49,681] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 11:47:41,795] {scheduler_job.py:153} INFO - Started process (PID=77584) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:47:41,802] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:47:41,803] {logging_mixin.py:112} INFO - [2020-04-04 11:47:41,803] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:47:41,812] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:47:41,834] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 11:48:34,042] {scheduler_job.py:153} INFO - Started process (PID=77619) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:48:34,050] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:48:34,052] {logging_mixin.py:112} INFO - [2020-04-04 11:48:34,051] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:48:34,063] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:48:34,086] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-04 11:49:26,285] {scheduler_job.py:153} INFO - Started process (PID=77649) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:49:26,291] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:49:26,292] {logging_mixin.py:112} INFO - [2020-04-04 11:49:26,291] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:49:26,300] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:49:26,319] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 11:50:18,558] {scheduler_job.py:153} INFO - Started process (PID=77679) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:50:18,565] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:50:18,566] {logging_mixin.py:112} INFO - [2020-04-04 11:50:18,565] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:50:18,573] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:50:18,594] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 11:51:10,798] {scheduler_job.py:153} INFO - Started process (PID=77708) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:51:10,806] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:51:10,807] {logging_mixin.py:112} INFO - [2020-04-04 11:51:10,806] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:51:10,815] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:51:10,841] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.044 seconds
+[2020-04-04 11:52:03,030] {scheduler_job.py:153} INFO - Started process (PID=77737) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:52:03,043] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:52:03,045] {logging_mixin.py:112} INFO - [2020-04-04 11:52:03,044] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:52:03,054] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:52:03,074] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.044 seconds
+[2020-04-04 11:52:55,258] {scheduler_job.py:153} INFO - Started process (PID=77767) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:52:55,263] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:52:55,264] {logging_mixin.py:112} INFO - [2020-04-04 11:52:55,264] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:52:55,271] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:52:55,288] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 11:53:53,691] {scheduler_job.py:153} INFO - Started process (PID=77802) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:53:58,699] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:53:58,701] {logging_mixin.py:112} INFO - [2020-04-04 11:53:58,700] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:53:58,710] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:53:58,729] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 5.038 seconds
+[2020-04-04 11:59:42,266] {scheduler_job.py:153} INFO - Started process (PID=77863) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:59:42,272] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 11:59:42,273] {logging_mixin.py:112} INFO - [2020-04-04 11:59:42,273] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:59:42,285] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 11:59:42,307] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.042 seconds
+[2020-04-04 12:00:20,364] {scheduler_job.py:153} INFO - Started process (PID=77894) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:00:20,377] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:00:20,378] {logging_mixin.py:112} INFO - [2020-04-04 12:00:20,378] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:00:20,386] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:00:20,404] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 12:01:12,523] {scheduler_job.py:153} INFO - Started process (PID=77922) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:01:12,529] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:01:12,529] {logging_mixin.py:112} INFO - [2020-04-04 12:01:12,529] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:01:12,538] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:01:12,563] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 12:02:04,661] {scheduler_job.py:153} INFO - Started process (PID=77955) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:02:04,667] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:02:04,668] {logging_mixin.py:112} INFO - [2020-04-04 12:02:04,668] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:02:04,726] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:02:04,774] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.114 seconds
+[2020-04-04 12:02:56,866] {scheduler_job.py:153} INFO - Started process (PID=77985) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:02:56,876] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:02:56,877] {logging_mixin.py:112} INFO - [2020-04-04 12:02:56,876] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:02:56,892] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:02:56,934] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.068 seconds
+[2020-04-04 12:03:48,977] {scheduler_job.py:153} INFO - Started process (PID=78014) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:03:48,983] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:03:48,984] {logging_mixin.py:112} INFO - [2020-04-04 12:03:48,984] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:03:48,991] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:03:49,015] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 12:04:41,117] {scheduler_job.py:153} INFO - Started process (PID=78045) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:04:41,123] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:04:41,124] {logging_mixin.py:112} INFO - [2020-04-04 12:04:41,124] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:04:41,133] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:04:41,153] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 12:05:33,275] {scheduler_job.py:153} INFO - Started process (PID=78077) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:05:33,282] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:05:33,283] {logging_mixin.py:112} INFO - [2020-04-04 12:05:33,283] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:05:33,291] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:05:33,318] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-04 12:06:25,441] {scheduler_job.py:153} INFO - Started process (PID=78107) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:06:25,447] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:06:25,448] {logging_mixin.py:112} INFO - [2020-04-04 12:06:25,447] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:06:25,455] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:06:25,474] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 12:07:17,605] {scheduler_job.py:153} INFO - Started process (PID=78143) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:07:17,612] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:07:17,613] {logging_mixin.py:112} INFO - [2020-04-04 12:07:17,612] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:07:17,620] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:07:17,637] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 12:08:09,757] {scheduler_job.py:153} INFO - Started process (PID=78172) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:08:09,764] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:08:09,766] {logging_mixin.py:112} INFO - [2020-04-04 12:08:09,765] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:08:09,773] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:08:09,803] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.046 seconds
+[2020-04-04 12:09:01,906] {scheduler_job.py:153} INFO - Started process (PID=78202) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:09:01,912] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:09:01,913] {logging_mixin.py:112} INFO - [2020-04-04 12:09:01,912] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:09:01,920] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:09:01,945] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 12:09:54,064] {scheduler_job.py:153} INFO - Started process (PID=78237) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:09:54,070] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:09:54,071] {logging_mixin.py:112} INFO - [2020-04-04 12:09:54,071] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:09:54,079] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:09:54,096] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 12:10:46,215] {scheduler_job.py:153} INFO - Started process (PID=78275) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:10:46,222] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:10:46,223] {logging_mixin.py:112} INFO - [2020-04-04 12:10:46,222] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:10:46,231] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:10:46,263] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.048 seconds
+[2020-04-04 12:11:38,388] {scheduler_job.py:153} INFO - Started process (PID=78310) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:11:38,400] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:11:38,401] {logging_mixin.py:112} INFO - [2020-04-04 12:11:38,401] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:11:38,410] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:11:38,429] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 12:12:30,536] {scheduler_job.py:153} INFO - Started process (PID=78342) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:12:30,544] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:12:30,545] {logging_mixin.py:112} INFO - [2020-04-04 12:12:30,545] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:12:30,552] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:12:30,573] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 12:13:22,695] {scheduler_job.py:153} INFO - Started process (PID=78371) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:13:22,701] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:13:22,702] {logging_mixin.py:112} INFO - [2020-04-04 12:13:22,701] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:13:22,708] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:13:22,736] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.042 seconds
+[2020-04-04 12:14:14,834] {scheduler_job.py:153} INFO - Started process (PID=78401) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:14:14,840] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:14:14,840] {logging_mixin.py:112} INFO - [2020-04-04 12:14:14,840] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:14:14,848] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:14:14,873] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 12:15:06,976] {scheduler_job.py:153} INFO - Started process (PID=78435) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:15:06,983] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:15:06,983] {logging_mixin.py:112} INFO - [2020-04-04 12:15:06,983] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:15:06,992] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:15:07,012] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 12:15:59,137] {scheduler_job.py:153} INFO - Started process (PID=78465) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:15:59,149] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:15:59,150] {logging_mixin.py:112} INFO - [2020-04-04 12:15:59,150] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:15:59,161] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:15:59,178] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 12:16:51,292] {scheduler_job.py:153} INFO - Started process (PID=78503) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:16:51,306] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:16:51,307] {logging_mixin.py:112} INFO - [2020-04-04 12:16:51,307] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:16:51,314] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:16:51,331] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 12:17:43,454] {scheduler_job.py:153} INFO - Started process (PID=78534) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:17:43,462] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:17:43,463] {logging_mixin.py:112} INFO - [2020-04-04 12:17:43,462] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:17:43,469] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:17:43,488] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 12:18:35,609] {scheduler_job.py:153} INFO - Started process (PID=78565) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:18:35,615] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:18:35,616] {logging_mixin.py:112} INFO - [2020-04-04 12:18:35,615] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:18:35,623] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:18:35,649] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 12:19:27,795] {scheduler_job.py:153} INFO - Started process (PID=78597) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:19:27,801] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:19:27,802] {logging_mixin.py:112} INFO - [2020-04-04 12:19:27,801] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:19:27,809] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:19:27,834] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 12:20:19,974] {scheduler_job.py:153} INFO - Started process (PID=78637) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:20:19,988] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:20:19,989] {logging_mixin.py:112} INFO - [2020-04-04 12:20:19,989] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:20:20,005] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:20:20,034] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.061 seconds
+[2020-04-04 12:21:12,093] {scheduler_job.py:153} INFO - Started process (PID=78674) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:21:12,100] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:21:12,101] {logging_mixin.py:112} INFO - [2020-04-04 12:21:12,101] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:21:12,108] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:21:12,124] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 12:22:04,250] {scheduler_job.py:153} INFO - Started process (PID=78706) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:22:04,259] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:22:04,260] {logging_mixin.py:112} INFO - [2020-04-04 12:22:04,259] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:22:04,266] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:22:04,285] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 12:22:56,406] {scheduler_job.py:153} INFO - Started process (PID=78739) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:22:56,414] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:22:56,415] {logging_mixin.py:112} INFO - [2020-04-04 12:22:56,414] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:22:56,421] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:22:56,440] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 12:23:48,556] {scheduler_job.py:153} INFO - Started process (PID=78769) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:23:48,564] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:23:48,566] {logging_mixin.py:112} INFO - [2020-04-04 12:23:48,565] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:23:48,575] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:23:48,593] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 12:24:40,707] {scheduler_job.py:153} INFO - Started process (PID=78802) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:24:40,713] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:24:40,714] {logging_mixin.py:112} INFO - [2020-04-04 12:24:40,714] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:24:40,721] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:24:40,746] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 12:25:32,871] {scheduler_job.py:153} INFO - Started process (PID=78832) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:25:32,877] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:25:32,878] {logging_mixin.py:112} INFO - [2020-04-04 12:25:32,877] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:25:32,887] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:25:32,905] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 12:26:24,997] {scheduler_job.py:153} INFO - Started process (PID=78861) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:26:25,003] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:26:25,004] {logging_mixin.py:112} INFO - [2020-04-04 12:26:25,004] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:26:25,019] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:26:25,040] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-04 12:27:17,162] {scheduler_job.py:153} INFO - Started process (PID=78898) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:27:17,170] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:27:17,171] {logging_mixin.py:112} INFO - [2020-04-04 12:27:17,170] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:27:17,187] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:27:17,209] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.047 seconds
+[2020-04-04 12:28:04,603] {scheduler_job.py:153} INFO - Started process (PID=78962) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:04,608] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:28:04,609] {logging_mixin.py:112} INFO - [2020-04-04 12:28:04,609] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:04,617] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:04,636] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 12:28:09,331] {scheduler_job.py:153} INFO - Started process (PID=78967) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:09,338] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:28:09,339] {logging_mixin.py:112} INFO - [2020-04-04 12:28:09,339] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:09,346] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:09,365] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 12:28:56,733] {scheduler_job.py:153} INFO - Started process (PID=79019) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:56,739] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:28:56,740] {logging_mixin.py:112} INFO - [2020-04-04 12:28:56,740] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:56,748] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:28:56,766] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 12:29:01,476] {scheduler_job.py:153} INFO - Started process (PID=79024) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:01,482] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:29:01,483] {logging_mixin.py:112} INFO - [2020-04-04 12:29:01,483] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:01,490] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:01,517] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 12:29:48,860] {scheduler_job.py:153} INFO - Started process (PID=79073) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:48,867] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:29:48,868] {logging_mixin.py:112} INFO - [2020-04-04 12:29:48,868] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:48,880] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:48,901] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 12:29:53,612] {scheduler_job.py:153} INFO - Started process (PID=79078) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:53,619] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:29:53,621] {logging_mixin.py:112} INFO - [2020-04-04 12:29:53,620] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:53,634] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:29:53,656] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.044 seconds
+[2020-04-04 12:30:41,006] {scheduler_job.py:153} INFO - Started process (PID=79129) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:30:41,012] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:30:41,012] {logging_mixin.py:112} INFO - [2020-04-04 12:30:41,012] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:30:41,020] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:30:41,037] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 12:30:45,742] {scheduler_job.py:153} INFO - Started process (PID=79135) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:30:45,748] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:30:45,749] {logging_mixin.py:112} INFO - [2020-04-04 12:30:45,748] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:30:45,757] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:30:45,773] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 12:31:33,157] {scheduler_job.py:153} INFO - Started process (PID=79183) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:31:33,163] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:31:33,164] {logging_mixin.py:112} INFO - [2020-04-04 12:31:33,164] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:31:33,174] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:31:33,192] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 12:31:37,889] {scheduler_job.py:153} INFO - Started process (PID=79188) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:31:37,895] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:31:37,895] {logging_mixin.py:112} INFO - [2020-04-04 12:31:37,895] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:31:37,902] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:31:37,927] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 12:41:05,259] {scheduler_job.py:153} INFO - Started process (PID=79320) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:41:05,267] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:41:05,267] {logging_mixin.py:112} INFO - [2020-04-04 12:41:05,267] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:41:05,275] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:41:05,295] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 12:41:57,409] {scheduler_job.py:153} INFO - Started process (PID=79354) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:41:57,422] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:41:57,423] {logging_mixin.py:112} INFO - [2020-04-04 12:41:57,423] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:41:57,432] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:41:57,448] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 12:42:49,559] {scheduler_job.py:153} INFO - Started process (PID=79383) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:42:49,575] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:42:49,576] {logging_mixin.py:112} INFO - [2020-04-04 12:42:49,575] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:42:49,587] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:42:49,607] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.048 seconds
+[2020-04-04 12:43:41,706] {scheduler_job.py:153} INFO - Started process (PID=79410) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:43:41,713] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:43:41,714] {logging_mixin.py:112} INFO - [2020-04-04 12:43:41,714] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:43:41,724] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:43:41,749] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-04 12:44:33,848] {scheduler_job.py:153} INFO - Started process (PID=79439) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:44:33,853] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:44:33,854] {logging_mixin.py:112} INFO - [2020-04-04 12:44:33,854] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:44:33,861] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:44:33,887] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 12:45:26,008] {scheduler_job.py:153} INFO - Started process (PID=79467) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:45:26,020] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:45:26,021] {logging_mixin.py:112} INFO - [2020-04-04 12:45:26,021] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:45:26,029] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:45:26,046] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 12:46:18,147] {scheduler_job.py:153} INFO - Started process (PID=79496) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:46:18,153] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:46:18,154] {logging_mixin.py:112} INFO - [2020-04-04 12:46:18,153] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:46:18,164] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:46:18,189] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.042 seconds
+[2020-04-04 12:47:10,298] {scheduler_job.py:153} INFO - Started process (PID=79524) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:47:10,315] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:47:10,316] {logging_mixin.py:112} INFO - [2020-04-04 12:47:10,315] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:47:10,324] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:47:10,345] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.047 seconds
+[2020-04-04 12:48:02,437] {scheduler_job.py:153} INFO - Started process (PID=79552) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:48:02,443] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:48:02,443] {logging_mixin.py:112} INFO - [2020-04-04 12:48:02,443] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:48:02,451] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:48:02,478] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 12:48:54,602] {scheduler_job.py:153} INFO - Started process (PID=79585) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:48:54,610] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:48:54,612] {logging_mixin.py:112} INFO - [2020-04-04 12:48:54,611] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:48:54,631] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:48:54,685] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.083 seconds
+[2020-04-04 12:49:46,758] {scheduler_job.py:153} INFO - Started process (PID=79615) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:49:46,763] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:49:46,764] {logging_mixin.py:112} INFO - [2020-04-04 12:49:46,764] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:49:46,771] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:49:46,792] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 12:50:38,921] {scheduler_job.py:153} INFO - Started process (PID=79642) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:50:38,929] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:50:38,930] {logging_mixin.py:112} INFO - [2020-04-04 12:50:38,929] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:50:38,937] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:50:38,961] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 12:51:31,080] {scheduler_job.py:153} INFO - Started process (PID=79670) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:51:31,086] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:51:31,087] {logging_mixin.py:112} INFO - [2020-04-04 12:51:31,086] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:51:31,093] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:51:31,112] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 12:52:23,261] {scheduler_job.py:153} INFO - Started process (PID=79698) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:52:23,267] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:52:23,268] {logging_mixin.py:112} INFO - [2020-04-04 12:52:23,268] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:52:23,277] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:52:23,302] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 12:53:15,428] {scheduler_job.py:153} INFO - Started process (PID=79725) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:53:15,434] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:53:15,435] {logging_mixin.py:112} INFO - [2020-04-04 12:53:15,434] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:53:15,444] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:53:15,469] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 12:54:07,610] {scheduler_job.py:153} INFO - Started process (PID=79753) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:54:07,615] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:54:07,616] {logging_mixin.py:112} INFO - [2020-04-04 12:54:07,616] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:54:07,627] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:54:07,646] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 12:54:59,771] {scheduler_job.py:153} INFO - Started process (PID=79781) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:54:59,777] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:54:59,778] {logging_mixin.py:112} INFO - [2020-04-04 12:54:59,777] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:54:59,787] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:54:59,810] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 12:55:51,978] {scheduler_job.py:153} INFO - Started process (PID=79810) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:55:51,988] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:55:51,988] {logging_mixin.py:112} INFO - [2020-04-04 12:55:51,988] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:55:51,995] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:55:52,010] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 12:56:44,190] {scheduler_job.py:153} INFO - Started process (PID=79837) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:56:44,196] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:56:44,198] {logging_mixin.py:112} INFO - [2020-04-04 12:56:44,197] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:56:44,205] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:56:44,223] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 12:57:36,435] {scheduler_job.py:153} INFO - Started process (PID=79866) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:57:36,441] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:57:36,442] {logging_mixin.py:112} INFO - [2020-04-04 12:57:36,441] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:57:36,452] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:57:36,471] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 12:58:28,691] {scheduler_job.py:153} INFO - Started process (PID=79895) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:58:28,697] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:58:28,698] {logging_mixin.py:112} INFO - [2020-04-04 12:58:28,697] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:58:28,704] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:58:28,729] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 12:59:20,988] {scheduler_job.py:153} INFO - Started process (PID=79931) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:59:20,994] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 12:59:20,995] {logging_mixin.py:112} INFO - [2020-04-04 12:59:20,995] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:59:21,002] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 12:59:21,018] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 13:00:13,304] {scheduler_job.py:153} INFO - Started process (PID=79958) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:00:13,311] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:00:13,312] {logging_mixin.py:112} INFO - [2020-04-04 13:00:13,312] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:00:13,320] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:00:13,345] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 13:01:05,587] {scheduler_job.py:153} INFO - Started process (PID=79988) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:01:05,593] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:01:05,594] {logging_mixin.py:112} INFO - [2020-04-04 13:01:05,593] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:01:05,600] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:01:05,624] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 13:11:53,511] {scheduler_job.py:153} INFO - Started process (PID=80034) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:17,224] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:22:17,225] {logging_mixin.py:112} INFO - [2020-04-04 13:22:17,225] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:17,241] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:17,266] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 623.755 seconds
+[2020-04-04 13:22:33,667] {scheduler_job.py:153} INFO - Started process (PID=80096) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:33,675] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:22:33,676] {logging_mixin.py:112} INFO - [2020-04-04 13:22:33,675] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:33,686] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:33,709] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.042 seconds
+[2020-04-04 13:22:55,609] {scheduler_job.py:153} INFO - Started process (PID=80135) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:55,622] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:22:55,623] {logging_mixin.py:112} INFO - [2020-04-04 13:22:55,623] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:55,631] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:22:55,649] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 13:23:47,730] {scheduler_job.py:153} INFO - Started process (PID=80163) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:23:47,736] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:23:47,741] {logging_mixin.py:112} INFO - [2020-04-04 13:23:47,740] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:23:47,749] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:23:47,766] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 13:24:39,875] {scheduler_job.py:153} INFO - Started process (PID=80191) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:24:39,880] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:24:39,881] {logging_mixin.py:112} INFO - [2020-04-04 13:24:39,881] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:24:39,889] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:24:39,912] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 13:25:32,008] {scheduler_job.py:153} INFO - Started process (PID=80219) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:25:32,014] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:25:32,015] {logging_mixin.py:112} INFO - [2020-04-04 13:25:32,015] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:25:32,022] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:25:32,043] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 13:26:24,174] {scheduler_job.py:153} INFO - Started process (PID=80247) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:26:24,179] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:26:24,181] {logging_mixin.py:112} INFO - [2020-04-04 13:26:24,180] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:26:24,195] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:26:24,214] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 13:27:16,323] {scheduler_job.py:153} INFO - Started process (PID=80276) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:27:16,328] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:27:16,329] {logging_mixin.py:112} INFO - [2020-04-04 13:27:16,329] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:27:16,339] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:27:16,357] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 13:28:08,473] {scheduler_job.py:153} INFO - Started process (PID=80307) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:28:08,487] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:28:08,489] {logging_mixin.py:112} INFO - [2020-04-04 13:28:08,488] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:28:08,499] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:28:08,518] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-04 13:29:00,652] {scheduler_job.py:153} INFO - Started process (PID=80335) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:29:00,657] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:29:00,659] {logging_mixin.py:112} INFO - [2020-04-04 13:29:00,658] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:29:00,669] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:29:00,695] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.044 seconds
+[2020-04-04 13:29:52,790] {scheduler_job.py:153} INFO - Started process (PID=80367) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:29:52,798] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:29:52,800] {logging_mixin.py:112} INFO - [2020-04-04 13:29:52,799] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:29:52,809] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:29:52,826] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 13:30:44,990] {scheduler_job.py:153} INFO - Started process (PID=80398) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:30:45,000] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:30:45,001] {logging_mixin.py:112} INFO - [2020-04-04 13:30:45,000] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:30:45,019] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:30:45,039] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.049 seconds
+[2020-04-04 13:31:37,080] {scheduler_job.py:153} INFO - Started process (PID=80427) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:31:37,089] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:31:37,090] {logging_mixin.py:112} INFO - [2020-04-04 13:31:37,090] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:31:37,098] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:31:37,125] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-04 13:32:29,222] {scheduler_job.py:153} INFO - Started process (PID=80455) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:32:29,229] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:32:29,230] {logging_mixin.py:112} INFO - [2020-04-04 13:32:29,230] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:32:29,239] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:32:29,257] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 13:33:21,388] {scheduler_job.py:153} INFO - Started process (PID=80482) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:33:21,394] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:33:21,394] {logging_mixin.py:112} INFO - [2020-04-04 13:33:21,394] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:33:21,401] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:33:21,425] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 13:34:13,526] {scheduler_job.py:153} INFO - Started process (PID=80510) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:34:13,531] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:34:13,532] {logging_mixin.py:112} INFO - [2020-04-04 13:34:13,532] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:34:13,540] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:34:13,565] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 13:35:05,695] {scheduler_job.py:153} INFO - Started process (PID=80538) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:35:05,701] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:35:05,702] {logging_mixin.py:112} INFO - [2020-04-04 13:35:05,702] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:35:05,709] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:35:05,728] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 13:35:57,836] {scheduler_job.py:153} INFO - Started process (PID=80566) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:35:57,842] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:35:57,843] {logging_mixin.py:112} INFO - [2020-04-04 13:35:57,842] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:35:57,850] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:35:57,868] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 13:36:50,003] {scheduler_job.py:153} INFO - Started process (PID=80595) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:36:50,011] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:36:50,011] {logging_mixin.py:112} INFO - [2020-04-04 13:36:50,011] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:36:50,025] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:36:50,048] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-04 13:37:42,144] {scheduler_job.py:153} INFO - Started process (PID=80627) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:37:42,150] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:37:42,151] {logging_mixin.py:112} INFO - [2020-04-04 13:37:42,151] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:37:42,159] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:37:42,176] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 13:38:34,267] {scheduler_job.py:153} INFO - Started process (PID=80659) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:38:34,273] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:38:34,274] {logging_mixin.py:112} INFO - [2020-04-04 13:38:34,274] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:38:34,281] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:38:34,305] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 13:39:26,464] {scheduler_job.py:153} INFO - Started process (PID=80686) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:39:26,470] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:39:26,471] {logging_mixin.py:112} INFO - [2020-04-04 13:39:26,470] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:39:26,478] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:39:26,503] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 13:40:18,622] {scheduler_job.py:153} INFO - Started process (PID=80733) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:40:18,628] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:40:18,629] {logging_mixin.py:112} INFO - [2020-04-04 13:40:18,629] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:40:18,636] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:40:18,654] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 13:41:10,777] {scheduler_job.py:153} INFO - Started process (PID=80762) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:41:10,783] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:41:10,784] {logging_mixin.py:112} INFO - [2020-04-04 13:41:10,784] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:41:10,791] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:41:10,815] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 13:42:02,936] {scheduler_job.py:153} INFO - Started process (PID=80792) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:42:02,942] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:42:02,943] {logging_mixin.py:112} INFO - [2020-04-04 13:42:02,942] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:42:02,950] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:42:02,976] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 13:42:55,081] {scheduler_job.py:153} INFO - Started process (PID=80820) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:42:55,088] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:42:55,089] {logging_mixin.py:112} INFO - [2020-04-04 13:42:55,089] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:42:55,096] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:42:55,114] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 13:43:47,246] {scheduler_job.py:153} INFO - Started process (PID=80849) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:43:47,252] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:43:47,253] {logging_mixin.py:112} INFO - [2020-04-04 13:43:47,253] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:43:47,260] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:43:47,285] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 13:44:39,426] {scheduler_job.py:153} INFO - Started process (PID=80877) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:44:39,431] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:44:39,433] {logging_mixin.py:112} INFO - [2020-04-04 13:44:39,432] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:44:39,440] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:44:39,466] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 13:45:31,563] {scheduler_job.py:153} INFO - Started process (PID=80908) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:45:31,569] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:45:31,570] {logging_mixin.py:112} INFO - [2020-04-04 13:45:31,570] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:45:31,578] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:45:31,596] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 13:46:23,720] {scheduler_job.py:153} INFO - Started process (PID=80936) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:46:23,732] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:46:23,733] {logging_mixin.py:112} INFO - [2020-04-04 13:46:23,733] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:46:23,743] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:46:23,760] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.040 seconds
+[2020-04-04 13:47:15,853] {scheduler_job.py:153} INFO - Started process (PID=80964) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:47:15,859] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:47:15,860] {logging_mixin.py:112} INFO - [2020-04-04 13:47:15,860] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:47:15,867] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:47:15,895] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.042 seconds
+[2020-04-04 13:48:07,990] {scheduler_job.py:153} INFO - Started process (PID=80992) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:48:07,998] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:48:07,999] {logging_mixin.py:112} INFO - [2020-04-04 13:48:07,999] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:48:08,006] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:48:08,024] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.034 seconds
+[2020-04-04 13:49:00,153] {scheduler_job.py:153} INFO - Started process (PID=81020) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:49:00,159] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:49:00,160] {logging_mixin.py:112} INFO - [2020-04-04 13:49:00,160] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:49:00,167] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:49:00,190] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 13:49:52,323] {scheduler_job.py:153} INFO - Started process (PID=81047) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:49:52,329] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:49:52,330] {logging_mixin.py:112} INFO - [2020-04-04 13:49:52,330] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:49:52,337] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:49:52,355] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 13:50:44,495] {scheduler_job.py:153} INFO - Started process (PID=81075) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:50:44,500] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:50:44,501] {logging_mixin.py:112} INFO - [2020-04-04 13:50:44,501] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:50:44,508] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:50:44,529] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 13:51:36,651] {scheduler_job.py:153} INFO - Started process (PID=81103) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:51:36,657] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:51:36,658] {logging_mixin.py:112} INFO - [2020-04-04 13:51:36,658] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:51:36,665] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:51:36,689] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 13:52:28,792] {scheduler_job.py:153} INFO - Started process (PID=81131) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:52:28,799] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:52:28,800] {logging_mixin.py:112} INFO - [2020-04-04 13:52:28,799] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:52:28,806] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:52:28,830] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 13:53:21,010] {scheduler_job.py:153} INFO - Started process (PID=81160) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:53:21,016] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:53:21,017] {logging_mixin.py:112} INFO - [2020-04-04 13:53:21,017] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:53:21,024] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:53:21,043] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 13:54:13,238] {scheduler_job.py:153} INFO - Started process (PID=81188) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:54:13,245] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:54:13,246] {logging_mixin.py:112} INFO - [2020-04-04 13:54:13,245] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:54:13,254] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:54:13,271] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 13:55:05,511] {scheduler_job.py:153} INFO - Started process (PID=81216) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:55:05,516] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:55:05,517] {logging_mixin.py:112} INFO - [2020-04-04 13:55:05,517] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:55:05,525] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:55:05,549] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 13:55:57,784] {scheduler_job.py:153} INFO - Started process (PID=81245) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:55:57,790] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:55:57,792] {logging_mixin.py:112} INFO - [2020-04-04 13:55:57,791] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:55:57,799] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:55:57,815] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 13:56:50,109] {scheduler_job.py:153} INFO - Started process (PID=81273) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:56:50,115] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:56:50,116] {logging_mixin.py:112} INFO - [2020-04-04 13:56:50,116] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:56:50,123] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:56:50,144] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 13:57:42,425] {scheduler_job.py:153} INFO - Started process (PID=81304) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:57:42,432] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:57:42,433] {logging_mixin.py:112} INFO - [2020-04-04 13:57:42,432] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:57:42,439] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:57:42,462] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 13:59:01,284] {scheduler_job.py:153} INFO - Started process (PID=81337) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:59:06,297] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 13:59:06,298] {logging_mixin.py:112} INFO - [2020-04-04 13:59:06,298] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:59:06,307] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 13:59:06,333] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 5.049 seconds
+[2020-04-04 14:00:15,264] {scheduler_job.py:153} INFO - Started process (PID=81376) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:00:15,271] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:00:15,272] {logging_mixin.py:112} INFO - [2020-04-04 14:00:15,272] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:00:15,279] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:00:15,306] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.042 seconds
+[2020-04-04 14:00:55,177] {scheduler_job.py:153} INFO - Started process (PID=81403) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:00:55,183] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:00:55,184] {logging_mixin.py:112} INFO - [2020-04-04 14:00:55,184] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:00:55,192] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:00:55,218] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 14:01:47,316] {scheduler_job.py:153} INFO - Started process (PID=81432) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:01:47,321] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:01:47,322] {logging_mixin.py:112} INFO - [2020-04-04 14:01:47,322] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:01:47,334] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:01:47,358] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-04 14:02:39,470] {scheduler_job.py:153} INFO - Started process (PID=81460) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:02:39,476] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:02:39,480] {logging_mixin.py:112} INFO - [2020-04-04 14:02:39,478] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:02:39,487] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:02:39,504] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 14:03:31,642] {scheduler_job.py:153} INFO - Started process (PID=81487) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:03:31,647] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:03:31,648] {logging_mixin.py:112} INFO - [2020-04-04 14:03:31,648] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:03:31,654] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:03:31,677] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.036 seconds
+[2020-04-04 14:04:23,788] {scheduler_job.py:153} INFO - Started process (PID=81515) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:04:23,793] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:04:23,794] {logging_mixin.py:112} INFO - [2020-04-04 14:04:23,794] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:04:23,801] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:04:23,827] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.039 seconds
+[2020-04-04 14:05:15,965] {scheduler_job.py:153} INFO - Started process (PID=81544) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:05:15,970] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:05:15,971] {logging_mixin.py:112} INFO - [2020-04-04 14:05:15,970] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:05:15,978] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:05:15,996] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.031 seconds
+[2020-04-04 14:06:08,089] {scheduler_job.py:153} INFO - Started process (PID=81575) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:06:08,094] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:06:08,095] {logging_mixin.py:112} INFO - [2020-04-04 14:06:08,095] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:06:08,107] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:06:08,138] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.049 seconds
+[2020-04-04 14:07:00,224] {scheduler_job.py:153} INFO - Started process (PID=81603) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:07:00,231] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:07:00,232] {logging_mixin.py:112} INFO - [2020-04-04 14:07:00,232] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:07:00,242] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:07:00,261] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 14:07:52,379] {scheduler_job.py:153} INFO - Started process (PID=81634) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:07:52,386] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:07:52,387] {logging_mixin.py:112} INFO - [2020-04-04 14:07:52,386] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:07:52,393] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:07:52,411] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.033 seconds
+[2020-04-04 14:08:44,528] {scheduler_job.py:153} INFO - Started process (PID=81671) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:08:44,537] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:08:44,538] {logging_mixin.py:112} INFO - [2020-04-04 14:08:44,537] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:08:44,564] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:08:44,619] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.091 seconds
+[2020-04-04 14:09:36,635] {scheduler_job.py:153} INFO - Started process (PID=81700) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:09:36,642] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:09:36,643] {logging_mixin.py:112} INFO - [2020-04-04 14:09:36,642] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:09:36,651] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:09:36,677] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.041 seconds
+[2020-04-04 14:10:28,797] {scheduler_job.py:153} INFO - Started process (PID=81730) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:10:28,807] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:10:28,808] {logging_mixin.py:112} INFO - [2020-04-04 14:10:28,807] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:10:28,827] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:10:28,868] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.070 seconds
+[2020-04-04 14:11:20,924] {scheduler_job.py:153} INFO - Started process (PID=81758) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:11:20,932] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:11:20,933] {logging_mixin.py:112} INFO - [2020-04-04 14:11:20,932] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:11:20,943] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:11:20,961] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 14:12:13,085] {scheduler_job.py:153} INFO - Started process (PID=81787) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:12:13,099] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:12:13,100] {logging_mixin.py:112} INFO - [2020-04-04 14:12:13,099] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:12:13,112] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:12:13,130] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-04 14:13:07,261] {scheduler_job.py:153} INFO - Started process (PID=81816) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:13:07,270] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:13:07,271] {logging_mixin.py:112} INFO - [2020-04-04 14:13:07,270] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:13:07,283] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:13:07,306] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-04 14:14:01,409] {scheduler_job.py:153} INFO - Started process (PID=81845) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:14:01,415] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:14:01,416] {logging_mixin.py:112} INFO - [2020-04-04 14:14:01,416] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:14:01,423] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:14:01,447] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.038 seconds
+[2020-04-04 14:14:55,582] {scheduler_job.py:153} INFO - Started process (PID=81876) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:14:55,588] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:14:55,589] {logging_mixin.py:112} INFO - [2020-04-04 14:14:55,589] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:14:55,597] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:14:55,614] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.032 seconds
+[2020-04-04 14:15:49,707] {scheduler_job.py:153} INFO - Started process (PID=81907) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:15:49,713] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:15:49,713] {logging_mixin.py:112} INFO - [2020-04-04 14:15:49,713] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:15:49,722] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:15:49,742] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.035 seconds
+[2020-04-04 14:16:43,828] {scheduler_job.py:153} INFO - Started process (PID=81937) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:16:43,838] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:16:43,840] {logging_mixin.py:112} INFO - [2020-04-04 14:16:43,839] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:16:43,850] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:16:43,870] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.043 seconds
+[2020-04-04 14:17:38,040] {scheduler_job.py:153} INFO - Started process (PID=81969) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:17:38,050] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:17:38,051] {logging_mixin.py:112} INFO - [2020-04-04 14:17:38,051] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:17:38,060] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:17:38,077] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.037 seconds
+[2020-04-04 14:18:32,124] {scheduler_job.py:153} INFO - Started process (PID=81999) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:18:32,139] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:18:32,140] {logging_mixin.py:112} INFO - [2020-04-04 14:18:32,139] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:18:32,150] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:18:32,168] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.045 seconds
+[2020-04-04 14:19:26,280] {scheduler_job.py:153} INFO - Started process (PID=82030) to work on /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:19:26,291] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py for tasks to queue
+[2020-04-04 14:19:26,293] {logging_mixin.py:112} INFO - [2020-04-04 14:19:26,292] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:19:26,303] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['airflow_tutorial_v01']) retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py
+[2020-04-04 14:19:26,326] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_tutorial.py took 0.046 seconds
