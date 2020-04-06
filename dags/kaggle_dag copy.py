@@ -46,6 +46,30 @@ t1 = BashOperator(
 )
 
 
+t2 = PostgresOperator(
+    task_id="create_table",
+    postgres_conn_id="postgres_connection",
+    database="stack_overflow",
+    sql="""
+    DROP TABLE IF EXISTS public.questions;
+    CREATE TABLE public.questions
+    (
+    title text,
+    is_answered boolean,
+    link character varying,
+    score integer,
+    tags text[],
+    question_id integer NOT NULL,
+    owner_reputation integer
+    )
+    """,
+    )
+
+t3 = PythonOperator(
+    task_id="insert_question_to_db", python_callable=insert_question_to_db
+    )
+
+
 
 
 
