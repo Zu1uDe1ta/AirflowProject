@@ -1,0 +1,44 @@
+[2020-04-06 20:05:31,198] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: stack_overflow_questions.create_table 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-06 20:05:31,207] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: stack_overflow_questions.create_table 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-06 20:05:31,208] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-06 20:05:31,208] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-06 20:05:31,208] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-06 20:05:31,214] {taskinstance.py:887} INFO - Executing <Task(PostgresOperator): create_table> on 2020-04-06T00:00:00+00:00
+[2020-04-06 20:05:31,216] {standard_task_runner.py:53} INFO - Started process 39393 to run task
+[2020-04-06 20:05:31,274] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: stack_overflow_questions.create_table 2020-04-06T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-06 20:05:31,295] {postgres_operator.py:62} INFO - Executing: 
+        DROP TABLE IF EXISTS public.questions;
+        CREATE TABLE public.questions
+        (
+        title text,
+        is_answered boolean,
+        link character varying,
+        score integer,
+        tags text[],
+        question_id integer NOT NULL,
+        owner_reputation integer
+        )
+        
+[2020-04-06 20:05:31,299] {logging_mixin.py:112} INFO - [2020-04-06 20:05:31,298] {base_hook.py:84} INFO - Using connection to: id: postgres_connection. Host: postgres, Port: 5432, Schema: housing_prices, Login: cchavez=# , Password: XXXXXXXX, extra: None
+[2020-04-06 20:06:46,826] {taskinstance.py:1128} ERROR - could not connect to server: Operation timed out
+	Is the server running on host "postgres" (92.242.140.21) and accepting
+	TCP/IP connections on port 5432?
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/postgres_operator.py", line 65, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/hooks/dbapi_hook.py", line 162, in run
+    with closing(self.get_conn()) as conn:
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/hooks/postgres_hook.py", line 93, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/psycopg2/__init__.py", line 126, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Operation timed out
+	Is the server running on host "postgres" (92.242.140.21) and accepting
+	TCP/IP connections on port 5432?
+
+[2020-04-06 20:06:46,836] {taskinstance.py:1185} INFO - Marking task as FAILED.dag_id=stack_overflow_questions, task_id=create_table, execution_date=20200406T000000, start_date=20200407T000531, end_date=20200407T000646
+[2020-04-06 20:06:51,402] {logging_mixin.py:112} INFO - [2020-04-06 20:06:51,401] {local_task_job.py:103} INFO - Task exited with return code 1

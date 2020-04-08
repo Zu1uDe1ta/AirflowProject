@@ -1,0 +1,1134 @@
+[2020-04-03 18:26:02,679] {scheduler_job.py:153} INFO - Started process (PID=72573) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:26:02,685] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 18:26:02,686] {logging_mixin.py:112} INFO - [2020-04-03 18:26:02,686] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:26:02,703] {logging_mixin.py:112} INFO - [2020-04-03 18:26:02,690] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 18:26:02,703] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:26:02,725] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.046 seconds
+[2020-04-03 18:26:52,851] {scheduler_job.py:153} INFO - Started process (PID=72603) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:26:52,857] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 18:26:52,858] {logging_mixin.py:112} INFO - [2020-04-03 18:26:52,857] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:26:52,869] {logging_mixin.py:112} INFO - [2020-04-03 18:26:52,861] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 18:26:52,870] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:26:52,883] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.032 seconds
+[2020-04-03 18:27:43,029] {scheduler_job.py:153} INFO - Started process (PID=72635) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:27:43,035] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 18:27:43,035] {logging_mixin.py:112} INFO - [2020-04-03 18:27:43,035] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:27:43,045] {logging_mixin.py:112} INFO - [2020-04-03 18:27:43,038] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 18:27:43,047] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 18:27:43,058] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.030 seconds
+[2020-04-03 19:05:28,160] {scheduler_job.py:153} INFO - Started process (PID=72693) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:05:28,166] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:05:28,167] {logging_mixin.py:112} INFO - [2020-04-03 19:05:28,167] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:05:28,172] {logging_mixin.py:112} INFO - [2020-04-03 19:05:28,170] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:05:28,172] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:05:28,187] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.028 seconds
+[2020-04-03 19:06:18,321] {scheduler_job.py:153} INFO - Started process (PID=72722) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:06:18,327] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:06:18,328] {logging_mixin.py:112} INFO - [2020-04-03 19:06:18,327] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:06:18,331] {logging_mixin.py:112} INFO - [2020-04-03 19:06:18,330] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:06:18,332] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:06:18,347] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:07:08,500] {scheduler_job.py:153} INFO - Started process (PID=72750) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:07:08,505] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:07:08,506] {logging_mixin.py:112} INFO - [2020-04-03 19:07:08,506] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:07:08,510] {logging_mixin.py:112} INFO - [2020-04-03 19:07:08,509] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:07:08,511] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:07:08,520] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.020 seconds
+[2020-04-03 19:07:58,675] {scheduler_job.py:153} INFO - Started process (PID=72779) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:07:58,680] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:07:58,681] {logging_mixin.py:112} INFO - [2020-04-03 19:07:58,681] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:07:58,685] {logging_mixin.py:112} INFO - [2020-04-03 19:07:58,684] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:07:58,685] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:07:58,701] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:11:46,698] {scheduler_job.py:153} INFO - Started process (PID=72829) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:11:46,707] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:11:46,709] {logging_mixin.py:112} INFO - [2020-04-03 19:11:46,708] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:11:46,723] {logging_mixin.py:112} INFO - [2020-04-03 19:11:46,720] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:11:46,723] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:11:46,739] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.041 seconds
+[2020-04-03 19:12:36,836] {scheduler_job.py:153} INFO - Started process (PID=72859) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:12:36,842] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:12:36,843] {logging_mixin.py:112} INFO - [2020-04-03 19:12:36,843] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:12:36,847] {logging_mixin.py:112} INFO - [2020-04-03 19:12:36,846] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:12:36,847] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:12:36,863] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:13:27,000] {scheduler_job.py:153} INFO - Started process (PID=72888) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:13:27,006] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:13:27,007] {logging_mixin.py:112} INFO - [2020-04-03 19:13:27,006] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:13:27,011] {logging_mixin.py:112} INFO - [2020-04-03 19:13:27,010] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:13:27,011] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:13:27,026] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.027 seconds
+[2020-04-03 19:14:17,149] {scheduler_job.py:153} INFO - Started process (PID=72915) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:14:17,157] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:14:17,159] {logging_mixin.py:112} INFO - [2020-04-03 19:14:17,158] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:14:17,163] {logging_mixin.py:112} INFO - [2020-04-03 19:14:17,162] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:14:17,163] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:14:17,174] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.025 seconds
+[2020-04-03 19:15:07,321] {scheduler_job.py:153} INFO - Started process (PID=72944) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:15:07,327] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:15:07,328] {logging_mixin.py:112} INFO - [2020-04-03 19:15:07,328] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:15:07,332] {logging_mixin.py:112} INFO - [2020-04-03 19:15:07,331] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:15:07,333] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:15:07,347] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:15:57,487] {scheduler_job.py:153} INFO - Started process (PID=72973) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:15:57,493] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:15:57,494] {logging_mixin.py:112} INFO - [2020-04-03 19:15:57,493] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:15:57,498] {logging_mixin.py:112} INFO - [2020-04-03 19:15:57,497] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:15:57,498] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:15:57,512] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:16:47,640] {scheduler_job.py:153} INFO - Started process (PID=73000) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:16:47,647] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:16:47,648] {logging_mixin.py:112} INFO - [2020-04-03 19:16:47,648] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:16:47,652] {logging_mixin.py:112} INFO - [2020-04-03 19:16:47,651] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:16:47,652] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:16:47,663] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.023 seconds
+[2020-04-03 19:18:06,423] {scheduler_job.py:153} INFO - Started process (PID=73037) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:18:06,429] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:18:06,430] {logging_mixin.py:112} INFO - [2020-04-03 19:18:06,429] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:18:06,435] {logging_mixin.py:112} INFO - [2020-04-03 19:18:06,433] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:18:06,435] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:18:06,446] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.023 seconds
+[2020-04-03 19:18:56,528] {scheduler_job.py:153} INFO - Started process (PID=73068) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:18:56,533] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:18:56,534] {logging_mixin.py:112} INFO - [2020-04-03 19:18:56,534] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:18:56,541] {logging_mixin.py:112} INFO - [2020-04-03 19:18:56,540] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:18:56,542] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:18:56,550] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.023 seconds
+[2020-04-03 19:19:46,663] {scheduler_job.py:153} INFO - Started process (PID=73098) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:19:46,670] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:19:46,673] {logging_mixin.py:112} INFO - [2020-04-03 19:19:46,672] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:19:46,677] {logging_mixin.py:112} INFO - [2020-04-03 19:19:46,676] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:19:46,678] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:19:46,692] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.029 seconds
+[2020-04-03 19:20:36,795] {scheduler_job.py:153} INFO - Started process (PID=73127) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:20:36,801] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:20:36,802] {logging_mixin.py:112} INFO - [2020-04-03 19:20:36,802] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:20:36,806] {logging_mixin.py:112} INFO - [2020-04-03 19:20:36,805] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:20:36,807] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:20:36,817] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:21:26,981] {scheduler_job.py:153} INFO - Started process (PID=73155) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:21:26,986] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:21:26,987] {logging_mixin.py:112} INFO - [2020-04-03 19:21:26,987] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:21:26,992] {logging_mixin.py:112} INFO - [2020-04-03 19:21:26,990] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:21:26,992] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:21:27,002] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:22:17,125] {scheduler_job.py:153} INFO - Started process (PID=73183) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:22:17,130] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:22:17,131] {logging_mixin.py:112} INFO - [2020-04-03 19:22:17,130] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:22:17,135] {logging_mixin.py:112} INFO - [2020-04-03 19:22:17,134] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:22:17,135] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:22:17,151] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:23:07,270] {scheduler_job.py:153} INFO - Started process (PID=73212) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:23:07,276] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:23:07,277] {logging_mixin.py:112} INFO - [2020-04-03 19:23:07,277] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:23:07,282] {logging_mixin.py:112} INFO - [2020-04-03 19:23:07,280] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:23:07,282] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:23:07,291] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:23:57,399] {scheduler_job.py:153} INFO - Started process (PID=73242) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:23:57,405] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:23:57,407] {logging_mixin.py:112} INFO - [2020-04-03 19:23:57,406] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:23:57,410] {logging_mixin.py:112} INFO - [2020-04-03 19:23:57,409] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:23:57,411] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:23:57,426] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:24:47,551] {scheduler_job.py:153} INFO - Started process (PID=73271) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:24:47,557] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:24:47,558] {logging_mixin.py:112} INFO - [2020-04-03 19:24:47,558] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:24:47,562] {logging_mixin.py:112} INFO - [2020-04-03 19:24:47,561] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:24:47,562] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:24:47,577] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:25:37,695] {scheduler_job.py:153} INFO - Started process (PID=73305) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:25:37,706] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:25:37,707] {logging_mixin.py:112} INFO - [2020-04-03 19:25:37,706] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:25:37,710] {logging_mixin.py:112} INFO - [2020-04-03 19:25:37,709] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:25:37,711] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:25:37,726] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.031 seconds
+[2020-04-03 19:26:27,825] {scheduler_job.py:153} INFO - Started process (PID=73334) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:26:27,830] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:26:27,831] {logging_mixin.py:112} INFO - [2020-04-03 19:26:27,831] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:26:27,834] {logging_mixin.py:112} INFO - [2020-04-03 19:26:27,833] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:26:27,835] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:26:27,850] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:27:20,001] {scheduler_job.py:153} INFO - Started process (PID=73361) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:27:20,008] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:27:20,009] {logging_mixin.py:112} INFO - [2020-04-03 19:27:20,008] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:27:20,014] {logging_mixin.py:112} INFO - [2020-04-03 19:27:20,012] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:27:20,014] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:27:20,025] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.025 seconds
+[2020-04-03 19:28:12,112] {scheduler_job.py:153} INFO - Started process (PID=73396) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:28:12,125] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:28:12,126] {logging_mixin.py:112} INFO - [2020-04-03 19:28:12,125] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:28:12,131] {logging_mixin.py:112} INFO - [2020-04-03 19:28:12,129] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:28:12,131] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:28:12,141] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.029 seconds
+[2020-04-03 19:29:04,248] {scheduler_job.py:153} INFO - Started process (PID=73426) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:29:04,259] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:29:04,260] {logging_mixin.py:112} INFO - [2020-04-03 19:29:04,260] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:29:04,264] {logging_mixin.py:112} INFO - [2020-04-03 19:29:04,263] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:29:04,264] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:29:04,274] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:29:56,400] {scheduler_job.py:153} INFO - Started process (PID=73455) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:29:56,408] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:29:56,409] {logging_mixin.py:112} INFO - [2020-04-03 19:29:56,409] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:29:56,413] {logging_mixin.py:112} INFO - [2020-04-03 19:29:56,412] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:29:56,414] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:29:56,424] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.024 seconds
+[2020-04-03 19:30:48,538] {scheduler_job.py:153} INFO - Started process (PID=73490) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:30:48,545] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:30:48,546] {logging_mixin.py:112} INFO - [2020-04-03 19:30:48,546] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:30:48,553] {logging_mixin.py:112} INFO - [2020-04-03 19:30:48,550] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:30:48,553] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:30:48,566] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.028 seconds
+[2020-04-03 19:31:40,673] {scheduler_job.py:153} INFO - Started process (PID=73526) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:31:40,678] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:31:40,679] {logging_mixin.py:112} INFO - [2020-04-03 19:31:40,678] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:31:40,683] {logging_mixin.py:112} INFO - [2020-04-03 19:31:40,682] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:31:40,683] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:31:40,693] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:32:32,828] {scheduler_job.py:153} INFO - Started process (PID=73557) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:32:32,835] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:32:32,836] {logging_mixin.py:112} INFO - [2020-04-03 19:32:32,835] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:32:32,840] {logging_mixin.py:112} INFO - [2020-04-03 19:32:32,839] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:32:32,840] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:32:32,849] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:33:24,999] {scheduler_job.py:153} INFO - Started process (PID=73586) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:33:25,008] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:33:25,009] {logging_mixin.py:112} INFO - [2020-04-03 19:33:25,009] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:33:25,013] {logging_mixin.py:112} INFO - [2020-04-03 19:33:25,011] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:33:25,013] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:33:25,022] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.023 seconds
+[2020-04-03 19:34:17,161] {scheduler_job.py:153} INFO - Started process (PID=73615) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:34:17,174] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:34:17,175] {logging_mixin.py:112} INFO - [2020-04-03 19:34:17,175] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:34:17,180] {logging_mixin.py:112} INFO - [2020-04-03 19:34:17,178] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:34:17,180] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:34:17,193] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.032 seconds
+[2020-04-03 19:35:09,333] {scheduler_job.py:153} INFO - Started process (PID=73645) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:35:09,340] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:35:09,341] {logging_mixin.py:112} INFO - [2020-04-03 19:35:09,341] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:35:09,350] {logging_mixin.py:112} INFO - [2020-04-03 19:35:09,346] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:35:09,351] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:35:09,363] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.030 seconds
+[2020-04-03 19:36:01,467] {scheduler_job.py:153} INFO - Started process (PID=73689) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:36:01,477] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:36:01,479] {logging_mixin.py:112} INFO - [2020-04-03 19:36:01,478] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:36:01,484] {logging_mixin.py:112} INFO - [2020-04-03 19:36:01,483] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:36:01,485] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:36:01,498] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.031 seconds
+[2020-04-03 19:36:53,599] {scheduler_job.py:153} INFO - Started process (PID=73721) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:36:53,604] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:36:53,605] {logging_mixin.py:112} INFO - [2020-04-03 19:36:53,605] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:36:53,609] {logging_mixin.py:112} INFO - [2020-04-03 19:36:53,608] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:36:53,609] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:36:53,625] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:37:45,751] {scheduler_job.py:153} INFO - Started process (PID=73750) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:37:45,757] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:37:45,757] {logging_mixin.py:112} INFO - [2020-04-03 19:37:45,757] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:37:45,763] {logging_mixin.py:112} INFO - [2020-04-03 19:37:45,762] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:37:45,763] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:37:45,774] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.023 seconds
+[2020-04-03 19:38:37,873] {scheduler_job.py:153} INFO - Started process (PID=73783) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:38:37,882] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:38:37,883] {logging_mixin.py:112} INFO - [2020-04-03 19:38:37,882] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:38:37,886] {logging_mixin.py:112} INFO - [2020-04-03 19:38:37,885] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:38:37,887] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:38:37,897] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.024 seconds
+[2020-04-03 19:39:30,041] {scheduler_job.py:153} INFO - Started process (PID=73817) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:39:30,054] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:39:30,055] {logging_mixin.py:112} INFO - [2020-04-03 19:39:30,055] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:39:30,060] {logging_mixin.py:112} INFO - [2020-04-03 19:39:30,059] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:39:30,060] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:39:30,071] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.030 seconds
+[2020-04-03 19:40:22,199] {scheduler_job.py:153} INFO - Started process (PID=73844) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:40:22,211] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:40:22,213] {logging_mixin.py:112} INFO - [2020-04-03 19:40:22,213] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:40:22,221] {logging_mixin.py:112} INFO - [2020-04-03 19:40:22,217] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:40:22,221] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:40:22,239] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.041 seconds
+[2020-04-03 19:41:14,363] {scheduler_job.py:153} INFO - Started process (PID=73874) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:41:14,368] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:41:14,369] {logging_mixin.py:112} INFO - [2020-04-03 19:41:14,369] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:41:14,373] {logging_mixin.py:112} INFO - [2020-04-03 19:41:14,372] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:41:14,374] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:41:14,383] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.020 seconds
+[2020-04-03 19:42:06,497] {scheduler_job.py:153} INFO - Started process (PID=73905) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:42:06,503] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:42:06,504] {logging_mixin.py:112} INFO - [2020-04-03 19:42:06,503] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:42:06,508] {logging_mixin.py:112} INFO - [2020-04-03 19:42:06,507] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:42:06,509] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:42:06,524] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.027 seconds
+[2020-04-03 19:42:58,665] {scheduler_job.py:153} INFO - Started process (PID=73934) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:42:58,678] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:42:58,680] {logging_mixin.py:112} INFO - [2020-04-03 19:42:58,679] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:42:58,686] {logging_mixin.py:112} INFO - [2020-04-03 19:42:58,685] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:42:58,687] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:42:58,700] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.035 seconds
+[2020-04-03 19:43:50,800] {scheduler_job.py:153} INFO - Started process (PID=73966) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:43:50,807] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:43:50,808] {logging_mixin.py:112} INFO - [2020-04-03 19:43:50,808] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:43:50,812] {logging_mixin.py:112} INFO - [2020-04-03 19:43:50,811] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:43:50,812] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:43:50,821] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:44:42,968] {scheduler_job.py:153} INFO - Started process (PID=73996) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:44:42,981] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:44:42,982] {logging_mixin.py:112} INFO - [2020-04-03 19:44:42,982] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:44:42,987] {logging_mixin.py:112} INFO - [2020-04-03 19:44:42,986] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:44:42,987] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:44:43,000] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.031 seconds
+[2020-04-03 19:45:35,154] {scheduler_job.py:153} INFO - Started process (PID=74025) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:45:35,159] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:45:35,160] {logging_mixin.py:112} INFO - [2020-04-03 19:45:35,160] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:45:35,164] {logging_mixin.py:112} INFO - [2020-04-03 19:45:35,163] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:45:35,164] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:45:35,175] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:46:27,290] {scheduler_job.py:153} INFO - Started process (PID=74055) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:46:27,295] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:46:27,296] {logging_mixin.py:112} INFO - [2020-04-03 19:46:27,296] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:46:27,303] {logging_mixin.py:112} INFO - [2020-04-03 19:46:27,299] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:46:27,304] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:46:27,316] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.026 seconds
+[2020-04-03 19:47:19,477] {scheduler_job.py:153} INFO - Started process (PID=74083) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:47:19,482] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:47:19,484] {logging_mixin.py:112} INFO - [2020-04-03 19:47:19,483] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:47:19,488] {logging_mixin.py:112} INFO - [2020-04-03 19:47:19,487] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:47:19,488] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:47:19,498] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:48:11,708] {scheduler_job.py:153} INFO - Started process (PID=74113) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:48:11,714] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:48:11,715] {logging_mixin.py:112} INFO - [2020-04-03 19:48:11,715] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:48:11,719] {logging_mixin.py:112} INFO - [2020-04-03 19:48:11,718] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:48:11,719] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:48:11,729] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.021 seconds
+[2020-04-03 19:49:03,938] {scheduler_job.py:153} INFO - Started process (PID=74143) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:49:03,951] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:49:03,952] {logging_mixin.py:112} INFO - [2020-04-03 19:49:03,952] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:49:03,958] {logging_mixin.py:112} INFO - [2020-04-03 19:49:03,956] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:49:03,959] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:49:03,969] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.031 seconds
+[2020-04-03 19:49:56,097] {scheduler_job.py:153} INFO - Started process (PID=74173) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:49:56,103] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:49:56,104] {logging_mixin.py:112} INFO - [2020-04-03 19:49:56,103] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:49:56,108] {logging_mixin.py:112} INFO - [2020-04-03 19:49:56,106] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:49:56,109] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:49:56,118] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.022 seconds
+[2020-04-03 19:50:48,238] {scheduler_job.py:153} INFO - Started process (PID=74217) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:50:48,243] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:50:48,244] {logging_mixin.py:112} INFO - [2020-04-03 19:50:48,244] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:50:48,250] {logging_mixin.py:112} INFO - [2020-04-03 19:50:48,248] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:50:48,250] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:50:48,261] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.023 seconds
+[2020-04-03 19:51:40,438] {scheduler_job.py:153} INFO - Started process (PID=74265) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:51:40,451] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:51:40,452] {logging_mixin.py:112} INFO - [2020-04-03 19:51:40,452] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:51:40,458] {logging_mixin.py:112} INFO - [2020-04-03 19:51:40,456] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:51:40,458] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:51:40,468] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.030 seconds
+[2020-04-03 19:52:32,601] {scheduler_job.py:153} INFO - Started process (PID=74295) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:52:32,606] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:52:32,607] {logging_mixin.py:112} INFO - [2020-04-03 19:52:32,606] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:52:32,612] {logging_mixin.py:112} INFO - [2020-04-03 19:52:32,611] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:52:32,612] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:52:32,627] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.027 seconds
+[2020-04-03 19:53:24,765] {scheduler_job.py:153} INFO - Started process (PID=74323) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:53:24,772] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:53:24,773] {logging_mixin.py:112} INFO - [2020-04-03 19:53:24,773] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:53:24,778] {logging_mixin.py:112} INFO - [2020-04-03 19:53:24,777] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:53:24,779] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:53:24,789] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.024 seconds
+[2020-04-03 19:54:16,905] {scheduler_job.py:153} INFO - Started process (PID=74354) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:54:16,910] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:54:16,911] {logging_mixin.py:112} INFO - [2020-04-03 19:54:16,910] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:54:16,915] {logging_mixin.py:112} INFO - [2020-04-03 19:54:16,914] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:54:16,915] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:54:16,930] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.025 seconds
+[2020-04-03 19:55:09,047] {scheduler_job.py:153} INFO - Started process (PID=74384) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:55:09,053] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:55:09,054] {logging_mixin.py:112} INFO - [2020-04-03 19:55:09,054] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:55:09,058] {logging_mixin.py:112} INFO - [2020-04-03 19:55:09,057] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:55:09,059] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:55:09,075] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.028 seconds
+[2020-04-03 19:56:01,176] {scheduler_job.py:153} INFO - Started process (PID=74413) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:56:01,181] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:56:01,182] {logging_mixin.py:112} INFO - [2020-04-03 19:56:01,182] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:56:01,186] {logging_mixin.py:112} INFO - [2020-04-03 19:56:01,185] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:56:01,188] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:56:01,199] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.023 seconds
+[2020-04-03 19:56:53,313] {scheduler_job.py:153} INFO - Started process (PID=74456) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:56:53,322] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:56:53,323] {logging_mixin.py:112} INFO - [2020-04-03 19:56:53,323] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:56:53,328] {logging_mixin.py:112} INFO - [2020-04-03 19:56:53,327] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:56:53,328] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:56:53,347] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.034 seconds
+[2020-04-03 19:57:45,482] {scheduler_job.py:153} INFO - Started process (PID=74486) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:57:45,491] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:57:45,492] {logging_mixin.py:112} INFO - [2020-04-03 19:57:45,492] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:57:45,500] {logging_mixin.py:112} INFO - [2020-04-03 19:57:45,496] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:57:45,501] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:57:45,515] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.034 seconds
+[2020-04-03 19:58:37,628] {scheduler_job.py:153} INFO - Started process (PID=74515) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:58:37,636] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:58:37,637] {logging_mixin.py:112} INFO - [2020-04-03 19:58:37,637] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:58:37,643] {logging_mixin.py:112} INFO - [2020-04-03 19:58:37,640] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:58:37,643] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:58:37,658] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.030 seconds
+[2020-04-03 19:59:29,770] {scheduler_job.py:153} INFO - Started process (PID=74547) to work on /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:59:29,776] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/airflow_project.py for tasks to queue
+[2020-04-03 19:59:29,777] {logging_mixin.py:112} INFO - [2020-04-03 19:59:29,776] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:59:29,788] {logging_mixin.py:112} INFO - [2020-04-03 19:59:29,779] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/airflow_project.py", line 18, in <module>
+    Task_I = PostgresOperator(
+NameError: name 'PostgresOperator' is not defined
+[2020-04-03 19:59:29,789] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/airflow_project.py
+[2020-04-03 19:59:29,803] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/airflow_project.py took 0.033 seconds

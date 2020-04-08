@@ -1,0 +1,1671 @@
+[2020-04-07 15:49:57,361] {scheduler_job.py:153} INFO - Started process (PID=62863) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:49:57,368] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 15:49:57,370] {logging_mixin.py:112} INFO - [2020-04-07 15:49:57,369] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:49:57,377] {logging_mixin.py:112} INFO - [2020-04-07 15:49:57,374] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 15:49:57,378] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:49:57,389] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.028 seconds
+[2020-04-07 15:51:02,540] {scheduler_job.py:153} INFO - Started process (PID=62911) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:51:02,553] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 15:51:02,555] {logging_mixin.py:112} INFO - [2020-04-07 15:51:02,554] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:51:02,556] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:51:02,557] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.017 seconds
+[2020-04-07 15:52:06,778] {scheduler_job.py:153} INFO - Started process (PID=62947) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:52:06,785] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 15:52:06,786] {logging_mixin.py:112} INFO - [2020-04-07 15:52:06,786] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:52:06,787] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:52:06,789] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.010 seconds
+[2020-04-07 15:53:11,000] {scheduler_job.py:153} INFO - Started process (PID=62982) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:53:11,007] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 15:53:11,008] {logging_mixin.py:112} INFO - [2020-04-07 15:53:11,008] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:53:11,011] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 15:53:11,012] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.012 seconds
+[2020-04-07 16:05:07,212] {scheduler_job.py:153} INFO - Started process (PID=63399) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:05:07,219] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:05:07,220] {logging_mixin.py:112} INFO - [2020-04-07 16:05:07,220] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:05:07,224] {logging_mixin.py:112} INFO - [2020-04-07 16:05:07,223] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:05:07,225] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:05:07,237] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.025 seconds
+[2020-04-07 16:06:17,438] {scheduler_job.py:153} INFO - Started process (PID=63438) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:06:17,444] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:06:17,445] {logging_mixin.py:112} INFO - [2020-04-07 16:06:17,444] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:06:17,449] {logging_mixin.py:112} INFO - [2020-04-07 16:06:17,447] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:06:17,449] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:06:17,464] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 16:07:27,662] {scheduler_job.py:153} INFO - Started process (PID=63478) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:07:27,670] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:07:27,671] {logging_mixin.py:112} INFO - [2020-04-07 16:07:27,670] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:07:27,677] {logging_mixin.py:112} INFO - [2020-04-07 16:07:27,675] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:07:27,678] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:07:27,693] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.031 seconds
+[2020-04-07 16:08:37,845] {scheduler_job.py:153} INFO - Started process (PID=63518) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:08:37,852] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:08:37,853] {logging_mixin.py:112} INFO - [2020-04-07 16:08:37,853] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:08:37,857] {logging_mixin.py:112} INFO - [2020-04-07 16:08:37,855] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:08:37,857] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:08:37,888] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.043 seconds
+[2020-04-07 16:09:48,074] {scheduler_job.py:153} INFO - Started process (PID=63556) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:09:48,082] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:09:48,084] {logging_mixin.py:112} INFO - [2020-04-07 16:09:48,083] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:09:48,090] {logging_mixin.py:112} INFO - [2020-04-07 16:09:48,087] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:09:48,091] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:09:48,104] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.030 seconds
+[2020-04-07 16:10:58,261] {scheduler_job.py:153} INFO - Started process (PID=63596) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:10:58,268] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:10:58,269] {logging_mixin.py:112} INFO - [2020-04-07 16:10:58,269] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:10:58,272] {logging_mixin.py:112} INFO - [2020-04-07 16:10:58,271] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:10:58,273] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:10:58,283] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 16:12:08,446] {scheduler_job.py:153} INFO - Started process (PID=63639) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:12:08,452] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:12:08,453] {logging_mixin.py:112} INFO - [2020-04-07 16:12:08,453] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:12:08,457] {logging_mixin.py:112} INFO - [2020-04-07 16:12:08,456] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:12:08,457] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:12:08,473] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 16:13:18,679] {scheduler_job.py:153} INFO - Started process (PID=63680) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:13:18,686] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:13:18,688] {logging_mixin.py:112} INFO - [2020-04-07 16:13:18,688] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:13:18,692] {logging_mixin.py:112} INFO - [2020-04-07 16:13:18,691] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:13:18,692] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:13:18,704] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.025 seconds
+[2020-04-07 16:14:28,842] {scheduler_job.py:153} INFO - Started process (PID=63722) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:14:28,849] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:14:28,850] {logging_mixin.py:112} INFO - [2020-04-07 16:14:28,850] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:14:28,856] {logging_mixin.py:112} INFO - [2020-04-07 16:14:28,854] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:14:28,856] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:14:28,868] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 16:15:39,054] {scheduler_job.py:153} INFO - Started process (PID=63760) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:15:39,060] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:15:39,061] {logging_mixin.py:112} INFO - [2020-04-07 16:15:39,061] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:15:39,064] {logging_mixin.py:112} INFO - [2020-04-07 16:15:39,063] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:15:39,065] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:15:39,081] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.028 seconds
+[2020-04-07 16:16:49,244] {scheduler_job.py:153} INFO - Started process (PID=63798) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:16:49,251] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:16:49,252] {logging_mixin.py:112} INFO - [2020-04-07 16:16:49,251] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:16:49,255] {logging_mixin.py:112} INFO - [2020-04-07 16:16:49,254] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:16:49,256] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:16:49,271] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.028 seconds
+[2020-04-07 16:17:59,443] {scheduler_job.py:153} INFO - Started process (PID=63837) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:17:59,450] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:17:59,451] {logging_mixin.py:112} INFO - [2020-04-07 16:17:59,450] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:17:59,456] {logging_mixin.py:112} INFO - [2020-04-07 16:17:59,454] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:17:59,456] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:17:59,466] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.023 seconds
+[2020-04-07 16:19:09,665] {scheduler_job.py:153} INFO - Started process (PID=63875) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:19:09,670] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:19:09,672] {logging_mixin.py:112} INFO - [2020-04-07 16:19:09,671] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:19:09,676] {logging_mixin.py:112} INFO - [2020-04-07 16:19:09,674] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:19:09,676] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:19:09,688] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.024 seconds
+[2020-04-07 16:20:24,104] {scheduler_job.py:153} INFO - Started process (PID=63946) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:20:24,121] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:20:24,122] {logging_mixin.py:112} INFO - [2020-04-07 16:20:24,122] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:20:24,133] {logging_mixin.py:112} INFO - [2020-04-07 16:20:24,129] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:20:24,134] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:20:24,149] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.045 seconds
+[2020-04-07 16:26:15,503] {scheduler_job.py:153} INFO - Started process (PID=64007) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:26:20,521] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:26:20,523] {logging_mixin.py:112} INFO - [2020-04-07 16:26:20,522] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:26:20,527] {logging_mixin.py:112} INFO - [2020-04-07 16:26:20,526] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:26:20,528] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:26:20,541] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 5.039 seconds
+[2020-04-07 16:43:20,378] {scheduler_job.py:153} INFO - Started process (PID=64120) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:43:20,384] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:43:20,385] {logging_mixin.py:112} INFO - [2020-04-07 16:43:20,384] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:43:20,388] {logging_mixin.py:112} INFO - [2020-04-07 16:43:20,387] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:43:20,388] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:43:20,398] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.020 seconds
+[2020-04-07 16:44:06,242] {scheduler_job.py:153} INFO - Started process (PID=64163) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:44:06,250] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:44:06,251] {logging_mixin.py:112} INFO - [2020-04-07 16:44:06,250] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:44:06,254] {logging_mixin.py:112} INFO - [2020-04-07 16:44:06,253] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:44:06,255] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:44:06,267] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.024 seconds
+[2020-04-07 16:45:16,507] {scheduler_job.py:153} INFO - Started process (PID=64204) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:45:16,514] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 16:45:16,515] {logging_mixin.py:112} INFO - [2020-04-07 16:45:16,515] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:45:16,519] {logging_mixin.py:112} INFO - [2020-04-07 16:45:16,518] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 16:45:16,519] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 16:45:16,529] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 17:25:00,490] {scheduler_job.py:153} INFO - Started process (PID=64269) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:25:00,496] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:25:00,497] {logging_mixin.py:112} INFO - [2020-04-07 17:25:00,496] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:25:00,500] {logging_mixin.py:112} INFO - [2020-04-07 17:25:00,499] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:25:00,501] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:25:00,510] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.020 seconds
+[2020-04-07 17:26:00,324] {scheduler_job.py:153} INFO - Started process (PID=64311) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:26:00,329] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:26:00,330] {logging_mixin.py:112} INFO - [2020-04-07 17:26:00,330] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:26:00,333] {logging_mixin.py:112} INFO - [2020-04-07 17:26:00,332] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:26:00,334] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:26:00,343] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.020 seconds
+[2020-04-07 17:27:10,741] {scheduler_job.py:153} INFO - Started process (PID=64349) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:27:10,746] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:27:10,747] {logging_mixin.py:112} INFO - [2020-04-07 17:27:10,747] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:27:10,750] {logging_mixin.py:112} INFO - [2020-04-07 17:27:10,749] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:27:10,751] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:27:10,766] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.025 seconds
+[2020-04-07 17:29:00,116] {scheduler_job.py:153} INFO - Started process (PID=64410) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:29:05,158] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:29:05,165] {logging_mixin.py:112} INFO - [2020-04-07 17:29:05,163] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:29:05,199] {logging_mixin.py:112} INFO - [2020-04-07 17:29:05,190] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:29:05,202] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:29:05,276] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 5.160 seconds
+[2020-04-07 17:33:52,158] {scheduler_job.py:153} INFO - Started process (PID=64470) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:33:52,171] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:33:52,173] {logging_mixin.py:112} INFO - [2020-04-07 17:33:52,172] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:33:52,177] {logging_mixin.py:112} INFO - [2020-04-07 17:33:52,176] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:33:52,178] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:33:52,188] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.030 seconds
+[2020-04-07 17:35:02,569] {scheduler_job.py:153} INFO - Started process (PID=64508) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:35:02,575] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:35:02,576] {logging_mixin.py:112} INFO - [2020-04-07 17:35:02,576] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:35:02,579] {logging_mixin.py:112} INFO - [2020-04-07 17:35:02,578] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:35:02,580] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:35:02,595] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 17:36:47,843] {scheduler_job.py:153} INFO - Started process (PID=64561) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:36:47,849] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:36:47,850] {logging_mixin.py:112} INFO - [2020-04-07 17:36:47,849] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:36:47,853] {logging_mixin.py:112} INFO - [2020-04-07 17:36:47,852] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:36:47,854] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:36:47,866] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.023 seconds
+[2020-04-07 17:37:24,807] {scheduler_job.py:153} INFO - Started process (PID=64601) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:37:24,812] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:37:24,813] {logging_mixin.py:112} INFO - [2020-04-07 17:37:24,813] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:37:24,817] {logging_mixin.py:112} INFO - [2020-04-07 17:37:24,816] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:37:24,817] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:37:24,833] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 17:38:35,006] {scheduler_job.py:153} INFO - Started process (PID=64653) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:38:35,016] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:38:35,018] {logging_mixin.py:112} INFO - [2020-04-07 17:38:35,018] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:38:35,025] {logging_mixin.py:112} INFO - [2020-04-07 17:38:35,023] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:38:35,026] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:38:35,041] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.035 seconds
+[2020-04-07 17:39:45,178] {scheduler_job.py:153} INFO - Started process (PID=64693) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:39:45,184] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:39:45,185] {logging_mixin.py:112} INFO - [2020-04-07 17:39:45,185] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:39:45,190] {logging_mixin.py:112} INFO - [2020-04-07 17:39:45,189] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:39:45,190] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:39:45,199] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.021 seconds
+[2020-04-07 17:40:55,367] {scheduler_job.py:153} INFO - Started process (PID=64744) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:40:55,372] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:40:55,373] {logging_mixin.py:112} INFO - [2020-04-07 17:40:55,373] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:40:55,376] {logging_mixin.py:112} INFO - [2020-04-07 17:40:55,375] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:40:55,377] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:40:55,392] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.025 seconds
+[2020-04-07 17:42:05,568] {scheduler_job.py:153} INFO - Started process (PID=64782) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:42:05,573] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:42:05,574] {logging_mixin.py:112} INFO - [2020-04-07 17:42:05,574] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:42:05,577] {logging_mixin.py:112} INFO - [2020-04-07 17:42:05,576] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:42:05,578] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:42:05,590] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 17:43:15,777] {scheduler_job.py:153} INFO - Started process (PID=64821) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:43:15,783] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:43:15,784] {logging_mixin.py:112} INFO - [2020-04-07 17:43:15,783] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:43:15,788] {logging_mixin.py:112} INFO - [2020-04-07 17:43:15,786] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:43:15,788] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:43:15,797] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.020 seconds
+[2020-04-07 17:44:25,966] {scheduler_job.py:153} INFO - Started process (PID=64869) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:44:25,973] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:44:25,974] {logging_mixin.py:112} INFO - [2020-04-07 17:44:25,973] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:44:25,979] {logging_mixin.py:112} INFO - [2020-04-07 17:44:25,977] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:44:25,979] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:44:25,989] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.023 seconds
+[2020-04-07 17:45:36,160] {scheduler_job.py:153} INFO - Started process (PID=64912) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:45:36,169] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:45:36,170] {logging_mixin.py:112} INFO - [2020-04-07 17:45:36,170] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:45:36,179] {logging_mixin.py:112} INFO - [2020-04-07 17:45:36,174] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:45:36,180] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:45:36,193] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.034 seconds
+[2020-04-07 17:46:46,332] {scheduler_job.py:153} INFO - Started process (PID=64951) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:46:46,339] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:46:46,340] {logging_mixin.py:112} INFO - [2020-04-07 17:46:46,340] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:46:46,344] {logging_mixin.py:112} INFO - [2020-04-07 17:46:46,343] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:46:46,344] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:46:46,355] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.023 seconds
+[2020-04-07 17:47:56,529] {scheduler_job.py:153} INFO - Started process (PID=64990) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:47:56,536] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:47:56,537] {logging_mixin.py:112} INFO - [2020-04-07 17:47:56,536] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:47:56,541] {logging_mixin.py:112} INFO - [2020-04-07 17:47:56,539] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:47:56,541] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:47:56,556] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 17:49:06,715] {scheduler_job.py:153} INFO - Started process (PID=65028) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:49:06,721] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:49:06,722] {logging_mixin.py:112} INFO - [2020-04-07 17:49:06,721] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:49:06,725] {logging_mixin.py:112} INFO - [2020-04-07 17:49:06,724] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:49:06,725] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:49:06,741] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 17:50:16,932] {scheduler_job.py:153} INFO - Started process (PID=65067) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:50:16,938] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:50:16,939] {logging_mixin.py:112} INFO - [2020-04-07 17:50:16,938] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:50:16,942] {logging_mixin.py:112} INFO - [2020-04-07 17:50:16,941] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:50:16,942] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:50:16,953] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.021 seconds
+[2020-04-07 17:51:27,258] {scheduler_job.py:153} INFO - Started process (PID=65115) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:51:27,266] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:51:27,268] {logging_mixin.py:112} INFO - [2020-04-07 17:51:27,267] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:51:27,273] {logging_mixin.py:112} INFO - [2020-04-07 17:51:27,271] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:51:27,273] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:51:27,287] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.029 seconds
+[2020-04-07 17:52:37,561] {scheduler_job.py:153} INFO - Started process (PID=65153) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:52:37,569] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:52:37,570] {logging_mixin.py:112} INFO - [2020-04-07 17:52:37,570] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:52:37,576] {logging_mixin.py:112} INFO - [2020-04-07 17:52:37,574] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:52:37,576] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:52:37,588] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 17:53:47,864] {scheduler_job.py:153} INFO - Started process (PID=65191) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:53:47,869] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:53:47,870] {logging_mixin.py:112} INFO - [2020-04-07 17:53:47,870] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:53:47,874] {logging_mixin.py:112} INFO - [2020-04-07 17:53:47,873] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:53:47,874] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:53:47,884] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.021 seconds
+[2020-04-07 17:54:58,217] {scheduler_job.py:153} INFO - Started process (PID=65231) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:54:58,223] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:54:58,224] {logging_mixin.py:112} INFO - [2020-04-07 17:54:58,224] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:54:58,228] {logging_mixin.py:112} INFO - [2020-04-07 17:54:58,226] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:54:58,228] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:54:58,244] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 17:56:08,568] {scheduler_job.py:153} INFO - Started process (PID=65280) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:56:08,574] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:56:08,574] {logging_mixin.py:112} INFO - [2020-04-07 17:56:08,574] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:56:08,585] {logging_mixin.py:112} INFO - [2020-04-07 17:56:08,577] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:56:08,585] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:56:08,598] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.030 seconds
+[2020-04-07 17:57:18,787] {scheduler_job.py:153} INFO - Started process (PID=65320) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:57:18,793] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:57:18,794] {logging_mixin.py:112} INFO - [2020-04-07 17:57:18,794] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:57:18,797] {logging_mixin.py:112} INFO - [2020-04-07 17:57:18,796] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:57:18,798] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:57:18,808] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.021 seconds
+[2020-04-07 17:58:29,016] {scheduler_job.py:153} INFO - Started process (PID=65358) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:58:29,023] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:58:29,024] {logging_mixin.py:112} INFO - [2020-04-07 17:58:29,023] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:58:29,027] {logging_mixin.py:112} INFO - [2020-04-07 17:58:29,026] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:58:29,027] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:58:29,043] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 17:59:39,222] {scheduler_job.py:153} INFO - Started process (PID=65396) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:59:39,228] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 17:59:39,229] {logging_mixin.py:112} INFO - [2020-04-07 17:59:39,229] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:59:39,233] {logging_mixin.py:112} INFO - [2020-04-07 17:59:39,231] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 17:59:39,233] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 17:59:39,248] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.025 seconds
+[2020-04-07 18:00:49,426] {scheduler_job.py:153} INFO - Started process (PID=65435) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:00:49,433] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:00:49,434] {logging_mixin.py:112} INFO - [2020-04-07 18:00:49,434] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:00:49,438] {logging_mixin.py:112} INFO - [2020-04-07 18:00:49,437] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:00:49,439] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:00:49,449] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.024 seconds
+[2020-04-07 18:01:59,782] {scheduler_job.py:153} INFO - Started process (PID=65483) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:01:59,788] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:01:59,789] {logging_mixin.py:112} INFO - [2020-04-07 18:01:59,788] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:01:59,793] {logging_mixin.py:112} INFO - [2020-04-07 18:01:59,792] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:01:59,794] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:01:59,806] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.024 seconds
+[2020-04-07 18:03:10,132] {scheduler_job.py:153} INFO - Started process (PID=65522) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:03:10,139] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:03:10,140] {logging_mixin.py:112} INFO - [2020-04-07 18:03:10,139] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:03:10,144] {logging_mixin.py:112} INFO - [2020-04-07 18:03:10,143] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:03:10,144] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:03:10,156] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.024 seconds
+[2020-04-07 18:04:20,535] {scheduler_job.py:153} INFO - Started process (PID=65562) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:04:20,541] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:04:20,542] {logging_mixin.py:112} INFO - [2020-04-07 18:04:20,542] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:04:20,546] {logging_mixin.py:112} INFO - [2020-04-07 18:04:20,545] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:04:20,546] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:04:20,556] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.021 seconds
+[2020-04-07 18:05:30,918] {scheduler_job.py:153} INFO - Started process (PID=65601) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:05:30,923] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:05:30,924] {logging_mixin.py:112} INFO - [2020-04-07 18:05:30,924] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:05:30,927] {logging_mixin.py:112} INFO - [2020-04-07 18:05:30,926] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:05:30,928] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:05:30,940] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 18:06:41,748] {scheduler_job.py:153} INFO - Started process (PID=65651) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:06:41,754] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:06:41,755] {logging_mixin.py:112} INFO - [2020-04-07 18:06:41,754] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:06:41,758] {logging_mixin.py:112} INFO - [2020-04-07 18:06:41,757] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:06:41,758] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:06:41,774] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 18:39:41,233] {scheduler_job.py:153} INFO - Started process (PID=65726) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:39:41,242] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:39:41,244] {logging_mixin.py:112} INFO - [2020-04-07 18:39:41,244] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:39:41,260] {logging_mixin.py:112} INFO - [2020-04-07 18:39:41,250] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:39:41,261] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:39:41,280] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.048 seconds
+[2020-04-07 18:40:51,363] {scheduler_job.py:153} INFO - Started process (PID=65765) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:40:51,370] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:40:51,371] {logging_mixin.py:112} INFO - [2020-04-07 18:40:51,370] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:40:51,374] {logging_mixin.py:112} INFO - [2020-04-07 18:40:51,373] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:40:51,375] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:40:51,385] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 18:42:01,550] {scheduler_job.py:153} INFO - Started process (PID=65805) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:42:01,556] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:42:01,557] {logging_mixin.py:112} INFO - [2020-04-07 18:42:01,557] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:42:01,560] {logging_mixin.py:112} INFO - [2020-04-07 18:42:01,559] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:42:01,561] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:42:01,576] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 18:43:23,309] {scheduler_job.py:153} INFO - Started process (PID=65852) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:43:23,315] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:43:23,316] {logging_mixin.py:112} INFO - [2020-04-07 18:43:23,316] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:43:23,319] {logging_mixin.py:112} INFO - [2020-04-07 18:43:23,318] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:43:23,320] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:43:23,335] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 18:44:55,249] {scheduler_job.py:153} INFO - Started process (PID=65903) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:44:55,254] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:44:55,255] {logging_mixin.py:112} INFO - [2020-04-07 18:44:55,255] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:44:55,259] {logging_mixin.py:112} INFO - [2020-04-07 18:44:55,258] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:44:55,259] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:44:55,274] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 18:46:15,817] {scheduler_job.py:153} INFO - Started process (PID=65948) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:46:15,823] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:46:15,824] {logging_mixin.py:112} INFO - [2020-04-07 18:46:15,824] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:46:15,827] {logging_mixin.py:112} INFO - [2020-04-07 18:46:15,826] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:46:15,828] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:46:15,843] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 18:47:26,089] {scheduler_job.py:153} INFO - Started process (PID=67638) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:47:26,096] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:47:26,097] {logging_mixin.py:112} INFO - [2020-04-07 18:47:26,097] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:47:26,102] {logging_mixin.py:112} INFO - [2020-04-07 18:47:26,100] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:47:26,102] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:47:26,112] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.023 seconds
+[2020-04-07 18:48:36,421] {scheduler_job.py:153} INFO - Started process (PID=67676) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:48:36,428] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:48:36,429] {logging_mixin.py:112} INFO - [2020-04-07 18:48:36,429] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:48:36,433] {logging_mixin.py:112} INFO - [2020-04-07 18:48:36,432] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:48:36,433] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:48:36,444] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.023 seconds
+[2020-04-07 18:49:46,766] {scheduler_job.py:153} INFO - Started process (PID=67715) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:49:46,772] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:49:46,774] {logging_mixin.py:112} INFO - [2020-04-07 18:49:46,773] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:49:46,778] {logging_mixin.py:112} INFO - [2020-04-07 18:49:46,777] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:49:46,779] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:49:46,793] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 18:51:08,499] {scheduler_job.py:153} INFO - Started process (PID=67760) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:51:08,505] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:51:08,506] {logging_mixin.py:112} INFO - [2020-04-07 18:51:08,506] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:51:08,510] {logging_mixin.py:112} INFO - [2020-04-07 18:51:08,509] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:51:08,511] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:51:08,526] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 18:52:29,294] {scheduler_job.py:153} INFO - Started process (PID=67805) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:52:29,300] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 18:52:29,301] {logging_mixin.py:112} INFO - [2020-04-07 18:52:29,301] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:52:29,304] {logging_mixin.py:112} INFO - [2020-04-07 18:52:29,303] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 18:52:29,305] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 18:52:29,321] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 19:26:29,137] {scheduler_job.py:153} INFO - Started process (PID=67866) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:26:29,144] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:26:29,145] {logging_mixin.py:112} INFO - [2020-04-07 19:26:29,144] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:26:29,148] {logging_mixin.py:112} INFO - [2020-04-07 19:26:29,147] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:26:29,148] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:26:29,158] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 19:27:39,318] {scheduler_job.py:153} INFO - Started process (PID=67904) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:27:39,324] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:27:39,325] {logging_mixin.py:112} INFO - [2020-04-07 19:27:39,325] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:27:39,328] {logging_mixin.py:112} INFO - [2020-04-07 19:27:39,327] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:27:39,329] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:27:39,343] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.025 seconds
+[2020-04-07 19:28:49,542] {scheduler_job.py:153} INFO - Started process (PID=67955) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:28:49,550] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:28:49,552] {logging_mixin.py:112} INFO - [2020-04-07 19:28:49,551] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:28:49,558] {logging_mixin.py:112} INFO - [2020-04-07 19:28:49,555] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:28:49,559] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:28:49,570] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.028 seconds
+[2020-04-07 19:29:59,712] {scheduler_job.py:153} INFO - Started process (PID=68002) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:29:59,721] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:29:59,722] {logging_mixin.py:112} INFO - [2020-04-07 19:29:59,722] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:29:59,727] {logging_mixin.py:112} INFO - [2020-04-07 19:29:59,726] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:29:59,728] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:29:59,740] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.028 seconds
+[2020-04-07 19:31:09,911] {scheduler_job.py:153} INFO - Started process (PID=68041) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:31:09,918] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:31:09,919] {logging_mixin.py:112} INFO - [2020-04-07 19:31:09,918] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:31:09,922] {logging_mixin.py:112} INFO - [2020-04-07 19:31:09,921] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:31:09,923] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:31:09,938] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 19:32:20,109] {scheduler_job.py:153} INFO - Started process (PID=68079) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:32:20,115] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:32:20,116] {logging_mixin.py:112} INFO - [2020-04-07 19:32:20,116] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:32:20,120] {logging_mixin.py:112} INFO - [2020-04-07 19:32:20,119] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:32:20,120] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:32:20,135] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 19:33:30,333] {scheduler_job.py:153} INFO - Started process (PID=68119) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:33:30,339] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:33:30,340] {logging_mixin.py:112} INFO - [2020-04-07 19:33:30,340] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:33:30,344] {logging_mixin.py:112} INFO - [2020-04-07 19:33:30,342] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:33:30,344] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:33:30,354] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 19:34:40,544] {scheduler_job.py:153} INFO - Started process (PID=68157) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:34:40,550] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:34:40,551] {logging_mixin.py:112} INFO - [2020-04-07 19:34:40,551] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:34:40,555] {logging_mixin.py:112} INFO - [2020-04-07 19:34:40,554] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:34:40,555] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:34:40,571] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.027 seconds
+[2020-04-07 19:35:50,768] {scheduler_job.py:153} INFO - Started process (PID=68208) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:35:50,774] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:35:50,775] {logging_mixin.py:112} INFO - [2020-04-07 19:35:50,775] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:35:50,779] {logging_mixin.py:112} INFO - [2020-04-07 19:35:50,778] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:35:50,780] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:35:50,833] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.064 seconds
+[2020-04-07 19:37:01,051] {scheduler_job.py:153} INFO - Started process (PID=68247) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:37:01,059] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:37:01,060] {logging_mixin.py:112} INFO - [2020-04-07 19:37:01,059] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:37:01,065] {logging_mixin.py:112} INFO - [2020-04-07 19:37:01,063] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:37:01,066] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:37:01,077] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 19:38:11,393] {scheduler_job.py:153} INFO - Started process (PID=68285) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:38:11,399] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:38:11,400] {logging_mixin.py:112} INFO - [2020-04-07 19:38:11,400] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:38:11,404] {logging_mixin.py:112} INFO - [2020-04-07 19:38:11,403] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:38:11,404] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:38:11,416] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.023 seconds
+[2020-04-07 19:39:21,756] {scheduler_job.py:153} INFO - Started process (PID=68326) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:39:21,764] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:39:21,765] {logging_mixin.py:112} INFO - [2020-04-07 19:39:21,764] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:39:21,769] {logging_mixin.py:112} INFO - [2020-04-07 19:39:21,768] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:39:21,770] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:39:21,787] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.031 seconds
+[2020-04-07 19:40:31,949] {scheduler_job.py:153} INFO - Started process (PID=68371) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:40:31,957] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:40:31,959] {logging_mixin.py:112} INFO - [2020-04-07 19:40:31,959] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:40:31,969] {logging_mixin.py:112} INFO - [2020-04-07 19:40:31,967] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:40:31,970] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:40:31,984] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.036 seconds
+[2020-04-07 19:41:42,132] {scheduler_job.py:153} INFO - Started process (PID=68421) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:41:42,145] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:41:42,146] {logging_mixin.py:112} INFO - [2020-04-07 19:41:42,145] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:41:42,151] {logging_mixin.py:112} INFO - [2020-04-07 19:41:42,150] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:41:42,152] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:41:42,162] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.030 seconds
+[2020-04-07 19:42:52,320] {scheduler_job.py:153} INFO - Started process (PID=68461) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:42:52,333] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:42:52,335] {logging_mixin.py:112} INFO - [2020-04-07 19:42:52,334] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:42:52,340] {logging_mixin.py:112} INFO - [2020-04-07 19:42:52,339] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:42:52,341] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:42:52,352] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.033 seconds
+[2020-04-07 19:44:02,544] {scheduler_job.py:153} INFO - Started process (PID=68500) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:44:02,553] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:44:02,554] {logging_mixin.py:112} INFO - [2020-04-07 19:44:02,554] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:44:02,559] {logging_mixin.py:112} INFO - [2020-04-07 19:44:02,558] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:44:02,560] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:44:02,576] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.032 seconds
+[2020-04-07 19:45:12,743] {scheduler_job.py:153} INFO - Started process (PID=68542) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:45:12,757] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:45:12,758] {logging_mixin.py:112} INFO - [2020-04-07 19:45:12,758] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:45:12,764] {logging_mixin.py:112} INFO - [2020-04-07 19:45:12,762] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:45:12,764] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:45:12,775] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.032 seconds
+[2020-04-07 19:46:22,957] {scheduler_job.py:153} INFO - Started process (PID=68580) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:46:22,963] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:46:22,964] {logging_mixin.py:112} INFO - [2020-04-07 19:46:22,964] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:46:22,968] {logging_mixin.py:112} INFO - [2020-04-07 19:46:22,967] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:46:22,968] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:46:22,983] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds
+[2020-04-07 19:47:33,156] {scheduler_job.py:153} INFO - Started process (PID=68619) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:47:33,162] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:47:33,163] {logging_mixin.py:112} INFO - [2020-04-07 19:47:33,163] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:47:33,166] {logging_mixin.py:112} INFO - [2020-04-07 19:47:33,165] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:47:33,167] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:47:33,177] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.021 seconds
+[2020-04-07 19:48:43,355] {scheduler_job.py:153} INFO - Started process (PID=68660) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:48:43,363] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:48:43,364] {logging_mixin.py:112} INFO - [2020-04-07 19:48:43,363] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:48:43,370] {logging_mixin.py:112} INFO - [2020-04-07 19:48:43,369] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:48:43,371] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:48:43,383] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.029 seconds
+[2020-04-07 19:49:53,587] {scheduler_job.py:153} INFO - Started process (PID=68710) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:49:53,599] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:49:53,600] {logging_mixin.py:112} INFO - [2020-04-07 19:49:53,599] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:49:53,610] {logging_mixin.py:112} INFO - [2020-04-07 19:49:53,604] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:49:53,611] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:49:53,629] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.042 seconds
+[2020-04-07 19:51:03,794] {scheduler_job.py:153} INFO - Started process (PID=68756) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:51:03,801] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:51:03,802] {logging_mixin.py:112} INFO - [2020-04-07 19:51:03,802] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:51:03,805] {logging_mixin.py:112} INFO - [2020-04-07 19:51:03,804] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:51:03,806] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:51:03,815] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.021 seconds
+[2020-04-07 19:52:13,971] {scheduler_job.py:153} INFO - Started process (PID=68797) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:52:13,984] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:52:13,985] {logging_mixin.py:112} INFO - [2020-04-07 19:52:13,984] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:52:13,994] {logging_mixin.py:112} INFO - [2020-04-07 19:52:13,989] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:52:13,995] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:52:14,009] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.038 seconds
+[2020-04-07 19:53:24,167] {scheduler_job.py:153} INFO - Started process (PID=68849) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:53:24,176] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:53:24,177] {logging_mixin.py:112} INFO - [2020-04-07 19:53:24,177] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:53:24,183] {logging_mixin.py:112} INFO - [2020-04-07 19:53:24,181] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:53:24,183] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:53:24,200] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.034 seconds
+[2020-04-07 19:54:34,392] {scheduler_job.py:153} INFO - Started process (PID=68907) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:54:34,400] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:54:34,402] {logging_mixin.py:112} INFO - [2020-04-07 19:54:34,401] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:54:34,406] {logging_mixin.py:112} INFO - [2020-04-07 19:54:34,405] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:54:34,406] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:54:34,417] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.024 seconds
+[2020-04-07 19:55:44,595] {scheduler_job.py:153} INFO - Started process (PID=68955) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:55:44,601] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:55:44,602] {logging_mixin.py:112} INFO - [2020-04-07 19:55:44,602] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:55:44,607] {logging_mixin.py:112} INFO - [2020-04-07 19:55:44,606] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:55:44,607] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:55:44,617] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 19:56:54,812] {scheduler_job.py:153} INFO - Started process (PID=69001) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:56:54,823] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:56:54,825] {logging_mixin.py:112} INFO - [2020-04-07 19:56:54,824] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:56:54,833] {logging_mixin.py:112} INFO - [2020-04-07 19:56:54,831] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:56:54,834] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:56:54,845] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.034 seconds
+[2020-04-07 19:58:05,014] {scheduler_job.py:153} INFO - Started process (PID=69041) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:58:05,021] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:58:05,022] {logging_mixin.py:112} INFO - [2020-04-07 19:58:05,021] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:58:05,026] {logging_mixin.py:112} INFO - [2020-04-07 19:58:05,024] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:58:05,026] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:58:05,036] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.022 seconds
+[2020-04-07 19:59:15,203] {scheduler_job.py:153} INFO - Started process (PID=69084) to work on /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:59:15,212] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data08.py for tasks to queue
+[2020-04-07 19:59:15,213] {logging_mixin.py:112} INFO - [2020-04-07 19:59:15,213] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:59:15,218] {logging_mixin.py:112} INFO - [2020-04-07 19:59:15,216] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data08.py", line 49, in <module>
+    'start_date': days_ago(2),
+NameError: name 'days_ago' is not defined
+[2020-04-07 19:59:15,218] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data08.py
+[2020-04-07 19:59:15,229] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data08.py took 0.026 seconds

@@ -1,0 +1,177 @@
+[2020-04-07 22:46:32,986] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-07 22:46:32,996] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-07 22:46:32,996] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 22:46:32,996] {taskinstance.py:867} INFO - Starting attempt 1 of 2
+[2020-04-07 22:46:32,996] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 22:46:33,002] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): create_tbl_sample> on 2020-04-06T00:00:00+00:00
+[2020-04-07 22:46:33,004] {standard_task_runner.py:53} INFO - Started process 74875 to run task
+[2020-04-07 22:46:33,054] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-07 22:46:33,148] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-07 22:46:33,154] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=create_tbl_sample, execution_date=20200406T000000, start_date=20200408T024632, end_date=20200408T024633
+[2020-04-07 22:46:42,949] {logging_mixin.py:112} INFO - [2020-04-07 22:46:42,948] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-07 23:31:12,610] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-07 23:31:12,621] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-07 23:31:12,622] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 23:31:12,622] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-07 23:31:12,622] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 23:31:12,629] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): create_tbl_sample> on 2020-04-06T00:00:00+00:00
+[2020-04-07 23:31:12,632] {standard_task_runner.py:53} INFO - Started process 76490 to run task
+[2020-04-07 23:31:12,681] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-07 23:31:12,704] {taskinstance.py:1128} ERROR - syntax error at or near "Id"
+LINE 4:         Id varchar(255),
+                ^
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data07.py", line 61, in create_tbl_sample
+    """)
+psycopg2.errors.SyntaxError: syntax error at or near "Id"
+LINE 4:         Id varchar(255),
+                ^
+
+[2020-04-07 23:31:12,710] {taskinstance.py:1185} INFO - Marking task as FAILED.dag_id=atp_data07, task_id=create_tbl_sample, execution_date=20200406T000000, start_date=20200408T033112, end_date=20200408T033112
+[2020-04-07 23:31:22,566] {logging_mixin.py:112} INFO - [2020-04-07 23:31:22,565] {local_task_job.py:103} INFO - Task exited with return code 1
+[2020-04-08 00:10:01,900] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 00:10:01,911] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 00:10:01,911] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:10:01,911] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 00:10:01,911] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:10:01,919] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): create_tbl_sample> on 2020-04-06T00:00:00+00:00
+[2020-04-08 00:10:01,921] {standard_task_runner.py:53} INFO - Started process 77982 to run task
+[2020-04-08 00:10:01,971] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 00:10:01,994] {taskinstance.py:1128} ERROR - relation "sample" already exists
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data07.py", line 61, in create_tbl_sample
+    """)
+psycopg2.errors.DuplicateTable: relation "sample" already exists
+
+[2020-04-08 00:10:02,000] {taskinstance.py:1185} INFO - Marking task as FAILED.dag_id=atp_data07, task_id=create_tbl_sample, execution_date=20200406T000000, start_date=20200408T041001, end_date=20200408T041001
+[2020-04-08 00:10:11,861] {logging_mixin.py:112} INFO - [2020-04-08 00:10:11,860] {local_task_job.py:103} INFO - Task exited with return code 1
+[2020-04-08 00:34:07,829] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 00:34:07,845] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 00:34:07,845] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:34:07,845] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 00:34:07,845] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:34:07,866] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): create_tbl_sample> on 2020-04-06T00:00:00+00:00
+[2020-04-08 00:34:07,871] {standard_task_runner.py:53} INFO - Started process 78831 to run task
+[2020-04-08 00:34:07,969] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 00:34:08,018] {taskinstance.py:1128} ERROR - syntax error at or near "CREATE"
+LINE 3:         CREATE TABLE sample(
+                ^
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data07.py", line 62, in create_tbl_sample
+    """)
+psycopg2.errors.SyntaxError: syntax error at or near "CREATE"
+LINE 3:         CREATE TABLE sample(
+                ^
+
+[2020-04-08 00:34:08,022] {taskinstance.py:1185} INFO - Marking task as FAILED.dag_id=atp_data07, task_id=create_tbl_sample, execution_date=20200406T000000, start_date=20200408T043407, end_date=20200408T043408
+[2020-04-08 00:34:17,761] {logging_mixin.py:112} INFO - [2020-04-08 00:34:17,760] {local_task_job.py:103} INFO - Task exited with return code 1
+[2020-04-08 00:42:34,686] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 00:42:34,696] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 00:42:34,697] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:42:34,697] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 00:42:34,697] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:42:34,702] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): create_tbl_sample> on 2020-04-06T00:00:00+00:00
+[2020-04-08 00:42:34,704] {standard_task_runner.py:53} INFO - Started process 79126 to run task
+[2020-04-08 00:42:34,756] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 00:42:34,779] {taskinstance.py:1128} ERROR - syntax error at or near "CREATE"
+LINE 3:         CREATE TABLE sample(
+                ^
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data07.py", line 62, in create_tbl_sample
+    """)
+psycopg2.errors.SyntaxError: syntax error at or near "CREATE"
+LINE 3:         CREATE TABLE sample(
+                ^
+
+[2020-04-08 00:42:34,785] {taskinstance.py:1185} INFO - Marking task as FAILED.dag_id=atp_data07, task_id=create_tbl_sample, execution_date=20200406T000000, start_date=20200408T044234, end_date=20200408T044234
+[2020-04-08 00:42:44,640] {logging_mixin.py:112} INFO - [2020-04-08 00:42:44,639] {local_task_job.py:103} INFO - Task exited with return code 1
+[2020-04-08 00:50:06,277] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 00:50:06,283] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 00:50:06,283] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:50:06,283] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 00:50:06,283] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:50:06,290] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): create_tbl_sample> on 2020-04-06T00:00:00+00:00
+[2020-04-08 00:50:06,292] {standard_task_runner.py:53} INFO - Started process 79413 to run task
+[2020-04-08 00:50:06,340] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [running]> zipcodes-MacBook-Pro-4.local
+[2020-04-08 00:50:06,373] {taskinstance.py:1128} ERROR - syntax error at or near "CREATE"
+LINE 3:         CREATE TABLE sample(
+                ^
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data07.py", line 62, in create_tbl_sample
+    """)
+psycopg2.errors.SyntaxError: syntax error at or near "CREATE"
+LINE 3:         CREATE TABLE sample(
+                ^
+
+[2020-04-08 00:50:06,379] {taskinstance.py:1185} INFO - Marking task as FAILED.dag_id=atp_data07, task_id=create_tbl_sample, execution_date=20200406T000000, start_date=20200408T045006, end_date=20200408T045006
+[2020-04-08 00:50:16,233] {logging_mixin.py:112} INFO - [2020-04-08 00:50:16,232] {local_task_job.py:103} INFO - Task exited with return code 1
+[2020-04-08 01:02:27,999] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 01:02:28,014] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [queued]>
+[2020-04-08 01:02:28,014] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 01:02:28,014] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 01:02:28,015] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 01:02:28,020] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): create_tbl_sample> on 2020-04-06T00:00:00+00:00
+[2020-04-08 01:02:28,023] {standard_task_runner.py:53} INFO - Started process 79847 to run task
+[2020-04-08 01:02:28,067] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.create_tbl_sample 2020-04-06T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 01:02:28,089] {taskinstance.py:1128} ERROR - syntax error at or near "CREATE"
+LINE 3:         CREATE TABLE sample(
+                ^
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data07.py", line 62, in create_tbl_sample
+    """)
+psycopg2.errors.SyntaxError: syntax error at or near "CREATE"
+LINE 3:         CREATE TABLE sample(
+                ^
+
+[2020-04-08 01:02:28,095] {taskinstance.py:1185} INFO - Marking task as FAILED.dag_id=atp_data07, task_id=create_tbl_sample, execution_date=20200406T000000, start_date=20200408T050227, end_date=20200408T050228
+[2020-04-08 01:02:37,959] {logging_mixin.py:112} INFO - [2020-04-08 01:02:37,958] {local_task_job.py:103} INFO - Task exited with return code 1

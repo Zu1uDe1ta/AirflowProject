@@ -1,0 +1,15 @@
+[2020-04-07 22:55:37,833] {scheduler_job.py:153} INFO - Started process (PID=75231) to work on /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:55:37,846] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py for tasks to queue
+[2020-04-07 22:55:37,847] {logging_mixin.py:112} INFO - [2020-04-07 22:55:37,847] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:55:37,848] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:55:37,849] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py took 0.016 seconds
+[2020-04-07 22:56:48,032] {scheduler_job.py:153} INFO - Started process (PID=75270) to work on /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:56:48,038] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py for tasks to queue
+[2020-04-07 22:56:48,039] {logging_mixin.py:112} INFO - [2020-04-07 22:56:48,038] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:56:48,040] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:56:48,040] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py took 0.009 seconds
+[2020-04-07 22:57:58,240] {scheduler_job.py:153} INFO - Started process (PID=75308) to work on /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:57:58,253] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py for tasks to queue
+[2020-04-07 22:57:58,254] {logging_mixin.py:112} INFO - [2020-04-07 22:57:58,254] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:57:58,255] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py
+[2020-04-07 22:57:58,257] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/dags_airflowhome/airflow_project.py took 0.016 seconds

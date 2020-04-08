@@ -1,0 +1,19 @@
+[2020-04-02 14:56:46,185] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_hello 2017-06-05T20:00:00+00:00 [queued]>
+[2020-04-02 14:56:46,191] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_hello 2017-06-05T20:00:00+00:00 [queued]>
+[2020-04-02 14:56:46,191] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-02 14:56:46,191] {taskinstance.py:867} INFO - Starting attempt 1 of 2
+[2020-04-02 14:56:46,191] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-02 14:56:46,198] {taskinstance.py:887} INFO - Executing <Task(BashOperator): print_hello> on 2017-06-05T20:00:00+00:00
+[2020-04-02 14:56:46,200] {standard_task_runner.py:53} INFO - Started process 39578 to run task
+[2020-04-02 14:56:46,254] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: airflow_tutorial_v01.print_hello 2017-06-05T20:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-02 14:56:46,269] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /var/folders/p0/vtyq_62d7zsg8glxyfbgkq9m0000gp/T
+[2020-04-02 14:56:46,270] {bash_operator.py:105} INFO - Temporary script location: /var/folders/p0/vtyq_62d7zsg8glxyfbgkq9m0000gp/T/airflowtmpv722nv3s/print_hello6oxbdwph
+[2020-04-02 14:56:46,270] {bash_operator.py:115} INFO - Running command: echo "hello"
+[2020-04-02 14:56:46,275] {bash_operator.py:122} INFO - Output:
+[2020-04-02 14:56:46,277] {bash_operator.py:126} INFO - hello
+[2020-04-02 14:56:46,277] {bash_operator.py:130} INFO - Command exited with return code 0
+[2020-04-02 14:56:46,284] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=airflow_tutorial_v01, task_id=print_hello, execution_date=20170605T200000, start_date=20200402T185646, end_date=20200402T185646
+[2020-04-02 14:56:56,184] {logging_mixin.py:112} INFO - [2020-04-02 14:56:56,183] {local_task_job.py:103} INFO - Task exited with return code 0

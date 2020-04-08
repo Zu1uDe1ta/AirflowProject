@@ -1,0 +1,448 @@
+[2020-04-06 19:46:22,276] {scheduler_job.py:153} INFO - Started process (PID=38835) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:46:22,282] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:46:22,283] {logging_mixin.py:112} INFO - [2020-04-06 19:46:22,283] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:46:22,514] {logging_mixin.py:112} INFO - [2020-04-06 19:46:22,505] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:46:22,515] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:46:22,528] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.252 seconds
+[2020-04-06 19:47:14,422] {scheduler_job.py:153} INFO - Started process (PID=38864) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:47:14,429] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:47:14,430] {logging_mixin.py:112} INFO - [2020-04-06 19:47:14,430] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:47:14,637] {logging_mixin.py:112} INFO - [2020-04-06 19:47:14,635] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:47:14,637] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:47:14,648] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.225 seconds
+[2020-04-06 19:48:06,599] {scheduler_job.py:153} INFO - Started process (PID=38901) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:48:06,604] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:48:06,605] {logging_mixin.py:112} INFO - [2020-04-06 19:48:06,605] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:48:06,843] {logging_mixin.py:112} INFO - [2020-04-06 19:48:06,839] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:48:06,844] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:48:06,853] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.254 seconds
+[2020-04-06 19:48:58,745] {scheduler_job.py:153} INFO - Started process (PID=38939) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:48:58,759] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:48:58,761] {logging_mixin.py:112} INFO - [2020-04-06 19:48:58,760] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:48:58,953] {logging_mixin.py:112} INFO - [2020-04-06 19:48:58,946] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:48:58,953] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:48:58,961] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.216 seconds
+[2020-04-06 19:49:50,866] {scheduler_job.py:153} INFO - Started process (PID=38967) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:49:50,872] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:49:50,873] {logging_mixin.py:112} INFO - [2020-04-06 19:49:50,873] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:49:51,084] {logging_mixin.py:112} INFO - [2020-04-06 19:49:51,082] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:49:51,085] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:49:51,094] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.228 seconds
+[2020-04-06 19:50:43,022] {scheduler_job.py:153} INFO - Started process (PID=38996) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:50:43,028] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:50:43,029] {logging_mixin.py:112} INFO - [2020-04-06 19:50:43,029] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:50:43,223] {logging_mixin.py:112} INFO - [2020-04-06 19:50:43,221] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:50:43,223] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:50:43,237] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.215 seconds
+[2020-04-06 19:51:35,190] {scheduler_job.py:153} INFO - Started process (PID=39024) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:51:35,197] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:51:35,198] {logging_mixin.py:112} INFO - [2020-04-06 19:51:35,197] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:51:35,378] {logging_mixin.py:112} INFO - [2020-04-06 19:51:35,377] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:51:35,379] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:51:35,394] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.203 seconds
+[2020-04-06 19:52:27,358] {scheduler_job.py:153} INFO - Started process (PID=39057) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:52:27,364] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:52:27,365] {logging_mixin.py:112} INFO - [2020-04-06 19:52:27,364] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:52:27,565] {logging_mixin.py:112} INFO - [2020-04-06 19:52:27,562] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:52:27,566] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:52:27,578] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.220 seconds
+[2020-04-06 19:53:19,525] {scheduler_job.py:153} INFO - Started process (PID=39086) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:53:19,537] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:53:19,538] {logging_mixin.py:112} INFO - [2020-04-06 19:53:19,538] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:53:19,714] {logging_mixin.py:112} INFO - [2020-04-06 19:53:19,712] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:53:19,714] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:53:19,729] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.204 seconds
+[2020-04-06 19:54:11,710] {scheduler_job.py:153} INFO - Started process (PID=39126) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:54:11,716] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:54:11,717] {logging_mixin.py:112} INFO - [2020-04-06 19:54:11,716] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:54:11,930] {logging_mixin.py:112} INFO - [2020-04-06 19:54:11,929] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:54:11,931] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:54:11,946] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.236 seconds
+[2020-04-06 19:55:03,984] {scheduler_job.py:153} INFO - Started process (PID=39155) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:55:03,990] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:55:03,991] {logging_mixin.py:112} INFO - [2020-04-06 19:55:03,991] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:55:04,178] {logging_mixin.py:112} INFO - [2020-04-06 19:55:04,176] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:55:04,178] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:55:04,187] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.203 seconds
+[2020-04-06 19:55:56,205] {scheduler_job.py:153} INFO - Started process (PID=39184) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:55:56,211] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:55:56,213] {logging_mixin.py:112} INFO - [2020-04-06 19:55:56,212] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:55:56,428] {logging_mixin.py:112} INFO - [2020-04-06 19:55:56,426] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:55:56,428] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:55:56,439] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.234 seconds
+[2020-04-06 19:56:48,435] {scheduler_job.py:153} INFO - Started process (PID=39212) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:56:48,442] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:56:48,443] {logging_mixin.py:112} INFO - [2020-04-06 19:56:48,442] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:56:48,639] {logging_mixin.py:112} INFO - [2020-04-06 19:56:48,637] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:56:48,640] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:56:48,654] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.218 seconds
+[2020-04-06 19:57:40,765] {scheduler_job.py:153} INFO - Started process (PID=39240) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:57:40,771] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:57:40,773] {logging_mixin.py:112} INFO - [2020-04-06 19:57:40,772] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:57:40,975] {logging_mixin.py:112} INFO - [2020-04-06 19:57:40,957] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:57:40,976] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:57:40,987] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.223 seconds
+[2020-04-06 19:58:33,088] {scheduler_job.py:153} INFO - Started process (PID=39270) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:58:33,094] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:58:33,095] {logging_mixin.py:112} INFO - [2020-04-06 19:58:33,095] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:58:33,270] {logging_mixin.py:112} INFO - [2020-04-06 19:58:33,268] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:58:33,270] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:58:33,284] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.196 seconds
+[2020-04-06 19:59:25,404] {scheduler_job.py:153} INFO - Started process (PID=39300) to work on /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:59:25,410] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data01.py for tasks to queue
+[2020-04-06 19:59:25,411] {logging_mixin.py:112} INFO - [2020-04-06 19:59:25,411] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:59:25,615] {logging_mixin.py:112} INFO - [2020-04-06 19:59:25,613] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data01.py", line 73, in <module>
+    Task_I >> Task_II >> Task_III
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 482, in __rshift__
+    self.set_downstream(other)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1035, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1022, in _set_relatives
+    task.dag = dag
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 542, in dag
+    dag.add_task(self)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dag.py", line 1285, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-04-06 19:59:25,615] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data01.py
+[2020-04-06 19:59:25,626] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data01.py took 0.223 seconds

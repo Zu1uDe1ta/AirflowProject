@@ -1,0 +1,1932 @@
+[2020-04-07 16:04:17,065] {scheduler_job.py:153} INFO - Started process (PID=63372) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:04:17,071] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:04:17,072] {logging_mixin.py:112} INFO - [2020-04-07 16:04:17,072] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:04:17,077] {logging_mixin.py:112} INFO - [2020-04-07 16:04:17,075] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:04:17,077] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:04:17,089] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 16:05:27,272] {scheduler_job.py:153} INFO - Started process (PID=63411) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:05:27,279] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:05:27,280] {logging_mixin.py:112} INFO - [2020-04-07 16:05:27,280] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:05:27,283] {logging_mixin.py:112} INFO - [2020-04-07 16:05:27,282] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:05:27,283] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:05:27,294] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 16:06:37,500] {scheduler_job.py:153} INFO - Started process (PID=63450) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:06:37,507] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:06:37,508] {logging_mixin.py:112} INFO - [2020-04-07 16:06:37,507] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:06:37,511] {logging_mixin.py:112} INFO - [2020-04-07 16:06:37,510] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:06:37,511] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:06:37,528] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.028 seconds
+[2020-04-07 16:07:47,712] {scheduler_job.py:153} INFO - Started process (PID=63488) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:07:47,719] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:07:47,720] {logging_mixin.py:112} INFO - [2020-04-07 16:07:47,720] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:07:47,724] {logging_mixin.py:112} INFO - [2020-04-07 16:07:47,723] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:07:47,725] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:07:47,741] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.029 seconds
+[2020-04-07 16:08:57,907] {scheduler_job.py:153} INFO - Started process (PID=63529) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:08:57,913] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:08:57,914] {logging_mixin.py:112} INFO - [2020-04-07 16:08:57,913] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:08:57,917] {logging_mixin.py:112} INFO - [2020-04-07 16:08:57,916] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:08:57,918] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:08:57,934] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.028 seconds
+[2020-04-07 16:10:08,113] {scheduler_job.py:153} INFO - Started process (PID=63567) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:10:08,119] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:10:08,120] {logging_mixin.py:112} INFO - [2020-04-07 16:10:08,120] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:10:08,123] {logging_mixin.py:112} INFO - [2020-04-07 16:10:08,122] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:10:08,124] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:10:08,140] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.027 seconds
+[2020-04-07 16:11:18,309] {scheduler_job.py:153} INFO - Started process (PID=63611) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:11:18,323] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:11:18,324] {logging_mixin.py:112} INFO - [2020-04-07 16:11:18,323] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:11:18,329] {logging_mixin.py:112} INFO - [2020-04-07 16:11:18,327] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:11:18,329] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:11:18,341] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.032 seconds
+[2020-04-07 16:12:28,511] {scheduler_job.py:153} INFO - Started process (PID=63653) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:12:28,517] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:12:28,519] {logging_mixin.py:112} INFO - [2020-04-07 16:12:28,518] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:12:28,523] {logging_mixin.py:112} INFO - [2020-04-07 16:12:28,521] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:12:28,523] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:12:28,533] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 16:13:38,711] {scheduler_job.py:153} INFO - Started process (PID=63694) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:13:38,717] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:13:38,718] {logging_mixin.py:112} INFO - [2020-04-07 16:13:38,718] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:13:38,722] {logging_mixin.py:112} INFO - [2020-04-07 16:13:38,720] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:13:38,722] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:13:38,738] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.027 seconds
+[2020-04-07 16:14:48,903] {scheduler_job.py:153} INFO - Started process (PID=63732) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:14:48,909] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:14:48,910] {logging_mixin.py:112} INFO - [2020-04-07 16:14:48,910] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:14:48,913] {logging_mixin.py:112} INFO - [2020-04-07 16:14:48,912] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:14:48,914] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:14:48,928] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 16:15:59,106] {scheduler_job.py:153} INFO - Started process (PID=63771) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:15:59,113] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:15:59,114] {logging_mixin.py:112} INFO - [2020-04-07 16:15:59,114] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:15:59,118] {logging_mixin.py:112} INFO - [2020-04-07 16:15:59,117] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:15:59,118] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:15:59,129] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.024 seconds
+[2020-04-07 16:17:09,304] {scheduler_job.py:153} INFO - Started process (PID=63809) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:17:09,310] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:17:09,311] {logging_mixin.py:112} INFO - [2020-04-07 16:17:09,311] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:17:09,314] {logging_mixin.py:112} INFO - [2020-04-07 16:17:09,313] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:17:09,315] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:17:09,331] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.027 seconds
+[2020-04-07 16:18:19,517] {scheduler_job.py:153} INFO - Started process (PID=63848) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:18:19,525] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:18:19,525] {logging_mixin.py:112} INFO - [2020-04-07 16:18:19,525] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:18:19,529] {logging_mixin.py:112} INFO - [2020-04-07 16:18:19,528] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:18:19,529] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:18:19,544] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.027 seconds
+[2020-04-07 16:19:29,717] {scheduler_job.py:153} INFO - Started process (PID=63887) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:19:29,723] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:19:29,724] {logging_mixin.py:112} INFO - [2020-04-07 16:19:29,724] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:19:29,727] {logging_mixin.py:112} INFO - [2020-04-07 16:19:29,726] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:19:29,728] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:19:29,739] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.023 seconds
+[2020-04-07 16:20:44,199] {scheduler_job.py:153} INFO - Started process (PID=63959) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:20:44,205] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:20:44,206] {logging_mixin.py:112} INFO - [2020-04-07 16:20:44,206] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:20:44,210] {logging_mixin.py:112} INFO - [2020-04-07 16:20:44,209] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:20:44,211] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:20:44,221] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 16:43:04,044] {scheduler_job.py:153} INFO - Started process (PID=64094) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:43:04,052] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:43:04,053] {logging_mixin.py:112} INFO - [2020-04-07 16:43:04,052] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:43:04,057] {logging_mixin.py:112} INFO - [2020-04-07 16:43:04,055] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:43:04,057] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:43:04,077] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.033 seconds
+[2020-04-07 16:43:26,299] {scheduler_job.py:153} INFO - Started process (PID=64130) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:43:26,305] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:43:26,306] {logging_mixin.py:112} INFO - [2020-04-07 16:43:26,305] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:43:26,309] {logging_mixin.py:112} INFO - [2020-04-07 16:43:26,308] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:43:26,309] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:43:26,319] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.019 seconds
+[2020-04-07 16:44:26,303] {scheduler_job.py:153} INFO - Started process (PID=64176) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:44:26,312] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:44:26,313] {logging_mixin.py:112} INFO - [2020-04-07 16:44:26,312] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:44:26,318] {logging_mixin.py:112} INFO - [2020-04-07 16:44:26,316] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:44:26,319] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:44:26,331] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.028 seconds
+[2020-04-07 16:47:09,412] {scheduler_job.py:153} INFO - Started process (PID=64225) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:47:14,430] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 16:47:14,437] {logging_mixin.py:112} INFO - [2020-04-07 16:47:14,434] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:47:14,468] {logging_mixin.py:112} INFO - [2020-04-07 16:47:14,454] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 16:47:14,472] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 16:47:14,548] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 5.136 seconds
+[2020-04-07 17:25:10,100] {scheduler_job.py:153} INFO - Started process (PID=64280) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:25:10,107] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:25:10,108] {logging_mixin.py:112} INFO - [2020-04-07 17:25:10,108] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:25:10,111] {logging_mixin.py:112} INFO - [2020-04-07 17:25:10,110] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:25:10,112] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:25:10,129] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.029 seconds
+[2020-04-07 17:26:20,431] {scheduler_job.py:153} INFO - Started process (PID=64321) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:26:20,437] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:26:20,438] {logging_mixin.py:112} INFO - [2020-04-07 17:26:20,437] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:26:20,441] {logging_mixin.py:112} INFO - [2020-04-07 17:26:20,440] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:26:20,441] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:26:20,456] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 17:27:43,177] {scheduler_job.py:153} INFO - Started process (PID=64367) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:27:43,184] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:27:43,185] {logging_mixin.py:112} INFO - [2020-04-07 17:27:43,185] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:27:43,189] {logging_mixin.py:112} INFO - [2020-04-07 17:27:43,188] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:27:43,189] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:27:43,200] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 17:33:34,151] {scheduler_job.py:153} INFO - Started process (PID=64436) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:33:34,161] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:33:34,162] {logging_mixin.py:112} INFO - [2020-04-07 17:33:34,161] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:33:34,168] {logging_mixin.py:112} INFO - [2020-04-07 17:33:34,166] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:33:34,168] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:33:34,180] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.029 seconds
+[2020-04-07 17:34:12,260] {scheduler_job.py:153} INFO - Started process (PID=64481) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:34:12,266] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:34:12,267] {logging_mixin.py:112} INFO - [2020-04-07 17:34:12,267] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:34:12,270] {logging_mixin.py:112} INFO - [2020-04-07 17:34:12,269] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:34:12,271] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:34:12,280] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 17:35:22,694] {scheduler_job.py:153} INFO - Started process (PID=64520) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:35:22,700] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:35:22,701] {logging_mixin.py:112} INFO - [2020-04-07 17:35:22,701] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:35:22,704] {logging_mixin.py:112} INFO - [2020-04-07 17:35:22,703] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:35:22,705] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:35:22,719] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 17:36:54,676] {scheduler_job.py:153} INFO - Started process (PID=64573) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:36:54,682] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:36:54,683] {logging_mixin.py:112} INFO - [2020-04-07 17:36:54,683] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:36:54,686] {logging_mixin.py:112} INFO - [2020-04-07 17:36:54,685] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:36:54,686] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:36:54,702] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 17:37:44,901] {scheduler_job.py:153} INFO - Started process (PID=64624) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:37:44,906] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:37:44,907] {logging_mixin.py:112} INFO - [2020-04-07 17:37:44,907] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:37:44,910] {logging_mixin.py:112} INFO - [2020-04-07 17:37:44,909] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:37:44,910] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:37:44,921] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.020 seconds
+[2020-04-07 17:38:55,037] {scheduler_job.py:153} INFO - Started process (PID=64666) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:38:55,044] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:38:55,045] {logging_mixin.py:112} INFO - [2020-04-07 17:38:55,045] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:38:55,049] {logging_mixin.py:112} INFO - [2020-04-07 17:38:55,048] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:38:55,049] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:38:55,059] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 17:40:05,218] {scheduler_job.py:153} INFO - Started process (PID=64704) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:40:05,231] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:40:05,232] {logging_mixin.py:112} INFO - [2020-04-07 17:40:05,232] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:40:05,237] {logging_mixin.py:112} INFO - [2020-04-07 17:40:05,236] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:40:05,238] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:40:05,248] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.030 seconds
+[2020-04-07 17:41:15,436] {scheduler_job.py:153} INFO - Started process (PID=64755) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:41:15,443] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:41:15,444] {logging_mixin.py:112} INFO - [2020-04-07 17:41:15,444] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:41:15,447] {logging_mixin.py:112} INFO - [2020-04-07 17:41:15,446] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:41:15,448] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:41:15,458] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 17:42:25,623] {scheduler_job.py:153} INFO - Started process (PID=64794) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:42:25,628] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:42:25,629] {logging_mixin.py:112} INFO - [2020-04-07 17:42:25,629] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:42:25,632] {logging_mixin.py:112} INFO - [2020-04-07 17:42:25,631] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:42:25,632] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:42:25,648] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 17:43:35,824] {scheduler_job.py:153} INFO - Started process (PID=64832) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:43:35,830] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:43:35,831] {logging_mixin.py:112} INFO - [2020-04-07 17:43:35,831] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:43:35,834] {logging_mixin.py:112} INFO - [2020-04-07 17:43:35,833] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:43:35,834] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:43:35,849] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 17:44:46,031] {scheduler_job.py:153} INFO - Started process (PID=64881) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:44:46,038] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:44:46,039] {logging_mixin.py:112} INFO - [2020-04-07 17:44:46,039] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:44:46,045] {logging_mixin.py:112} INFO - [2020-04-07 17:44:46,043] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:44:46,045] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:44:46,057] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 17:45:56,217] {scheduler_job.py:153} INFO - Started process (PID=64924) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:45:56,223] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:45:56,224] {logging_mixin.py:112} INFO - [2020-04-07 17:45:56,224] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:45:56,228] {logging_mixin.py:112} INFO - [2020-04-07 17:45:56,227] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:45:56,228] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:45:56,238] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 17:47:06,379] {scheduler_job.py:153} INFO - Started process (PID=64962) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:47:06,392] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:47:06,393] {logging_mixin.py:112} INFO - [2020-04-07 17:47:06,393] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:47:06,397] {logging_mixin.py:112} INFO - [2020-04-07 17:47:06,396] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:47:06,398] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:47:06,409] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.030 seconds
+[2020-04-07 17:48:16,582] {scheduler_job.py:153} INFO - Started process (PID=65001) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:48:16,588] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:48:16,589] {logging_mixin.py:112} INFO - [2020-04-07 17:48:16,588] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:48:16,592] {logging_mixin.py:112} INFO - [2020-04-07 17:48:16,591] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:48:16,593] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:48:16,602] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 17:49:26,775] {scheduler_job.py:153} INFO - Started process (PID=65040) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:49:26,781] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:49:26,782] {logging_mixin.py:112} INFO - [2020-04-07 17:49:26,782] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:49:26,785] {logging_mixin.py:112} INFO - [2020-04-07 17:49:26,784] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:49:26,785] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:49:26,801] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 17:50:36,994] {scheduler_job.py:153} INFO - Started process (PID=65078) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:50:37,000] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:50:37,001] {logging_mixin.py:112} INFO - [2020-04-07 17:50:37,001] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:50:37,004] {logging_mixin.py:112} INFO - [2020-04-07 17:50:37,003] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:50:37,004] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:50:37,020] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 17:51:47,344] {scheduler_job.py:153} INFO - Started process (PID=65125) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:51:47,351] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:51:47,353] {logging_mixin.py:112} INFO - [2020-04-07 17:51:47,352] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:51:47,358] {logging_mixin.py:112} INFO - [2020-04-07 17:51:47,356] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:51:47,358] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:51:47,371] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.027 seconds
+[2020-04-07 17:52:57,641] {scheduler_job.py:153} INFO - Started process (PID=65164) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:52:57,647] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:52:57,649] {logging_mixin.py:112} INFO - [2020-04-07 17:52:57,648] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:52:57,653] {logging_mixin.py:112} INFO - [2020-04-07 17:52:57,652] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:52:57,654] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:52:57,669] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.028 seconds
+[2020-04-07 17:54:07,941] {scheduler_job.py:153} INFO - Started process (PID=65203) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:54:07,947] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:54:07,948] {logging_mixin.py:112} INFO - [2020-04-07 17:54:07,948] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:54:07,951] {logging_mixin.py:112} INFO - [2020-04-07 17:54:07,950] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:54:07,952] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:54:07,967] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 17:55:18,347] {scheduler_job.py:153} INFO - Started process (PID=65244) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:55:18,352] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:55:18,353] {logging_mixin.py:112} INFO - [2020-04-07 17:55:18,353] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:55:18,357] {logging_mixin.py:112} INFO - [2020-04-07 17:55:18,356] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:55:18,357] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:55:18,367] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.020 seconds
+[2020-04-07 17:56:28,639] {scheduler_job.py:153} INFO - Started process (PID=65292) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:56:28,645] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:56:28,646] {logging_mixin.py:112} INFO - [2020-04-07 17:56:28,645] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:56:28,649] {logging_mixin.py:112} INFO - [2020-04-07 17:56:28,648] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:56:28,649] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:56:28,664] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 17:57:38,854] {scheduler_job.py:153} INFO - Started process (PID=65330) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:57:38,861] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:57:38,861] {logging_mixin.py:112} INFO - [2020-04-07 17:57:38,861] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:57:38,865] {logging_mixin.py:112} INFO - [2020-04-07 17:57:38,863] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:57:38,865] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:57:38,881] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 17:58:49,069] {scheduler_job.py:153} INFO - Started process (PID=65369) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:58:49,075] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:58:49,076] {logging_mixin.py:112} INFO - [2020-04-07 17:58:49,076] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:58:49,080] {logging_mixin.py:112} INFO - [2020-04-07 17:58:49,079] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:58:49,080] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:58:49,091] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 17:59:59,278] {scheduler_job.py:153} INFO - Started process (PID=65407) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:59:59,284] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 17:59:59,285] {logging_mixin.py:112} INFO - [2020-04-07 17:59:59,285] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:59:59,288] {logging_mixin.py:112} INFO - [2020-04-07 17:59:59,287] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 17:59:59,289] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 17:59:59,303] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 18:01:09,530] {scheduler_job.py:153} INFO - Started process (PID=65456) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:01:09,537] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:01:09,538] {logging_mixin.py:112} INFO - [2020-04-07 18:01:09,538] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:01:09,542] {logging_mixin.py:112} INFO - [2020-04-07 18:01:09,540] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:01:09,542] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:01:09,554] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.024 seconds
+[2020-04-07 18:02:19,882] {scheduler_job.py:153} INFO - Started process (PID=65495) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:02:19,888] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:02:19,889] {logging_mixin.py:112} INFO - [2020-04-07 18:02:19,889] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:02:19,892] {logging_mixin.py:112} INFO - [2020-04-07 18:02:19,891] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:02:19,893] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:02:19,903] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 18:03:30,240] {scheduler_job.py:153} INFO - Started process (PID=65533) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:03:30,247] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:03:30,249] {logging_mixin.py:112} INFO - [2020-04-07 18:03:30,248] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:03:30,253] {logging_mixin.py:112} INFO - [2020-04-07 18:03:30,251] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:03:30,253] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:03:30,268] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.028 seconds
+[2020-04-07 18:04:40,625] {scheduler_job.py:153} INFO - Started process (PID=65572) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:04:40,631] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:04:40,632] {logging_mixin.py:112} INFO - [2020-04-07 18:04:40,632] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:04:40,635] {logging_mixin.py:112} INFO - [2020-04-07 18:04:40,634] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:04:40,635] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:04:40,650] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 18:05:51,038] {scheduler_job.py:153} INFO - Started process (PID=65612) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:05:51,045] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:05:51,046] {logging_mixin.py:112} INFO - [2020-04-07 18:05:51,046] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:05:51,050] {logging_mixin.py:112} INFO - [2020-04-07 18:05:51,048] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:05:51,050] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:05:51,060] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 18:38:51,049] {scheduler_job.py:153} INFO - Started process (PID=65691) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:38:51,062] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:38:51,063] {logging_mixin.py:112} INFO - [2020-04-07 18:38:51,062] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:38:51,068] {logging_mixin.py:112} INFO - [2020-04-07 18:38:51,066] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:38:51,068] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:38:51,078] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.029 seconds
+[2020-04-07 18:40:01,247] {scheduler_job.py:153} INFO - Started process (PID=65737) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:40:01,266] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:40:01,268] {logging_mixin.py:112} INFO - [2020-04-07 18:40:01,267] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:40:01,274] {logging_mixin.py:112} INFO - [2020-04-07 18:40:01,272] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:40:01,275] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:40:01,287] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.040 seconds
+[2020-04-07 18:41:11,411] {scheduler_job.py:153} INFO - Started process (PID=65777) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:41:11,417] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:41:11,419] {logging_mixin.py:112} INFO - [2020-04-07 18:41:11,418] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:41:11,422] {logging_mixin.py:112} INFO - [2020-04-07 18:41:11,421] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:41:11,423] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:41:11,436] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.024 seconds
+[2020-04-07 18:42:21,604] {scheduler_job.py:153} INFO - Started process (PID=65816) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:42:21,611] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:42:21,612] {logging_mixin.py:112} INFO - [2020-04-07 18:42:21,612] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:42:21,616] {logging_mixin.py:112} INFO - [2020-04-07 18:42:21,614] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:42:21,616] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:42:21,626] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 18:43:43,375] {scheduler_job.py:153} INFO - Started process (PID=65863) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:43:43,381] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:43:43,382] {logging_mixin.py:112} INFO - [2020-04-07 18:43:43,382] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:43:43,385] {logging_mixin.py:112} INFO - [2020-04-07 18:43:43,384] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:43:43,385] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:43:43,401] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 18:45:15,308] {scheduler_job.py:153} INFO - Started process (PID=65915) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:45:15,314] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:45:15,315] {logging_mixin.py:112} INFO - [2020-04-07 18:45:15,314] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:45:15,318] {logging_mixin.py:112} INFO - [2020-04-07 18:45:15,317] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:45:15,318] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:45:15,334] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 18:46:35,861] {scheduler_job.py:153} INFO - Started process (PID=67219) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:46:35,866] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:46:35,867] {logging_mixin.py:112} INFO - [2020-04-07 18:46:35,867] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:46:35,871] {logging_mixin.py:112} INFO - [2020-04-07 18:46:35,870] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:46:35,872] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:46:35,881] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 18:47:46,189] {scheduler_job.py:153} INFO - Started process (PID=67649) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:47:46,195] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:47:46,196] {logging_mixin.py:112} INFO - [2020-04-07 18:47:46,196] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:47:46,200] {logging_mixin.py:112} INFO - [2020-04-07 18:47:46,198] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:47:46,200] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:47:46,210] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 18:48:56,513] {scheduler_job.py:153} INFO - Started process (PID=67687) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:48:56,519] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:48:56,521] {logging_mixin.py:112} INFO - [2020-04-07 18:48:56,520] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:48:56,525] {logging_mixin.py:112} INFO - [2020-04-07 18:48:56,523] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:48:56,526] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:48:56,537] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.024 seconds
+[2020-04-07 18:50:06,863] {scheduler_job.py:153} INFO - Started process (PID=67727) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:50:06,869] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:50:06,869] {logging_mixin.py:112} INFO - [2020-04-07 18:50:06,869] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:50:06,872] {logging_mixin.py:112} INFO - [2020-04-07 18:50:06,871] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:50:06,873] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:50:06,884] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 18:51:28,627] {scheduler_job.py:153} INFO - Started process (PID=67770) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:51:28,632] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:51:28,633] {logging_mixin.py:112} INFO - [2020-04-07 18:51:28,633] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:51:28,636] {logging_mixin.py:112} INFO - [2020-04-07 18:51:28,635] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:51:28,637] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:51:28,652] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 18:52:49,397] {scheduler_job.py:153} INFO - Started process (PID=67816) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:52:49,403] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 18:52:49,403] {logging_mixin.py:112} INFO - [2020-04-07 18:52:49,403] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:52:49,406] {logging_mixin.py:112} INFO - [2020-04-07 18:52:49,405] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 18:52:49,407] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 18:52:49,418] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 19:26:49,182] {scheduler_job.py:153} INFO - Started process (PID=67877) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:26:49,196] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:26:49,197] {logging_mixin.py:112} INFO - [2020-04-07 19:26:49,197] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:26:49,201] {logging_mixin.py:112} INFO - [2020-04-07 19:26:49,200] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:26:49,201] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:26:49,211] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.029 seconds
+[2020-04-07 19:27:59,395] {scheduler_job.py:153} INFO - Started process (PID=67917) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:27:59,401] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:27:59,402] {logging_mixin.py:112} INFO - [2020-04-07 19:27:59,401] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:27:59,407] {logging_mixin.py:112} INFO - [2020-04-07 19:27:59,405] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:27:59,408] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:27:59,423] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.029 seconds
+[2020-04-07 19:29:09,594] {scheduler_job.py:153} INFO - Started process (PID=67971) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:29:09,603] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:29:09,604] {logging_mixin.py:112} INFO - [2020-04-07 19:29:09,603] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:29:09,607] {logging_mixin.py:112} INFO - [2020-04-07 19:29:09,606] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:29:09,608] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:29:09,618] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.024 seconds
+[2020-04-07 19:30:19,776] {scheduler_job.py:153} INFO - Started process (PID=68013) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:30:19,789] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:30:19,790] {logging_mixin.py:112} INFO - [2020-04-07 19:30:19,790] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:30:19,794] {logging_mixin.py:112} INFO - [2020-04-07 19:30:19,793] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:30:19,794] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:30:19,804] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.028 seconds
+[2020-04-07 19:31:29,975] {scheduler_job.py:153} INFO - Started process (PID=68052) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:31:29,982] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:31:29,983] {logging_mixin.py:112} INFO - [2020-04-07 19:31:29,983] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:31:29,987] {logging_mixin.py:112} INFO - [2020-04-07 19:31:29,986] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:31:29,987] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:31:29,996] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 19:32:40,168] {scheduler_job.py:153} INFO - Started process (PID=68090) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:32:40,174] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:32:40,175] {logging_mixin.py:112} INFO - [2020-04-07 19:32:40,175] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:32:40,178] {logging_mixin.py:112} INFO - [2020-04-07 19:32:40,177] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:32:40,179] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:32:40,194] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 19:33:50,397] {scheduler_job.py:153} INFO - Started process (PID=68130) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:33:50,404] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:33:50,406] {logging_mixin.py:112} INFO - [2020-04-07 19:33:50,406] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:33:50,410] {logging_mixin.py:112} INFO - [2020-04-07 19:33:50,409] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:33:50,410] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:33:50,420] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.023 seconds
+[2020-04-07 19:35:00,591] {scheduler_job.py:153} INFO - Started process (PID=68169) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:35:00,597] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:35:00,598] {logging_mixin.py:112} INFO - [2020-04-07 19:35:00,598] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:35:00,601] {logging_mixin.py:112} INFO - [2020-04-07 19:35:00,600] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:35:00,601] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:35:00,611] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.021 seconds
+[2020-04-07 19:36:10,864] {scheduler_job.py:153} INFO - Started process (PID=68219) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:36:10,871] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:36:10,872] {logging_mixin.py:112} INFO - [2020-04-07 19:36:10,871] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:36:10,875] {logging_mixin.py:112} INFO - [2020-04-07 19:36:10,874] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:36:10,875] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:36:10,886] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 19:37:21,135] {scheduler_job.py:153} INFO - Started process (PID=68257) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:37:21,142] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:37:21,143] {logging_mixin.py:112} INFO - [2020-04-07 19:37:21,142] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:37:21,146] {logging_mixin.py:112} INFO - [2020-04-07 19:37:21,145] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:37:21,147] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:37:21,157] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 19:38:31,500] {scheduler_job.py:153} INFO - Started process (PID=68296) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:38:31,506] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:38:31,507] {logging_mixin.py:112} INFO - [2020-04-07 19:38:31,507] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:38:31,511] {logging_mixin.py:112} INFO - [2020-04-07 19:38:31,509] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:38:31,511] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:38:31,521] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 19:39:41,802] {scheduler_job.py:153} INFO - Started process (PID=68342) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:39:41,808] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:39:41,809] {logging_mixin.py:112} INFO - [2020-04-07 19:39:41,809] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:39:41,812] {logging_mixin.py:112} INFO - [2020-04-07 19:39:41,811] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:39:41,813] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:39:41,829] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.027 seconds
+[2020-04-07 19:40:51,999] {scheduler_job.py:153} INFO - Started process (PID=68383) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:40:52,008] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:40:52,009] {logging_mixin.py:112} INFO - [2020-04-07 19:40:52,009] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:40:52,014] {logging_mixin.py:112} INFO - [2020-04-07 19:40:52,013] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:40:52,014] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:40:52,026] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.028 seconds
+[2020-04-07 19:42:02,200] {scheduler_job.py:153} INFO - Started process (PID=68434) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:42:02,209] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:42:02,210] {logging_mixin.py:112} INFO - [2020-04-07 19:42:02,210] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:42:02,216] {logging_mixin.py:112} INFO - [2020-04-07 19:42:02,214] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:42:02,217] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:42:02,229] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.029 seconds
+[2020-04-07 19:43:12,378] {scheduler_job.py:153} INFO - Started process (PID=68472) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:43:12,386] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:43:12,388] {logging_mixin.py:112} INFO - [2020-04-07 19:43:12,387] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:43:12,392] {logging_mixin.py:112} INFO - [2020-04-07 19:43:12,391] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:43:12,392] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:43:12,407] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.029 seconds
+[2020-04-07 19:44:22,599] {scheduler_job.py:153} INFO - Started process (PID=68514) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:44:22,605] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:44:22,606] {logging_mixin.py:112} INFO - [2020-04-07 19:44:22,606] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:44:22,609] {logging_mixin.py:112} INFO - [2020-04-07 19:44:22,608] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:44:22,610] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:44:22,625] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 19:45:32,812] {scheduler_job.py:153} INFO - Started process (PID=68553) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:45:32,819] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:45:32,820] {logging_mixin.py:112} INFO - [2020-04-07 19:45:32,820] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:45:32,824] {logging_mixin.py:112} INFO - [2020-04-07 19:45:32,823] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:45:32,824] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:45:32,835] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.022 seconds
+[2020-04-07 19:46:43,013] {scheduler_job.py:153} INFO - Started process (PID=68591) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:46:43,019] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:46:43,020] {logging_mixin.py:112} INFO - [2020-04-07 19:46:43,020] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:46:43,024] {logging_mixin.py:112} INFO - [2020-04-07 19:46:43,023] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:46:43,024] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:46:43,039] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.026 seconds
+[2020-04-07 19:47:53,210] {scheduler_job.py:153} INFO - Started process (PID=68630) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:47:53,217] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:47:53,218] {logging_mixin.py:112} INFO - [2020-04-07 19:47:53,217] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:47:53,221] {logging_mixin.py:112} INFO - [2020-04-07 19:47:53,220] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:47:53,221] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:47:53,237] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.027 seconds
+[2020-04-07 19:49:03,397] {scheduler_job.py:153} INFO - Started process (PID=68681) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:49:03,403] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:49:03,404] {logging_mixin.py:112} INFO - [2020-04-07 19:49:03,404] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:49:03,411] {logging_mixin.py:112} INFO - [2020-04-07 19:49:03,410] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:49:03,412] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:49:03,422] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 19:50:13,609] {scheduler_job.py:153} INFO - Started process (PID=68721) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:50:13,622] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:50:13,623] {logging_mixin.py:112} INFO - [2020-04-07 19:50:13,623] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:50:13,628] {logging_mixin.py:112} INFO - [2020-04-07 19:50:13,626] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:50:13,628] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:50:13,640] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.031 seconds
+[2020-04-07 19:51:23,809] {scheduler_job.py:153} INFO - Started process (PID=68766) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:51:23,822] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:51:23,823] {logging_mixin.py:112} INFO - [2020-04-07 19:51:23,823] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:51:23,829] {logging_mixin.py:112} INFO - [2020-04-07 19:51:23,827] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:51:23,829] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:51:23,842] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.033 seconds
+[2020-04-07 19:52:34,014] {scheduler_job.py:153} INFO - Started process (PID=68811) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:52:34,021] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:52:34,022] {logging_mixin.py:112} INFO - [2020-04-07 19:52:34,022] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:52:34,026] {logging_mixin.py:112} INFO - [2020-04-07 19:52:34,025] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:52:34,027] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:52:34,040] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.025 seconds
+[2020-04-07 19:53:44,238] {scheduler_job.py:153} INFO - Started process (PID=68861) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:53:44,252] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:53:44,253] {logging_mixin.py:112} INFO - [2020-04-07 19:53:44,252] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:53:44,257] {logging_mixin.py:112} INFO - [2020-04-07 19:53:44,256] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:53:44,258] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:53:44,269] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.031 seconds
+[2020-04-07 19:54:54,445] {scheduler_job.py:153} INFO - Started process (PID=68927) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:54:54,453] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:54:54,454] {logging_mixin.py:112} INFO - [2020-04-07 19:54:54,454] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:54:54,460] {logging_mixin.py:112} INFO - [2020-04-07 19:54:54,459] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:54:54,461] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:54:54,480] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.035 seconds
+[2020-04-07 19:56:04,679] {scheduler_job.py:153} INFO - Started process (PID=68967) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:56:04,688] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:56:04,689] {logging_mixin.py:112} INFO - [2020-04-07 19:56:04,689] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:56:04,692] {logging_mixin.py:112} INFO - [2020-04-07 19:56:04,691] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:56:04,693] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:56:04,706] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.027 seconds
+[2020-04-07 19:57:14,858] {scheduler_job.py:153} INFO - Started process (PID=69013) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:57:14,872] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:57:14,873] {logging_mixin.py:112} INFO - [2020-04-07 19:57:14,872] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:57:14,876] {logging_mixin.py:112} INFO - [2020-04-07 19:57:14,875] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:57:14,877] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:57:14,886] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.028 seconds
+[2020-04-07 19:58:25,079] {scheduler_job.py:153} INFO - Started process (PID=69051) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:58:25,088] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:58:25,090] {logging_mixin.py:112} INFO - [2020-04-07 19:58:25,089] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:58:25,095] {logging_mixin.py:112} INFO - [2020-04-07 19:58:25,093] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:58:25,095] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:58:25,111] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.032 seconds
+[2020-04-07 19:59:35,257] {scheduler_job.py:153} INFO - Started process (PID=69096) to work on /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:59:35,265] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/API_DAG.py for tasks to queue
+[2020-04-07 19:59:35,267] {logging_mixin.py:112} INFO - [2020-04-07 19:59:35,266] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:59:35,271] {logging_mixin.py:112} INFO - [2020-04-07 19:59:35,270] {dagbag.py:246} ERROR - Failed to import: /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/cchavez/dev/airflow_home/dags/API_DAG.py", line 34
+    ) (
+      ^
+SyntaxError: unexpected EOF while parsing
+[2020-04-07 19:59:35,272] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /Users/cchavez/dev/airflow_home/dags/API_DAG.py
+[2020-04-07 19:59:35,281] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/API_DAG.py took 0.024 seconds

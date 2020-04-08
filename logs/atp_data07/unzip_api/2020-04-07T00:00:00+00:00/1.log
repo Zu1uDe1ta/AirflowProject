@@ -1,0 +1,144 @@
+[2020-04-07 20:01:35,348] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-07 20:01:35,357] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-07 20:01:35,357] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 20:01:35,357] {taskinstance.py:867} INFO - Starting attempt 1 of 2
+[2020-04-07 20:01:35,357] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 20:01:35,363] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-07 20:01:35,365] {standard_task_runner.py:53} INFO - Started process 69168 to run task
+[2020-04-07 20:01:35,416] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-07 20:01:35,433] {taskinstance.py:1128} ERROR - "There is no item named 'Data.csv' in the archive"
+Traceback (most recent call last):
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/cchavez/dev/airflow_home/dags/atp_data07.py", line 44, in unzip
+    df = pd.read_csv(zf.open('Data.csv'), encoding='ISO-8859-1')
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/zipfile.py", line 1503, in open
+    zinfo = self.getinfo(name)
+  File "/Users/cchavez/opt/anaconda3/envs/airflow/lib/python3.7/zipfile.py", line 1431, in getinfo
+    'There is no item named %r in the archive' % name)
+KeyError: "There is no item named 'Data.csv' in the archive"
+[2020-04-07 20:01:35,441] {taskinstance.py:1151} INFO - Marking task as UP_FOR_RETRY
+[2020-04-07 20:01:45,306] {logging_mixin.py:112} INFO - [2020-04-07 20:01:45,305] {local_task_job.py:103} INFO - Task exited with return code 1
+[2020-04-07 21:32:15,188] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-07 21:32:15,197] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-07 21:32:15,197] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 21:32:15,197] {taskinstance.py:867} INFO - Starting attempt 1 of 2
+[2020-04-07 21:32:15,197] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 21:32:15,204] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-07 21:32:15,206] {standard_task_runner.py:53} INFO - Started process 72148 to run task
+[2020-04-07 21:32:15,253] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-07 21:32:15,356] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-07 21:32:15,361] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T013215, end_date=20200408T013215
+[2020-04-07 21:32:25,155] {logging_mixin.py:112} INFO - [2020-04-07 21:32:25,154] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-07 22:44:48,673] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-07 22:44:48,683] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-07 22:44:48,683] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 22:44:48,683] {taskinstance.py:867} INFO - Starting attempt 1 of 2
+[2020-04-07 22:44:48,683] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 22:44:48,689] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-07 22:44:48,691] {standard_task_runner.py:53} INFO - Started process 74808 to run task
+[2020-04-07 22:44:48,743] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-07 22:44:48,776] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-07 22:44:48,780] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T024448, end_date=20200408T024448
+[2020-04-07 22:44:58,637] {logging_mixin.py:112} INFO - [2020-04-07 22:44:58,636] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-07 23:29:46,070] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-07 23:29:46,083] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-07 23:29:46,084] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 23:29:46,084] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-07 23:29:46,084] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-07 23:29:46,090] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-07 23:29:46,092] {standard_task_runner.py:53} INFO - Started process 76431 to run task
+[2020-04-07 23:29:46,145] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-07 23:29:46,186] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-07 23:29:46,190] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T032946, end_date=20200408T032946
+[2020-04-07 23:29:56,024] {logging_mixin.py:112} INFO - [2020-04-07 23:29:56,023] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-08 00:08:36,672] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 00:08:36,685] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 00:08:36,685] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:08:36,685] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 00:08:36,685] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:08:36,693] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-08 00:08:36,695] {standard_task_runner.py:53} INFO - Started process 77936 to run task
+[2020-04-08 00:08:36,746] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 00:08:36,778] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-08 00:08:36,781] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T040836, end_date=20200408T040836
+[2020-04-08 00:08:46,621] {logging_mixin.py:112} INFO - [2020-04-08 00:08:46,620] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-08 00:32:41,316] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 00:32:41,330] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 00:32:41,330] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:32:41,330] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 00:32:41,330] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:32:41,335] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-08 00:32:41,338] {standard_task_runner.py:53} INFO - Started process 78785 to run task
+[2020-04-08 00:32:41,383] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 00:32:41,420] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-08 00:32:41,425] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T043241, end_date=20200408T043241
+[2020-04-08 00:32:51,265] {logging_mixin.py:112} INFO - [2020-04-08 00:32:51,264] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-08 00:41:08,626] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 00:41:08,636] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 00:41:08,636] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:41:08,636] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 00:41:08,636] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:41:08,644] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-08 00:41:08,646] {standard_task_runner.py:53} INFO - Started process 79079 to run task
+[2020-04-08 00:41:08,715] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 00:41:08,747] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-08 00:41:08,751] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T044108, end_date=20200408T044108
+[2020-04-08 00:41:18,577] {logging_mixin.py:112} INFO - [2020-04-08 00:41:18,576] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-08 00:52:34,281] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 00:52:34,291] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 00:52:34,291] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:52:34,291] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 00:52:34,292] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 00:52:34,298] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-08 00:52:34,300] {standard_task_runner.py:53} INFO - Started process 79496 to run task
+[2020-04-08 00:52:34,345] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> zipcodes-MacBook-Pro-4.local
+[2020-04-08 00:52:34,373] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-08 00:52:34,377] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T045234, end_date=20200408T045234
+[2020-04-08 00:52:44,234] {logging_mixin.py:112} INFO - [2020-04-08 00:52:44,233] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-08 01:01:02,753] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 01:01:02,762] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 01:01:02,762] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 01:01:02,762] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 01:01:02,762] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 01:01:02,768] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-08 01:01:02,770] {standard_task_runner.py:53} INFO - Started process 79799 to run task
+[2020-04-08 01:01:02,819] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 01:01:02,855] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-08 01:01:02,858] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T050102, end_date=20200408T050102
+[2020-04-08 01:01:12,705] {logging_mixin.py:112} INFO - [2020-04-08 01:01:12,704] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-04-08 02:30:27,997] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 02:30:28,007] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [queued]>
+[2020-04-08 02:30:28,008] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 02:30:28,008] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2020-04-08 02:30:28,008] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-08 02:30:28,013] {taskinstance.py:887} INFO - Executing <Task(PythonOperator): unzip_api> on 2020-04-07T00:00:00+00:00
+[2020-04-08 02:30:28,014] {standard_task_runner.py:53} INFO - Started process 81376 to run task
+[2020-04-08 02:30:28,091] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: atp_data07.unzip_api 2020-04-07T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-04-08 02:30:28,129] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-04-08 02:30:28,133] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=atp_data07, task_id=unzip_api, execution_date=20200407T000000, start_date=20200408T063027, end_date=20200408T063028
+[2020-04-08 02:30:37,963] {logging_mixin.py:112} INFO - [2020-04-08 02:30:37,962] {local_task_job.py:103} INFO - Task exited with return code 0

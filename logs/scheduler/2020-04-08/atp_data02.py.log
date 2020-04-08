@@ -1,0 +1,696 @@
+[2020-04-07 20:00:35,079] {scheduler_job.py:153} INFO - Started process (PID=69132) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:00:35,087] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:00:35,088] {logging_mixin.py:112} INFO - [2020-04-07 20:00:35,088] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:00:35,401] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:00:35,415] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.336 seconds
+[2020-04-07 20:01:56,602] {scheduler_job.py:153} INFO - Started process (PID=69177) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:01:56,614] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:01:56,615] {logging_mixin.py:112} INFO - [2020-04-07 20:01:56,615] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:01:56,921] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:01:56,934] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.332 seconds
+[2020-04-07 20:03:06,849] {scheduler_job.py:153} INFO - Started process (PID=69228) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:03:06,860] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:03:06,862] {logging_mixin.py:112} INFO - [2020-04-07 20:03:06,862] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:03:07,145] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:03:07,157] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.309 seconds
+[2020-04-07 20:04:17,005] {scheduler_job.py:153} INFO - Started process (PID=69267) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:04:17,011] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:04:17,013] {logging_mixin.py:112} INFO - [2020-04-07 20:04:17,012] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:04:17,262] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:04:17,277] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.272 seconds
+[2020-04-07 20:05:27,229] {scheduler_job.py:153} INFO - Started process (PID=69309) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:05:27,235] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:05:27,236] {logging_mixin.py:112} INFO - [2020-04-07 20:05:27,236] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:05:27,503] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:05:27,516] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.288 seconds
+[2020-04-07 20:06:37,440] {scheduler_job.py:153} INFO - Started process (PID=69348) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:06:37,449] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:06:37,450] {logging_mixin.py:112} INFO - [2020-04-07 20:06:37,449] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:06:37,687] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:06:37,708] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.268 seconds
+[2020-04-07 20:07:59,204] {scheduler_job.py:153} INFO - Started process (PID=69405) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:07:59,210] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:07:59,211] {logging_mixin.py:112} INFO - [2020-04-07 20:07:59,211] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:07:59,689] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:07:59,735] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.532 seconds
+[2020-04-07 20:09:09,428] {scheduler_job.py:153} INFO - Started process (PID=69443) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:09:09,436] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:09:09,437] {logging_mixin.py:112} INFO - [2020-04-07 20:09:09,436] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:09:09,991] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:09:10,008] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.580 seconds
+[2020-04-07 20:10:19,545] {scheduler_job.py:153} INFO - Started process (PID=69482) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:10:19,558] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:10:19,559] {logging_mixin.py:112} INFO - [2020-04-07 20:10:19,559] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:10:19,881] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:10:19,894] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.349 seconds
+[2020-04-07 20:11:29,769] {scheduler_job.py:153} INFO - Started process (PID=69522) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:11:29,776] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:11:29,777] {logging_mixin.py:112} INFO - [2020-04-07 20:11:29,776] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:11:30,063] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:11:30,076] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.307 seconds
+[2020-04-07 20:12:39,985] {scheduler_job.py:153} INFO - Started process (PID=69560) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:12:39,993] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:12:39,995] {logging_mixin.py:112} INFO - [2020-04-07 20:12:39,994] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:12:40,262] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:12:40,275] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.291 seconds
+[2020-04-07 20:13:50,188] {scheduler_job.py:153} INFO - Started process (PID=69599) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:13:50,193] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:13:50,194] {logging_mixin.py:112} INFO - [2020-04-07 20:13:50,194] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:13:50,446] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:13:50,461] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.274 seconds
+[2020-04-07 20:15:00,420] {scheduler_job.py:153} INFO - Started process (PID=69640) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:15:00,428] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:15:00,429] {logging_mixin.py:112} INFO - [2020-04-07 20:15:00,428] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:15:00,720] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:15:00,733] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.313 seconds
+[2020-04-07 20:16:10,608] {scheduler_job.py:153} INFO - Started process (PID=69688) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:16:10,614] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:16:10,615] {logging_mixin.py:112} INFO - [2020-04-07 20:16:10,615] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:16:10,869] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:16:10,881] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.273 seconds
+[2020-04-07 20:17:20,807] {scheduler_job.py:153} INFO - Started process (PID=69728) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:17:20,813] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:17:20,814] {logging_mixin.py:112} INFO - [2020-04-07 20:17:20,813] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:17:21,069] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:17:21,081] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.275 seconds
+[2020-04-07 20:18:31,021] {scheduler_job.py:153} INFO - Started process (PID=69768) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:18:31,027] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:18:31,029] {logging_mixin.py:112} INFO - [2020-04-07 20:18:31,028] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:18:31,282] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:18:31,301] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.280 seconds
+[2020-04-07 20:19:41,202] {scheduler_job.py:153} INFO - Started process (PID=69825) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:19:41,208] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:19:41,209] {logging_mixin.py:112} INFO - [2020-04-07 20:19:41,209] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:19:41,464] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:19:41,476] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.273 seconds
+[2020-04-07 20:20:51,411] {scheduler_job.py:153} INFO - Started process (PID=69876) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:20:51,417] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:20:51,418] {logging_mixin.py:112} INFO - [2020-04-07 20:20:51,418] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:20:51,702] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:20:51,719] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.308 seconds
+[2020-04-07 20:22:01,583] {scheduler_job.py:153} INFO - Started process (PID=69921) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:22:01,589] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:22:01,590] {logging_mixin.py:112} INFO - [2020-04-07 20:22:01,590] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:22:01,839] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:22:01,856] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.272 seconds
+[2020-04-07 20:23:11,741] {scheduler_job.py:153} INFO - Started process (PID=69979) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:23:11,747] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:23:11,748] {logging_mixin.py:112} INFO - [2020-04-07 20:23:11,747] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:23:11,989] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:23:12,011] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.270 seconds
+[2020-04-07 20:24:21,956] {scheduler_job.py:153} INFO - Started process (PID=70017) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:24:21,962] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:24:21,963] {logging_mixin.py:112} INFO - [2020-04-07 20:24:21,963] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:24:22,208] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:24:22,228] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.272 seconds
+[2020-04-07 20:25:32,130] {scheduler_job.py:153} INFO - Started process (PID=70058) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:25:32,135] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:25:32,136] {logging_mixin.py:112} INFO - [2020-04-07 20:25:32,136] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:25:32,378] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:25:32,398] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.268 seconds
+[2020-04-07 20:26:42,314] {scheduler_job.py:153} INFO - Started process (PID=70105) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:26:42,320] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:26:42,321] {logging_mixin.py:112} INFO - [2020-04-07 20:26:42,320] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:26:42,568] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:26:42,587] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.273 seconds
+[2020-04-07 20:27:52,498] {scheduler_job.py:153} INFO - Started process (PID=70153) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:27:52,503] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:27:52,504] {logging_mixin.py:112} INFO - [2020-04-07 20:27:52,504] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:27:52,766] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:27:52,786] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.288 seconds
+[2020-04-07 20:29:02,719] {scheduler_job.py:153} INFO - Started process (PID=70192) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:29:02,724] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:29:02,725] {logging_mixin.py:112} INFO - [2020-04-07 20:29:02,725] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:29:02,973] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:29:02,993] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.274 seconds
+[2020-04-07 20:30:12,923] {scheduler_job.py:153} INFO - Started process (PID=70231) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:30:12,929] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:30:12,930] {logging_mixin.py:112} INFO - [2020-04-07 20:30:12,930] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:30:13,169] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:30:13,189] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.266 seconds
+[2020-04-07 20:31:23,115] {scheduler_job.py:153} INFO - Started process (PID=70278) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:31:23,120] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:31:23,121] {logging_mixin.py:112} INFO - [2020-04-07 20:31:23,121] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:31:23,296] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:31:23,320] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.205 seconds
+[2020-04-07 20:32:33,335] {scheduler_job.py:153} INFO - Started process (PID=70318) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:32:33,340] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:32:33,341] {logging_mixin.py:112} INFO - [2020-04-07 20:32:33,340] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:32:33,516] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:32:33,531] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.196 seconds
+[2020-04-07 20:33:43,524] {scheduler_job.py:153} INFO - Started process (PID=70356) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:33:43,529] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:33:43,531] {logging_mixin.py:112} INFO - [2020-04-07 20:33:43,530] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:33:43,764] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:33:43,782] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.258 seconds
+[2020-04-07 20:34:53,707] {scheduler_job.py:153} INFO - Started process (PID=70395) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:34:53,712] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:34:53,713] {logging_mixin.py:112} INFO - [2020-04-07 20:34:53,713] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:34:53,888] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:34:53,909] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.203 seconds
+[2020-04-07 20:36:03,912] {scheduler_job.py:153} INFO - Started process (PID=70434) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:36:03,919] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:36:03,920] {logging_mixin.py:112} INFO - [2020-04-07 20:36:03,919] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:36:04,097] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:36:04,112] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.199 seconds
+[2020-04-07 20:37:14,125] {scheduler_job.py:153} INFO - Started process (PID=70472) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:37:14,131] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:37:14,132] {logging_mixin.py:112} INFO - [2020-04-07 20:37:14,132] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:37:14,303] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:37:14,326] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.201 seconds
+[2020-04-07 20:38:24,320] {scheduler_job.py:153} INFO - Started process (PID=70512) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:38:24,326] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:38:24,326] {logging_mixin.py:112} INFO - [2020-04-07 20:38:24,326] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:38:24,579] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:38:24,598] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.278 seconds
+[2020-04-07 20:39:34,479] {scheduler_job.py:153} INFO - Started process (PID=70551) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:39:34,488] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:39:34,489] {logging_mixin.py:112} INFO - [2020-04-07 20:39:34,489] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:39:34,706] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:39:34,725] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.246 seconds
+[2020-04-07 20:40:44,650] {scheduler_job.py:153} INFO - Started process (PID=70602) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:40:44,655] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:40:44,656] {logging_mixin.py:112} INFO - [2020-04-07 20:40:44,656] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:40:44,867] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:40:44,884] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.235 seconds
+[2020-04-07 20:41:54,853] {scheduler_job.py:153} INFO - Started process (PID=70643) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:41:54,866] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:41:54,867] {logging_mixin.py:112} INFO - [2020-04-07 20:41:54,866] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:41:55,048] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:41:55,069] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.217 seconds
+[2020-04-07 20:43:05,057] {scheduler_job.py:153} INFO - Started process (PID=70682) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:43:05,063] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:43:05,064] {logging_mixin.py:112} INFO - [2020-04-07 20:43:05,064] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:43:05,235] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:43:05,259] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.201 seconds
+[2020-04-07 20:44:15,270] {scheduler_job.py:153} INFO - Started process (PID=70720) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:44:15,275] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:44:15,276] {logging_mixin.py:112} INFO - [2020-04-07 20:44:15,275] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:44:15,449] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:44:15,473] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.203 seconds
+[2020-04-07 20:45:25,496] {scheduler_job.py:153} INFO - Started process (PID=70758) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:45:25,502] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:45:25,503] {logging_mixin.py:112} INFO - [2020-04-07 20:45:25,502] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:45:25,673] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:45:25,694] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.198 seconds
+[2020-04-07 20:46:35,686] {scheduler_job.py:153} INFO - Started process (PID=70797) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:46:35,692] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:46:35,693] {logging_mixin.py:112} INFO - [2020-04-07 20:46:35,693] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:46:35,872] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:46:35,951] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.264 seconds
+[2020-04-07 20:47:46,062] {scheduler_job.py:153} INFO - Started process (PID=70844) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:47:46,072] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:47:46,073] {logging_mixin.py:112} INFO - [2020-04-07 20:47:46,072] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:47:46,245] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:47:46,353] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.291 seconds
+[2020-04-07 20:48:56,451] {scheduler_job.py:153} INFO - Started process (PID=70884) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:48:56,456] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:48:56,457] {logging_mixin.py:112} INFO - [2020-04-07 20:48:56,457] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:48:56,627] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:48:56,709] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.258 seconds
+[2020-04-07 20:50:06,747] {scheduler_job.py:153} INFO - Started process (PID=70922) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:50:06,753] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:50:06,754] {logging_mixin.py:112} INFO - [2020-04-07 20:50:06,754] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:50:06,927] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:50:07,009] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.262 seconds
+[2020-04-07 20:51:16,935] {scheduler_job.py:153} INFO - Started process (PID=70971) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:51:16,940] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:51:16,941] {logging_mixin.py:112} INFO - [2020-04-07 20:51:16,941] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:51:17,129] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:51:17,212] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.277 seconds
+[2020-04-07 20:52:27,112] {scheduler_job.py:153} INFO - Started process (PID=71010) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:52:27,118] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:52:27,118] {logging_mixin.py:112} INFO - [2020-04-07 20:52:27,118] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:52:27,313] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:52:27,404] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.292 seconds
+[2020-04-07 20:53:37,289] {scheduler_job.py:153} INFO - Started process (PID=71048) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:53:37,295] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:53:37,296] {logging_mixin.py:112} INFO - [2020-04-07 20:53:37,295] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:53:37,519] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:53:37,598] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.309 seconds
+[2020-04-07 20:54:47,473] {scheduler_job.py:153} INFO - Started process (PID=71086) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:54:47,478] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:54:47,479] {logging_mixin.py:112} INFO - [2020-04-07 20:54:47,479] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:54:47,746] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:54:47,759] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.286 seconds
+[2020-04-07 20:55:57,664] {scheduler_job.py:153} INFO - Started process (PID=71135) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:55:57,673] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:55:57,674] {logging_mixin.py:112} INFO - [2020-04-07 20:55:57,673] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:55:57,934] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:55:57,948] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.284 seconds
+[2020-04-07 20:57:07,848] {scheduler_job.py:153} INFO - Started process (PID=71173) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:57:07,853] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:57:07,854] {logging_mixin.py:112} INFO - [2020-04-07 20:57:07,854] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:57:08,101] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:57:08,114] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.267 seconds
+[2020-04-07 20:58:18,041] {scheduler_job.py:153} INFO - Started process (PID=71219) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:58:18,054] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:58:18,055] {logging_mixin.py:112} INFO - [2020-04-07 20:58:18,054] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:58:18,333] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:58:18,346] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.305 seconds
+[2020-04-07 20:59:28,254] {scheduler_job.py:153} INFO - Started process (PID=71259) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:59:28,263] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 20:59:28,265] {logging_mixin.py:112} INFO - [2020-04-07 20:59:28,264] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:59:28,728] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 20:59:28,741] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.487 seconds
+[2020-04-07 21:00:38,465] {scheduler_job.py:153} INFO - Started process (PID=71313) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:00:38,475] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:00:38,478] {logging_mixin.py:112} INFO - [2020-04-07 21:00:38,477] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:00:38,769] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:00:38,781] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.316 seconds
+[2020-04-07 21:01:48,650] {scheduler_job.py:153} INFO - Started process (PID=71354) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:01:48,656] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:01:48,657] {logging_mixin.py:112} INFO - [2020-04-07 21:01:48,657] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:01:48,939] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:01:48,954] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.304 seconds
+[2020-04-07 21:02:58,851] {scheduler_job.py:153} INFO - Started process (PID=71395) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:02:58,857] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:02:58,858] {logging_mixin.py:112} INFO - [2020-04-07 21:02:58,858] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:02:59,285] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:02:59,300] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.449 seconds
+[2020-04-07 21:04:09,052] {scheduler_job.py:153} INFO - Started process (PID=71433) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:04:09,058] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:04:09,059] {logging_mixin.py:112} INFO - [2020-04-07 21:04:09,058] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:04:09,298] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:04:09,318] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.266 seconds
+[2020-04-07 21:05:19,249] {scheduler_job.py:153} INFO - Started process (PID=71471) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:05:19,255] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:05:19,256] {logging_mixin.py:112} INFO - [2020-04-07 21:05:19,256] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:05:19,494] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:05:19,514] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.264 seconds
+[2020-04-07 21:06:29,461] {scheduler_job.py:153} INFO - Started process (PID=71511) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:06:29,467] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:06:29,468] {logging_mixin.py:112} INFO - [2020-04-07 21:06:29,468] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:06:29,735] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:06:29,749] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.289 seconds
+[2020-04-07 21:07:39,640] {scheduler_job.py:153} INFO - Started process (PID=71549) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:07:39,646] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:07:39,647] {logging_mixin.py:112} INFO - [2020-04-07 21:07:39,646] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:07:39,912] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:07:39,924] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.285 seconds
+[2020-04-07 21:08:50,013] {scheduler_job.py:153} INFO - Started process (PID=71587) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:08:50,018] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:08:50,019] {logging_mixin.py:112} INFO - [2020-04-07 21:08:50,018] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:08:50,258] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:08:50,278] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.266 seconds
+[2020-04-07 21:10:00,484] {scheduler_job.py:153} INFO - Started process (PID=71627) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:10:00,490] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:10:00,491] {logging_mixin.py:112} INFO - [2020-04-07 21:10:00,490] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:10:00,730] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:10:00,750] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.266 seconds
+[2020-04-07 21:11:10,929] {scheduler_job.py:153} INFO - Started process (PID=71665) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:11:10,935] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:11:10,936] {logging_mixin.py:112} INFO - [2020-04-07 21:11:10,936] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:11:11,180] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:11:11,199] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.270 seconds
+[2020-04-07 21:12:21,393] {scheduler_job.py:153} INFO - Started process (PID=71703) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:12:21,398] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:12:21,399] {logging_mixin.py:112} INFO - [2020-04-07 21:12:21,399] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:12:21,637] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:12:21,656] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.263 seconds
+[2020-04-07 21:13:31,877] {scheduler_job.py:153} INFO - Started process (PID=71747) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:13:31,882] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:13:31,883] {logging_mixin.py:112} INFO - [2020-04-07 21:13:31,883] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:13:32,181] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:13:32,196] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.320 seconds
+[2020-04-07 21:14:42,327] {scheduler_job.py:153} INFO - Started process (PID=71785) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:14:42,332] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:14:42,333] {logging_mixin.py:112} INFO - [2020-04-07 21:14:42,333] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:14:42,573] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:14:42,592] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.265 seconds
+[2020-04-07 21:15:52,764] {scheduler_job.py:153} INFO - Started process (PID=71823) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:15:52,776] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:15:52,778] {logging_mixin.py:112} INFO - [2020-04-07 21:15:52,777] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:15:53,027] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:15:53,046] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.282 seconds
+[2020-04-07 21:17:03,243] {scheduler_job.py:153} INFO - Started process (PID=71863) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:17:03,248] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:17:03,249] {logging_mixin.py:112} INFO - [2020-04-07 21:17:03,249] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:17:03,485] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:17:03,506] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.263 seconds
+[2020-04-07 21:18:13,666] {scheduler_job.py:153} INFO - Started process (PID=71901) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:18:13,671] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:18:13,672] {logging_mixin.py:112} INFO - [2020-04-07 21:18:13,672] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:18:13,909] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:18:13,928] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.262 seconds
+[2020-04-07 21:19:24,116] {scheduler_job.py:153} INFO - Started process (PID=71939) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:19:24,121] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:19:24,122] {logging_mixin.py:112} INFO - [2020-04-07 21:19:24,122] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:19:24,361] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:19:24,380] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.264 seconds
+[2020-04-07 21:20:34,554] {scheduler_job.py:153} INFO - Started process (PID=71981) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:20:34,559] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:20:34,560] {logging_mixin.py:112} INFO - [2020-04-07 21:20:34,560] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:20:34,823] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:20:34,836] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.282 seconds
+[2020-04-07 21:29:41,792] {scheduler_job.py:153} INFO - Started process (PID=72055) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:29:41,799] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:29:41,800] {logging_mixin.py:112} INFO - [2020-04-07 21:29:41,799] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:29:42,088] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:29:42,099] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.307 seconds
+[2020-04-07 21:31:14,787] {scheduler_job.py:153} INFO - Started process (PID=72112) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:31:14,793] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:31:14,794] {logging_mixin.py:112} INFO - [2020-04-07 21:31:14,794] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:31:15,079] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:31:15,091] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.304 seconds
+[2020-04-07 21:32:36,470] {scheduler_job.py:153} INFO - Started process (PID=72154) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:32:36,476] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:32:36,477] {logging_mixin.py:112} INFO - [2020-04-07 21:32:36,477] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:32:36,752] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:32:36,764] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.294 seconds
+[2020-04-07 21:33:46,667] {scheduler_job.py:153} INFO - Started process (PID=72195) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:33:46,678] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:33:46,680] {logging_mixin.py:112} INFO - [2020-04-07 21:33:46,679] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:33:46,964] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:33:46,976] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.309 seconds
+[2020-04-07 21:34:56,882] {scheduler_job.py:153} INFO - Started process (PID=72233) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:34:56,890] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:34:56,891] {logging_mixin.py:112} INFO - [2020-04-07 21:34:56,891] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:34:57,197] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:34:57,218] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.337 seconds
+[2020-04-07 21:36:07,070] {scheduler_job.py:153} INFO - Started process (PID=72271) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:36:07,077] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:36:07,078] {logging_mixin.py:112} INFO - [2020-04-07 21:36:07,078] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:36:07,363] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:36:07,382] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.312 seconds
+[2020-04-07 21:37:17,263] {scheduler_job.py:153} INFO - Started process (PID=72310) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:37:17,269] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:37:17,270] {logging_mixin.py:112} INFO - [2020-04-07 21:37:17,269] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:37:17,512] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:37:17,531] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.268 seconds
+[2020-04-07 21:38:27,501] {scheduler_job.py:153} INFO - Started process (PID=72349) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:38:27,507] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:38:27,508] {logging_mixin.py:112} INFO - [2020-04-07 21:38:27,507] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:38:27,748] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:38:27,767] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.266 seconds
+[2020-04-07 21:39:37,688] {scheduler_job.py:153} INFO - Started process (PID=72397) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:39:37,696] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:39:37,697] {logging_mixin.py:112} INFO - [2020-04-07 21:39:37,697] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:39:37,972] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:39:37,985] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.297 seconds
+[2020-04-07 21:40:47,885] {scheduler_job.py:153} INFO - Started process (PID=72438) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:40:47,892] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:40:47,893] {logging_mixin.py:112} INFO - [2020-04-07 21:40:47,892] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:40:48,171] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:40:48,182] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.297 seconds
+[2020-04-07 21:41:58,091] {scheduler_job.py:153} INFO - Started process (PID=72480) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:41:58,098] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:41:58,099] {logging_mixin.py:112} INFO - [2020-04-07 21:41:58,098] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:41:58,367] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:41:58,387] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.296 seconds
+[2020-04-07 21:43:08,313] {scheduler_job.py:153} INFO - Started process (PID=72524) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:43:08,321] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:43:08,323] {logging_mixin.py:112} INFO - [2020-04-07 21:43:08,322] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:43:08,745] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:43:08,759] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.446 seconds
+[2020-04-07 21:44:18,515] {scheduler_job.py:153} INFO - Started process (PID=72574) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:44:18,524] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:44:18,525] {logging_mixin.py:112} INFO - [2020-04-07 21:44:18,524] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:44:18,810] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:44:18,822] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.307 seconds
+[2020-04-07 21:45:28,714] {scheduler_job.py:153} INFO - Started process (PID=72614) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:45:28,722] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:45:28,723] {logging_mixin.py:112} INFO - [2020-04-07 21:45:28,722] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:45:28,986] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:45:28,998] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.284 seconds
+[2020-04-07 21:46:38,915] {scheduler_job.py:153} INFO - Started process (PID=72662) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:46:38,929] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:46:38,932] {logging_mixin.py:112} INFO - [2020-04-07 21:46:38,930] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:46:39,377] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:46:39,391] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.477 seconds
+[2020-04-07 21:47:49,099] {scheduler_job.py:153} INFO - Started process (PID=72716) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:47:49,107] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:47:49,108] {logging_mixin.py:112} INFO - [2020-04-07 21:47:49,107] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:47:49,401] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:47:49,480] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.380 seconds
+[2020-04-07 21:48:59,259] {scheduler_job.py:153} INFO - Started process (PID=72759) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:48:59,266] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:48:59,267] {logging_mixin.py:112} INFO - [2020-04-07 21:48:59,267] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:48:59,466] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:48:59,487] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.227 seconds
+[2020-04-07 21:50:09,433] {scheduler_job.py:153} INFO - Started process (PID=72797) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:50:09,439] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:50:09,440] {logging_mixin.py:112} INFO - [2020-04-07 21:50:09,439] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:50:09,613] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:50:09,636] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.204 seconds
+[2020-04-07 21:51:19,620] {scheduler_job.py:153} INFO - Started process (PID=72845) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:51:19,626] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:51:19,627] {logging_mixin.py:112} INFO - [2020-04-07 21:51:19,627] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:51:19,802] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:51:19,826] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.206 seconds
+[2020-04-07 21:52:29,816] {scheduler_job.py:153} INFO - Started process (PID=72883) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:52:29,822] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:52:29,823] {logging_mixin.py:112} INFO - [2020-04-07 21:52:29,823] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:52:29,999] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:52:30,019] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.203 seconds
+[2020-04-07 21:53:40,022] {scheduler_job.py:153} INFO - Started process (PID=72921) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:53:40,029] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:53:40,031] {logging_mixin.py:112} INFO - [2020-04-07 21:53:40,030] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:53:40,207] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:53:40,231] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.210 seconds
+[2020-04-07 21:54:50,249] {scheduler_job.py:153} INFO - Started process (PID=72963) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:54:50,255] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:54:50,257] {logging_mixin.py:112} INFO - [2020-04-07 21:54:50,256] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:54:50,444] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:54:50,540] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.291 seconds
+[2020-04-07 21:56:00,453] {scheduler_job.py:153} INFO - Started process (PID=73004) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:56:00,459] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:56:00,460] {logging_mixin.py:112} INFO - [2020-04-07 21:56:00,460] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:56:00,633] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:56:00,724] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.271 seconds
+[2020-04-07 21:57:10,631] {scheduler_job.py:153} INFO - Started process (PID=73042) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:57:10,638] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:57:10,639] {logging_mixin.py:112} INFO - [2020-04-07 21:57:10,639] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:57:10,829] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:57:10,911] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.281 seconds
+[2020-04-07 21:58:20,836] {scheduler_job.py:153} INFO - Started process (PID=73083) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:58:20,842] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:58:20,843] {logging_mixin.py:112} INFO - [2020-04-07 21:58:20,843] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:58:21,019] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:58:21,103] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.267 seconds
+[2020-04-07 21:59:31,060] {scheduler_job.py:153} INFO - Started process (PID=73130) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:59:31,066] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 21:59:31,067] {logging_mixin.py:112} INFO - [2020-04-07 21:59:31,067] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:59:31,255] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 21:59:31,334] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.274 seconds
+[2020-04-07 22:00:41,318] {scheduler_job.py:153} INFO - Started process (PID=73169) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:00:41,326] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:00:41,327] {logging_mixin.py:112} INFO - [2020-04-07 22:00:41,326] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:00:41,534] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:00:41,608] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.290 seconds
+[2020-04-07 22:01:51,655] {scheduler_job.py:153} INFO - Started process (PID=73209) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:01:51,662] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:01:51,663] {logging_mixin.py:112} INFO - [2020-04-07 22:01:51,663] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:01:51,858] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:01:51,935] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.280 seconds
+[2020-04-07 22:03:01,933] {scheduler_job.py:153} INFO - Started process (PID=73247) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:03:01,940] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:03:01,941] {logging_mixin.py:112} INFO - [2020-04-07 22:03:01,941] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:03:02,233] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:03:02,245] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.312 seconds
+[2020-04-07 22:04:12,346] {scheduler_job.py:153} INFO - Started process (PID=73286) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:04:12,354] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:04:12,356] {logging_mixin.py:112} INFO - [2020-04-07 22:04:12,355] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:04:12,597] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:04:12,612] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.266 seconds
+[2020-04-07 22:05:22,776] {scheduler_job.py:153} INFO - Started process (PID=73325) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:05:22,782] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:05:22,783] {logging_mixin.py:112} INFO - [2020-04-07 22:05:22,783] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:05:23,079] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:05:23,092] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.316 seconds
+[2020-04-07 22:06:57,167] {scheduler_job.py:153} INFO - Started process (PID=73383) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:06:57,173] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:06:57,174] {logging_mixin.py:112} INFO - [2020-04-07 22:06:57,174] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:06:57,435] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:06:57,454] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.287 seconds
+[2020-04-07 22:08:07,327] {scheduler_job.py:153} INFO - Started process (PID=73424) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:08:07,333] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:08:07,334] {logging_mixin.py:112} INFO - [2020-04-07 22:08:07,334] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:08:07,615] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:08:07,628] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.301 seconds
+[2020-04-07 22:09:17,494] {scheduler_job.py:153} INFO - Started process (PID=73464) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:09:17,500] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:09:17,501] {logging_mixin.py:112} INFO - [2020-04-07 22:09:17,501] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:09:17,757] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:09:17,777] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.284 seconds
+[2020-04-07 22:10:27,717] {scheduler_job.py:153} INFO - Started process (PID=73504) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:10:27,726] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:10:27,727] {logging_mixin.py:112} INFO - [2020-04-07 22:10:27,726] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:10:28,148] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:10:28,162] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.444 seconds
+[2020-04-07 22:11:37,837] {scheduler_job.py:153} INFO - Started process (PID=73544) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:11:37,844] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:11:37,846] {logging_mixin.py:112} INFO - [2020-04-07 22:11:37,845] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:11:38,106] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:11:38,127] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.291 seconds
+[2020-04-07 22:12:48,022] {scheduler_job.py:153} INFO - Started process (PID=73582) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:12:48,034] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:12:48,036] {logging_mixin.py:112} INFO - [2020-04-07 22:12:48,035] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:12:48,305] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:12:48,321] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.299 seconds
+[2020-04-07 22:13:58,188] {scheduler_job.py:153} INFO - Started process (PID=73621) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:13:58,197] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:13:58,198] {logging_mixin.py:112} INFO - [2020-04-07 22:13:58,198] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:13:58,476] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:13:58,536] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.348 seconds
+[2020-04-07 22:15:08,374] {scheduler_job.py:153} INFO - Started process (PID=73664) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:15:08,381] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:15:08,381] {logging_mixin.py:112} INFO - [2020-04-07 22:15:08,381] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:15:08,650] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:15:08,665] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.291 seconds
+[2020-04-07 22:16:18,554] {scheduler_job.py:153} INFO - Started process (PID=73706) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:16:18,561] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:16:18,562] {logging_mixin.py:112} INFO - [2020-04-07 22:16:18,561] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:16:18,838] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:16:18,871] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.317 seconds
+[2020-04-07 22:17:28,751] {scheduler_job.py:153} INFO - Started process (PID=73754) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:17:28,758] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:17:28,759] {logging_mixin.py:112} INFO - [2020-04-07 22:17:28,759] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:17:29,020] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:17:29,032] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.280 seconds
+[2020-04-07 22:18:38,917] {scheduler_job.py:153} INFO - Started process (PID=73792) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:18:38,927] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:18:38,928] {logging_mixin.py:112} INFO - [2020-04-07 22:18:38,927] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:18:39,229] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:18:39,242] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.326 seconds
+[2020-04-07 22:19:49,107] {scheduler_job.py:153} INFO - Started process (PID=73831) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:19:49,121] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:19:49,123] {logging_mixin.py:112} INFO - [2020-04-07 22:19:49,122] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:19:49,389] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:19:49,404] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.297 seconds
+[2020-04-07 22:20:59,299] {scheduler_job.py:153} INFO - Started process (PID=73890) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:20:59,305] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:20:59,306] {logging_mixin.py:112} INFO - [2020-04-07 22:20:59,306] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:20:59,548] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:20:59,570] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.271 seconds
+[2020-04-07 22:22:09,520] {scheduler_job.py:153} INFO - Started process (PID=73953) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:22:09,526] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:22:09,527] {logging_mixin.py:112} INFO - [2020-04-07 22:22:09,527] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:22:09,798] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:22:09,810] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.290 seconds
+[2020-04-07 22:23:19,726] {scheduler_job.py:153} INFO - Started process (PID=73992) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:23:19,736] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:23:19,738] {logging_mixin.py:112} INFO - [2020-04-07 22:23:19,737] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:23:20,053] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:23:20,066] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.340 seconds
+[2020-04-07 22:24:29,875] {scheduler_job.py:153} INFO - Started process (PID=74038) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:24:29,884] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:24:29,886] {logging_mixin.py:112} INFO - [2020-04-07 22:24:29,885] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:24:30,182] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:24:30,194] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.319 seconds
+[2020-04-07 22:25:40,044] {scheduler_job.py:153} INFO - Started process (PID=74078) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:25:40,053] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:25:40,054] {logging_mixin.py:112} INFO - [2020-04-07 22:25:40,053] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:25:40,322] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:25:40,336] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.292 seconds
+[2020-04-07 22:26:50,230] {scheduler_job.py:153} INFO - Started process (PID=74117) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:26:50,237] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:26:50,238] {logging_mixin.py:112} INFO - [2020-04-07 22:26:50,238] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:26:50,540] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:26:50,556] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.326 seconds
+[2020-04-07 22:28:00,398] {scheduler_job.py:153} INFO - Started process (PID=74158) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:28:00,404] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:28:00,404] {logging_mixin.py:112} INFO - [2020-04-07 22:28:00,404] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:28:00,679] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:28:00,694] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.296 seconds
+[2020-04-07 22:29:10,604] {scheduler_job.py:153} INFO - Started process (PID=74210) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:29:10,616] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:29:10,617] {logging_mixin.py:112} INFO - [2020-04-07 22:29:10,617] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:29:10,928] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:29:10,947] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.343 seconds
+[2020-04-07 22:30:20,786] {scheduler_job.py:153} INFO - Started process (PID=74250) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:30:20,799] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:30:20,801] {logging_mixin.py:112} INFO - [2020-04-07 22:30:20,800] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:30:21,052] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:30:21,066] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.280 seconds
+[2020-04-07 22:31:30,958] {scheduler_job.py:153} INFO - Started process (PID=74288) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:31:30,966] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:31:30,967] {logging_mixin.py:112} INFO - [2020-04-07 22:31:30,966] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:31:31,238] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:31:31,255] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.296 seconds
+[2020-04-07 22:32:41,152] {scheduler_job.py:153} INFO - Started process (PID=74327) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:32:41,166] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:32:41,167] {logging_mixin.py:112} INFO - [2020-04-07 22:32:41,166] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:32:41,412] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:32:41,430] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.279 seconds
+[2020-04-07 22:33:51,348] {scheduler_job.py:153} INFO - Started process (PID=74374) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:33:51,355] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:33:51,376] {logging_mixin.py:112} INFO - [2020-04-07 22:33:51,375] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:33:51,656] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:33:51,669] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.321 seconds
+[2020-04-07 22:35:01,532] {scheduler_job.py:153} INFO - Started process (PID=74412) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:35:01,539] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:35:01,540] {logging_mixin.py:112} INFO - [2020-04-07 22:35:01,539] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:35:01,801] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:35:01,817] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.285 seconds
+[2020-04-07 22:36:11,719] {scheduler_job.py:153} INFO - Started process (PID=74454) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:36:11,725] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:36:11,726] {logging_mixin.py:112} INFO - [2020-04-07 22:36:11,726] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:36:11,980] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:36:11,999] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.280 seconds
+[2020-04-07 22:37:21,916] {scheduler_job.py:153} INFO - Started process (PID=74495) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:37:21,922] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:37:21,923] {logging_mixin.py:112} INFO - [2020-04-07 22:37:21,923] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:37:22,350] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:37:22,364] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.448 seconds
+[2020-04-07 22:38:32,117] {scheduler_job.py:153} INFO - Started process (PID=74557) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:38:32,136] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:38:32,137] {logging_mixin.py:112} INFO - [2020-04-07 22:38:32,137] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:38:32,668] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:38:32,681] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.564 seconds
+[2020-04-07 22:39:42,322] {scheduler_job.py:153} INFO - Started process (PID=74597) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:39:42,338] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:39:42,339] {logging_mixin.py:112} INFO - [2020-04-07 22:39:42,339] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:39:42,830] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:39:42,837] {logging_mixin.py:112} INFO - [2020-04-07 22:39:42,837] {dag.py:1485} INFO - Creating ORM DAG for atp_data02
+[2020-04-07 22:39:42,844] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.522 seconds
+[2020-04-07 22:40:52,504] {scheduler_job.py:153} INFO - Started process (PID=74643) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:40:52,510] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:40:52,511] {logging_mixin.py:112} INFO - [2020-04-07 22:40:52,511] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:40:52,791] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:40:52,804] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.300 seconds
+[2020-04-07 22:42:14,440] {scheduler_job.py:153} INFO - Started process (PID=74702) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:42:14,449] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:42:14,450] {logging_mixin.py:112} INFO - [2020-04-07 22:42:14,450] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:42:14,810] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:42:14,824] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.385 seconds
+[2020-04-07 22:43:48,389] {scheduler_job.py:153} INFO - Started process (PID=74770) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:43:48,396] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:43:48,397] {logging_mixin.py:112} INFO - [2020-04-07 22:43:48,397] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:43:48,686] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:43:48,698] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.309 seconds
+[2020-04-07 22:45:21,387] {scheduler_job.py:153} INFO - Started process (PID=74821) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:45:21,394] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:45:21,395] {logging_mixin.py:112} INFO - [2020-04-07 22:45:21,395] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:45:21,698] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:45:21,711] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.324 seconds
+[2020-04-07 22:46:54,272] {scheduler_job.py:153} INFO - Started process (PID=74894) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:46:54,281] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:46:54,282] {logging_mixin.py:112} INFO - [2020-04-07 22:46:54,282] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:46:54,648] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:46:54,662] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.390 seconds
+[2020-04-07 22:48:27,926] {scheduler_job.py:153} INFO - Started process (PID=74954) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:48:27,933] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:48:27,934] {logging_mixin.py:112} INFO - [2020-04-07 22:48:27,933] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:48:28,196] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:48:28,208] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.281 seconds
+[2020-04-07 22:49:38,085] {scheduler_job.py:153} INFO - Started process (PID=75000) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:49:38,090] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:49:38,091] {logging_mixin.py:112} INFO - [2020-04-07 22:49:38,091] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:49:38,361] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:49:38,392] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.307 seconds
+[2020-04-07 22:50:48,279] {scheduler_job.py:153} INFO - Started process (PID=75045) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:50:48,286] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:50:48,287] {logging_mixin.py:112} INFO - [2020-04-07 22:50:48,286] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:50:48,612] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:50:48,624] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.345 seconds
+[2020-04-07 22:51:58,470] {scheduler_job.py:153} INFO - Started process (PID=75093) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:51:58,477] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:51:58,480] {logging_mixin.py:112} INFO - [2020-04-07 22:51:58,479] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:51:58,740] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:51:58,764] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.294 seconds
+[2020-04-07 22:53:08,676] {scheduler_job.py:153} INFO - Started process (PID=75134) to work on /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:53:08,683] {scheduler_job.py:1560} INFO - Processing file /Users/cchavez/dev/airflow_home/dags/atp_data02.py for tasks to queue
+[2020-04-07 22:53:08,684] {logging_mixin.py:112} INFO - [2020-04-07 22:53:08,683] {dagbag.py:403} INFO - Filling up the DagBag from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:53:08,941] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['atp_data02']) retrieved from /Users/cchavez/dev/airflow_home/dags/atp_data02.py
+[2020-04-07 22:53:08,960] {scheduler_job.py:161} INFO - Processing /Users/cchavez/dev/airflow_home/dags/atp_data02.py took 0.284 seconds

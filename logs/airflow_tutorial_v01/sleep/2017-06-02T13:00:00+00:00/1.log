@@ -1,0 +1,18 @@
+[2020-04-02 13:11:31,197] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.sleep 2017-06-02T13:00:00+00:00 [queued]>
+[2020-04-02 13:11:31,206] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.sleep 2017-06-02T13:00:00+00:00 [queued]>
+[2020-04-02 13:11:31,206] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-02 13:11:31,206] {taskinstance.py:867} INFO - Starting attempt 1 of 2
+[2020-04-02 13:11:31,206] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-02 13:11:31,212] {taskinstance.py:887} INFO - Executing <Task(BashOperator): sleep> on 2017-06-02T13:00:00+00:00
+[2020-04-02 13:11:31,213] {standard_task_runner.py:53} INFO - Started process 35986 to run task
+[2020-04-02 13:11:31,264] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: airflow_tutorial_v01.sleep 2017-06-02T13:00:00+00:00 [running]> zipcodes-MacBook-Pro-4.local
+[2020-04-02 13:11:31,279] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /var/folders/p0/vtyq_62d7zsg8glxyfbgkq9m0000gp/T
+[2020-04-02 13:11:31,281] {bash_operator.py:105} INFO - Temporary script location: /var/folders/p0/vtyq_62d7zsg8glxyfbgkq9m0000gp/T/airflowtmpqfbp6c_4/sleepe6fx56q2
+[2020-04-02 13:11:31,281] {bash_operator.py:115} INFO - Running command: sleep 5
+[2020-04-02 13:11:31,286] {bash_operator.py:122} INFO - Output:
+[2020-04-02 13:11:36,300] {bash_operator.py:130} INFO - Command exited with return code 0
+[2020-04-02 13:11:36,313] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=airflow_tutorial_v01, task_id=sleep, execution_date=20170602T130000, start_date=20200402T171131, end_date=20200402T171136
+[2020-04-02 13:11:41,202] {logging_mixin.py:112} INFO - [2020-04-02 13:11:41,201] {local_task_job.py:103} INFO - Task exited with return code 0
