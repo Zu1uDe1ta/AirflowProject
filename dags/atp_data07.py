@@ -22,7 +22,6 @@ default_args = {
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 0,
-    'retry_delay': timedelta(minutes=5),
 }
 
 dag = DAG(
@@ -31,7 +30,6 @@ dag = DAG(
     description='ATP data from kaggle API',
     schedule_interval=timedelta(days=1),
 )
-
 
 def get_kaggle():
     url = 'https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data'
@@ -49,17 +47,6 @@ def connect_pst():
     conn = psycopg2.connect("host=localhost dbname=postgres user=postgres")
 
 # created sample_submission table
-def create_tbl_sample():
-    conn = psycopg2.connect("host=localhost dbname=postgres user=postgres")
-    cur = conn.cursor()
-    cur.execute("""
-        CREATE TABLE sample(
-        Index numeric
-        Id varchar(255),
-        SalePrice numeric
-    )
-    """)
-    conn.commit()
 
 def insert_csv_sample():
     conn = psycopg2.connect("host=localhost dbname=postgres user=postgres")
@@ -69,38 +56,48 @@ def insert_csv_sample():
         cur.copy_from(f, 'sample', sep=',')
         conn.commit()
 
-T_I = BashOperator(
-    task_id='run_kaggle_api',
-    bash_command='kaggle competitions download -c house-prices-advanced-regression-techniques -p /Users/cchavez/dev/AirflowProject/house-prices-advanced-regression-techniques',
-    dag=dag,
-)
 
-T_II = PythonOperator(
-    task_id='unzip_api',
-    provide_context=False,
-    python_callable=unzip,
-    dag=dag,
-)
+with DAG("atp_data07", default_args=default_args) as dag:
+    T_I = BashOperator(
+        task_id='run_kaggle_api',
+        bash_command='kaggle competitions download -c house-prices-advanced-regression-techniques -p /Users/cchavez/dev/AirflowProject/house-prices-advanced-regression-techniques',
+        dag=dag,
+    )
 
-T_III = PythonOperator(
-    task_id='connect_pst',
-    provide_context=False,
-    python_callable=connect_pst,
-    dag=dag,
-)
+    T_II = PythonOperator(
+        task_id='unzip_api',
+        provide_context=False,
+        python_callable=unzip,
+        dag=dag,
+    )
 
-T_IV = PythonOperator(
-    task_id='create_tbl_sample',
-    provide_context=False,
-    python_callable=create_tbl_sample,
-    dag=dag,
-)
+    T_III = PythonOperator(
+        task_id='connect_pst',
+        provide_context=False,
+        python_callable=connect_pst,
+        dag=dag,
+    )
 
-T_V = PythonOperator(
-    task_id='insert_csv_sample',
-    provide_context=False,
-    python_callable=insert_csv_sample,
-    dag=dag,
-)
+    T_IV = PostgresOperator(
+        task_id="create_table",
+        postgres_conn_id="postgres_connection",
+        database="postgres",
+        sql="""
+            DROP TABLE IF EXISTS sample;
+            CREATE TABLE sample
+            (
+            Index text,
+            Id text,
+            SalePrice text
+            )
+            """,
+    )
+
+    T_V = PythonOperator(
+        task_id='insert_csv_sample',
+        provide_context=False,
+        python_callable=insert_csv_sample,
+        dag=dag,
+    )
 
 T_I >> T_II >> T_III >> T_IV >> T_V
