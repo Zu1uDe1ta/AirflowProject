@@ -21,7 +21,7 @@ default_args = {
     'email': ['chrischavezdataengineer@gmail.com'],
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': 1,
+    'retries': 0,
     'retry_delay': timedelta(minutes=5),
 }
 
@@ -54,6 +54,7 @@ def create_tbl_sample():
     cur = conn.cursor()
     cur.execute("""
         CREATE TABLE sample(
+        Index numeric
         Id varchar(255),
         SalePrice numeric
     )
