@@ -127,3 +127,9 @@ Things that need to be installed and running
 - pandas
 - psycopg2
 - pandasql
+
+---
+
+## Presentation link
+
+Link to [Stack Source presentation](https://bit.ly/3a26hmV)
