@@ -51,6 +51,8 @@ or 4.0 depending on the date the content was contributed. "
 
 ---
 
+## Stack Source
+
 StackSource in particular only considers the questions for the parameters that the 
 user inputs, designating fields of interest. The data retrieved from Stack Overflow
 does contain some sparse data, and part of the process within Stack Source, is to 
@@ -62,43 +64,66 @@ falls between -10.0 to 10.0, severely negative impact by extreme conflict to
 post impact by extreme cooperation. This rating itself is determined by the
 type of event it is addressing.
 
-The questions for a particular topic are tracked, sorted by ratings, and the subjects of interest are consolidated and grouped by date, and emailed out to the user. 
+The questions for a particular topic are tracked, sorted by ratings, and the subjects 
+of interest are consolidated and grouped by date, and emailed out to the user. 
+
+---
+
+## How To Guide Your Learning Using Stack Source
 
 1. Choosing a Learning Project
 Priorititize Foundational Skills
 Explore Adjacent Skills
 Focus on Transferable Skills
 Takeaways
-- Prioritize foundational skills: you will learn activities associated with a workfrlow and appreciate how tooling can abstract them away for you
-- Explore adjacent disciplines: you will become more self-sufficient on the job, can take on larger and more ambitious projects, and develop more empathy for your colleagues
-- Focus on transferable skills: you can apply these skills in different domains without much extra costs
+- Prioritize foundational skills: you will learn activities associated with a workfrlow 
+and appreciate how tooling can abstract them away for you
+- Explore adjacent disciplines: you will become more self-sufficient on the job, can 
+take on larger and more ambitious projects, and develop more empathy for your colleagues
+- Focus on transferable skills: you can apply these skills in different domains without 
+much extra costs
 
 2. Designing a Learning Plan
 Define Your Learning Objectives
 Identify Project Milestones
 Develop a Curriculum
 Takeaways
-- Define your learning objectives: set clear goals on what behaviors or outcomes you would like to achieve
-- Identify project milestones: divide and conquer so you can make steady progress without getting intimidated
-- Develop a curriculum: find materials that you would enjoy according to your learning patterns. Consult experts to validate your curriculum
+- Define your learning objectives: set clear goals on what behaviors or outcomes you 
+would like to achieve
+- Identify project milestones: divide and conquer so you can make steady progress without 
+getting intimidated
+- Develop a curriculum: find materials that you would enjoy according to your learning 
+patterns. Consult experts to validate your curriculum
+
+---
 
 ## ETL Pipeline
 
 ![Image](img/pipeline.jpg)
 
-New Stack Source updates are acquired from the Stack Overflow. A Python script processes the
-data and places it in a PostgreSQL database. Since GDELT updates are posted
-every 15 minutes, an Airflow workflow is scheduled to complete this process as
-new data arrives.
+New Stack Source updates are acquired from the Stack Overflow. A Python script processes 
+the data and places it in a PostgreSQL database. 
 
 GDELT's historic data exists in an Amazon S3 bucket. An offline batch
 processing Apache Spark job reads and processes the data from S3. The
 processed data is saved in a PostgreSQL database. The user facing component of
 this pipeline is the Flask application. The user is able to specify a single
 state, and a set of actors they are interested in. The application makes the
-appropriate queries to the PostgreSQL database. The results are viewed on the
+appropriate queries to the PostgreSQL database. The results are received in a daily email with the day's most
+relevant questions on the
 Flask application.
 
 ---
 
+## Installation
 
+Things that need to be installed and running
+
+- PostgreSQL Database
+- Airflow
+- Python
+- sqlalchemy
+- PostgreSQL Database
+- pandas
+- psycopg2
+- pandasql
