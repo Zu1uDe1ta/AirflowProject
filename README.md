@@ -99,7 +99,7 @@ patterns. Consult experts to validate your curriculum
 
 ## ETL Pipeline
 
-![Image](img/pipeline.jpg)
+![Image](images/pipeline.jpg)
 
 New Stack Source updates are acquired from the Stack Overflow. A Python script processes 
 the data and places it in a PostgreSQL database. 
