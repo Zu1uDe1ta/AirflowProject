@@ -101,17 +101,18 @@ patterns. Consult experts to validate your curriculum
 
 ![Image](images/pipeline.jpg)
 
-New Stack Source updates are acquired from the Stack Overflow. A Python script processes 
-the data and places it in a PostgreSQL database. 
+I: New Stack Source updates are acquired from the Stack Overflow. 
 
-GDELT's historic data exists in an Amazon S3 bucket. An offline batch
-processing Apache Spark job reads and processes the data from S3. The
-processed data is saved in a PostgreSQL database. The user facing component of
-this pipeline is the Flask application. The user is able to specify a single
-state, and a set of actors they are interested in. The application makes the
-appropriate queries to the PostgreSQL database. The results are received in a daily email with the day's most
-relevant questions on the
-Flask application.
+II: A Python script processes the data and places it in a PostgreSQL database. 
+
+III: Store data from Stack Overflow in an Amazon S3 bucket.
+
+IV: Write filtered questions to S3.
+
+V: Creation of an email utilizing a preset HTML template and sorted data. 
+
+VI: The results are received in a daily email with the day's most
+relevant questions.
 
 ---
 
