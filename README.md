@@ -53,47 +53,39 @@ or 4.0 depending on the date the content was contributed. "
 
 ## Stack Source
 
-StackSource in particular only considers the questions for the parameters that the 
-user inputs, designating fields of interest. The data retrieved from Stack Overflow
-does contain some sparse data, and part of the process within Stack Source, is to 
-filter out sparse data and extract the useful data.
+StackSource utilizes croud sourcing questions that are being encountered by 
+programmers and presents that information to the user to guide their own self 
+development. In particular Stack Source only considers the questions for the 
+parameters that the user inputs, designating fields of interest. The data retrieved 
+from Stack Overflowdoes contain some sparse data, and part of the process within 
+Stack Source, is to filter out sparse data and extract the useful data.
 
-Questions overdifferent points of information, and one that's
-crucial for this application is the 'Goldstein Scale' of an event. The scale
-falls between -10.0 to 10.0, severely negative impact by extreme conflict to
-post impact by extreme cooperation. This rating itself is determined by the
-type of event it is addressing.
+Relevancy and usefulness of questions are taken into account, allowing the user to 
+designa versatile study program. The rating of the questions is determined by Stack 
+Overflow users. 
 
 The questions for a particular topic are tracked, sorted by ratings, and the subjects 
-of interest are consolidated and grouped by date, and emailed out to the user. 
+of interest are consolidated and grouped by date, and emailed out to the Stack Source user. 
 
 ---
 
 ## How To Guide Your Learning Using Stack Source
 
 1. Choosing a Learning Project
-Priorititize Foundational Skills
-Explore Adjacent Skills
-Focus on Transferable Skills
-Takeaways
-- Prioritize foundational skills: you will learn activities associated with a workfrlow 
-and appreciate how tooling can abstract them away for you
-- Explore adjacent disciplines: you will become more self-sufficient on the job, can 
-take on larger and more ambitious projects, and develop more empathy for your colleagues
-- Focus on transferable skills: you can apply these skills in different domains without 
-much extra costs
+- Prioritize foundational skills: solidify your basic coding skills by researching and
+answering questions that other users have posted. 
+- Explore adjacent disciplines: explore how are readers utilizing their coding skills, what
+kind of projects are they working on, what kind of compatible libraries or applications are 
+they utilizing in their work. 
+- Focus on transferable skills: lazer in into the areas of study that will benefit you in 
+your day to day work. 
 
 2. Designing a Learning Plan
-Define Your Learning Objectives
-Identify Project Milestones
-Develop a Curriculum
-Takeaways
-- Define your learning objectives: set clear goals on what behaviors or outcomes you 
-would like to achieve
+- Define your learning objectives: set clear goals on what outcomes you would like to achieve.
 - Identify project milestones: divide and conquer so you can make steady progress without 
-getting intimidated
+getting intimidated.
 - Develop a curriculum: find materials that you would enjoy according to your learning 
-patterns. Consult experts to validate your curriculum
+patterns. Consult experts to validate your curriculum.
 
 ---
 
