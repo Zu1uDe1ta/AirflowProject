@@ -127,7 +127,7 @@ def filter_questions() -> str:
         results = [dict(zip(columns, row)) for row in rows]
         return json.dumps(results, indent=2)
 
-
+# WHY ARE JSON STRING IMPORTING W/THE TAGS AS THE VALUE FOR THE OWNER_REPUTATION?
 def write_questions_to_s3():
     hook = S3Hook(aws_conn_id="s3_connection")
     hook.load_string(
