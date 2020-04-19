@@ -96,7 +96,7 @@ def insert_question_to_db():
         pg_hook = PostgresHook(postgres_conn_id="postgres_connection")
         pg_hook.run(insert_question_query, parameters=row)
 
-
+# FIND OUT WHY THIS PORTION OF THE CODE IS NOT IMPORTING THE FULL STRING?
 def filter_questions() -> str:
     """ 
     READ ALL QUESTIONS FROM THE DATABASE AND FILTER THEM. 
