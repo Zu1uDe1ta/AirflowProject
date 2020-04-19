@@ -77,7 +77,7 @@ def call_stack_overflow_api() -> dict:
 
 def insert_question_to_db():
     """ INSERTS QUESTIONS INTO THE DB """
-
+    """ VERIFIED THAT THE FULL STRING IS BEING INPUT INTO THE DB """
     insert_question_query = """
         INSERT INTO public.questions (
             question_id,
